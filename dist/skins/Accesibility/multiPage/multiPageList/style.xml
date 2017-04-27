@@ -1,0 +1,25 @@
+<Style>
+	<Text content="Page Title" name="mcTitle" messageID="" autoSize="true" textFormat="InOutButton" x="14.44%" y="0%" width="53.05%" height="2.65%"/>
+	
+	
+	<Container name="pageArea" x="7%" y="2.13%" >
+		<Container name="pageGuide" x="0%" y="0%" >
+			<Shape  alpha="0" width="59%" height="18.33%"  />
+		</Container>
+		
+		<Container name="scrollBar" x="0%" y="0%" >
+			<Shape style="NegativeButton" alpha="1" width="9.25%" height="0.52%"/>
+		</Container>
+	</Container>
+	<Shape  name="spacer" alpha="0" width="64.81%" height="4.68%"  y="18.33%"  />
+	
+	<Container containerType="button" name="btnLeft" x="1%" y="11%">
+		<Image fileName="arrow_left.png" x="0" y="0" width="5%" height="5%" />
+	</Container>
+	
+	<Container containerType="button" name="btnRight" x="66%" y="11%">
+		<Image fileName="arrow_right.png" x="0" y="0" width="5%" height="5%" />
+	</Container>
+	
+	
+</Style>

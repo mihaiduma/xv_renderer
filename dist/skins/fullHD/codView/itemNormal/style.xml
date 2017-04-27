@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties tabOffsetX="20" offsetTextBoxTextInsideHeight="-5" offsetTextBoxTextInsideWhenIsPrice="163" priceException="1"/>
+	
+	<Text content="" messageID="" textFormat="CodViewListViewSmallTextRounded" autoSize="true" width="1" height="1" name="txtAddonPromoPrice" x="0" y="0" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewSmallTextRounded" autoSize="true" width="1" height="1" name="txtAddonPrice" x="0" y="0" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewSmallTextRounded" autoSize="true" width="80" height="29" name="txtItemPrice" x="360" y="10" alpha="1"/>
+	
+	<Text content="" messageID="" textFormat="CodViewListViewBigTextRounded" autoSize="true" width="32" height="45" name="txtItemQuantity" x="3" y="4" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewBigTextRounded" autoSize="true" width="16" height="29" name="txtX" x="35" y="7" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewBigTextRounded" autoSize="true" width="281" height="65" name="txtItemName" x="65" y="4" alpha="1"/>
+	
+	<Container containerType="" name="dinamicTextsContainer" x="75" y="0" alpha="1"/>
+	
+	<!-- <Image width="385" height="4" name="mcSeparator" x="0" y="65" fileName="separator-cod-small.png" alpha="1"/> -->
+</Style>

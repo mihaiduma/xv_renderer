@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	
+	<Shape style="GeneralBackground" width="1080" height="1920" name="bg" x="0" y="0" alpha="1"/>
+	
+	<Container containerType="" name="mcContainerAnimation" x="0" y="0" alpha="1"/>
+	
+	<Container containerType="" name="mcBox" x="0" y="0" alpha="1">		
+		<Text content="" messageID="" textFormat="AllergNumbers" width="705" height="397" name="txtTop" x="181" y="200" alpha="1"/>
+		<Text content="" messageID="" textFormat="AllergNumbers" width="806" height="195" name="txtBottom" x="138" y="595" alpha="1"/>
+		<Text content="mcdonalds.fr" messageID="" textFormat="AllergNumbers" width="782" height="56" name="txtBottom2" x="137" y="784" alpha="1"/>
+	</Container>
+</style>

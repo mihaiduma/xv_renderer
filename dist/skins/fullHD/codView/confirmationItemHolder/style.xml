@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties buttonScale="0.6"/>
+	
+	<Shape style="GeneralBackground" width="916"  height="240"  name="background" x="0" y="0"/>
+	<Container containerType="" name="bg" x="33" y="0" alpha="1">
+		<Shape style="WhiteRectangle" alpha="1" name="top"  x="0" y="0" width="916" height="46" />
+		<Shape style="WhiteRectangle" alpha="1" name="center"  x="0" y="0" width="916" height="46"  />
+		<Shape style="WhiteRectangle" alpha="1" name="bottom"  x="0" y="0" width="916" height="46" />
+		
+		<!--
+		<Image width="916" height="46" name="top" x="0" y="0" fileName="box-top.png" alpha="1"/>
+		<Image width="916" height="46" name="center" x="0" y="0" fileName="box-center.png" alpha="1"/>
+		<Image width="916" height="46" name="bottom" x="0" y="0" fileName="box-bottom.png" alpha="1"/>
+		-->
+	</Container>
+	
+	<Text content="" messageID="" textFormat="CodViewItemHolderText" width="900" height="36" name="customViewHolderCaption" x="41" y="7" alpha="1"/>
+	
+	<Container containerType="" name="itemsContainer" x="36" y="50" alpha="1"/>
+	<Shape width="910" height="180" style="WhiteRectangle" name="itemsContainerMask" x="36" y="50" alpha="1"/>
+	
+	<Shape width="150" height="150" style="WhiteRectangle" name="itemDimensionGuide" x="0" y="0" alpha="1"/>
+	<Shape width="25" height="25" style="WhiteRectangle" name="itemSpacingGuide" x="0" y="0" alpha="1"/>
+	
+	<Container containerType="button" name="btnLeft" x="0" y="110" alpha="1">
+		<!-- <Image width="34" height="37" name="" x="0" y="0" fileName="btn-scroll-left.png" alpha="1"/> -->
+		<Shape style="Button1" width="34" height="37" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="2" y="3.5" width="30" height="30" orientation="right" />
+	</Container>
+	<Container containerType="button" name="btnRight" x="948" y="110" alpha="1">
+		<!-- <Image width="34" height="37" name="" x="0" y="0" fileName="btn-scroll-right.png" alpha="1"/> -->
+		<Shape style="Button1" width="34" height="37" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="2" y="3.5" width="30" height="30" orientation="left" />
+	</Container>
+</Style>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="30000" Return="3"/>	
+	</ElementProperties>
+
+	<Shape style="GeneralBackground" name="background" width="100%" height="100%" x="0%" y="0%" alpha="1" />	
+	
+	<Text content="Title" textFormat="PaymentSelectorTitle" messageID="2013111902" isUppercase="false"   name="titleMessage" transition="slideUp" autoSize="true" x="4.62%" y="30.26%" height="2.6%"  width="87.96%" />  
+	<Text content="" textFormat="PaymentSelectorTitle" messageID="" isUppercase="false" name="subTitleMessage" transition="slideUp" autoSize="true" x="13.88%" y="6.25%" height="15.1%"  width="69.44%" />
+	
+	<Container containerType="button" name="btnMod2" x="39%" y="90.26%" Return="0" alpha="1"><!-- BACK BUTTON -->
+		<Shape style="NeutralButton"  width="20%" height="4%" x="0%" y="0%"  />
+		<Text content="" messageID="1304"  textFormat="CodVBtnBack"  width="20%" height="4%" autoSize="true" name="txtLabel" x="0%" y="0%"/>
+	</Container>
+	
+	<Container containerType="button" name="btnMod0" x="54.9%" y="39.58%" Return="2" alpha="1"><!-- CASH BUTTON -->
+		<Image fileName="btn_pay_cash.png" width="36.85%" height="20.72%" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="2013111904"  textFormat="PaymentSelectBtnn" autoSize="true" width="16.85%" height="5.2%" name="txtLabel" x="10%" y="13.02%" alpha="1"/>
+	</Container>
+	 
+	 <Text textFormat="InOutOu" messageID="2013100302" isUppercase="false" content="OU" x="45.83%"  y="50%" width="7.4%" height="2.6%" autoSize="true" transition="slideUp" />
+	 
+	<Container containerType="button" name="btnMod1" x="7.4%" y="39.58%" Return="1" alpha="1"><!-- CARD BUTTON -->
+		<Image fileName="btn_pay_card.png" width="36.85%" height="20.72%" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="2013111903" textFormat="PaymentSelectBtnn" autoSize="true" width="16.85%" height="5.2%" name="txtLabel" x="10%" y="13.02%" alpha="1"/>
+	</Container>
+</Style>

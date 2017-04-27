@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties startX="35" startY="10" maxHeightSpecials="220" slidesY="55" offsetX="491" confirmationItemHolderX="1" confirmationItemHolderY="15" spacingY="50"/>
+	
+	<Container containerType="" name="subtitleCommSpec" x="33" y="9" alpha="1">
+		<Text content="" messageID="2013121003" textFormat="CodViewListViewBigText" width="913" height="44" name="" x="0" y="0" alpha="1"/>
+		<!-- <Image width="916" height="3" name="" x="0" y="44" fileName="separator-grey.png" alpha="1"/> -->
+	</Container>
+	
+	<Container containerType="" name="subtitleAvecAllergens" x="33" y="309" alpha="1">
+		<Text content="" messageID="2014020301" textFormat="CodViewListViewBigText" width="913" height="44" name="" x="0" y="0" alpha="1"/>
+		<!-- <Image width="916" height="3" name="" x="0" y="44" fileName="separator-grey.png" alpha="1"/> -->
+		<Shape style="LightGreyRectangle" width="916" height="3" name="" x="0" y="44" alpha="1"/>
+	</Container>
+	
+	<Container containerType="" name="itemsWithAllergContainer" x="0" y="363" alpha="1"/>
+	<Shape containerType="" name="maskAllergItemsContainer" x="0" y="363" width="982" height="1100" alpha="1"/>
+	
+	<Container containerType="" name="btnDown" x="371" y="1470" alpha="1">
+		<!-- <Image width="110" height="50" name="" x="0" y="0" fileName="btn-scroll-down.png" alpha="1"/> -->
+		<Shape style="Button1" width="110" height="50" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="2" y="3.5" width="30" height="30" orientation="down" />
+	</Container>
+	<Container containerType="" name="btnUp" x="501" y="1470" alpha="1">
+		<!-- <Image width="110" height="50" name="" x="0" y="0" fileName="btn-scroll-up.png" alpha="1"/> -->
+		<Shape style="Button1" width="110" height="50" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="2" y="3.5" width="30" height="30" orientation="up" />
+	</Container>
+</Style>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties/>
+	
+	<Shape style="PopupAlphaBackground" width="1080" height="1920"  name="mcBackTransparent" x="0" y="0"/>
+	
+	<State popupType="small" eventID="1,2">
+		<Container containerType="" name="all" x="22" y="747" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="484" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="361" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="415" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="200" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnNo" x="298" y="302" alpha="1">
+				<!-- <Image fileName="btnPopupBg.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericNoBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="35" isUppercase="true" textFormat="PopupNoText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="btnYes" x="538" y="302" alpha="1">
+				<!-- <Image fileName="btnPopupBgYes.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericYesBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="34" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+	<State popupType="medium,big" eventID="1,2">
+		<Container containerType="" name="all" x="22" y="597" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="764" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="641" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="695" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="400" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnNo" x="348" y="552" alpha="1">
+				<!-- <Image fileName="btnPopupBg.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericNoBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="35" isUppercase="true" textFormat="PopupNoText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="btnYes" x="348" y="552" alpha="1">
+				<!-- <Image fileName="btnPopupBgYes.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericYesBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="34" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+	
+	<State popupType="small" eventID="3">
+		<Container containerType="" name="all" x="22" y="747" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="484" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="361" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="415" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="200" name="txtMessage" x="100" y="100" alpha="1"/>
+		</Container>
+	</State>
+	<State popupType="medium,big" eventID="3">
+		<Container containerType="" name="all" x="22" y="597" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="764" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="641" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="695" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="400" name="txtMessage" x="100" y="100" alpha="1"/>
+		</Container>
+	</State>
+	
+	<State popupType="small" eventID="4,6">
+		<Container containerType="" name="all" x="22" y="747" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="484" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="361" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="415" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="125" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnNo" x="418" y="302" alpha="1">
+				<!-- <Image fileName="btnPopupBg.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericYesBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="0" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+	<State popupType="medium,big" eventID="4,6">
+		<Container containerType="" name="all" x="22" y="597" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="764" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="641" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="695" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="400" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnNo" x="418" y="602" alpha="1">
+				<!-- <Image fileName="btnPopupBg.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericRetourBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="0" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+	
+	<State popupType="small" eventID="7">
+		<Container containerType="" name="all" x="22" y="747" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="484" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="361" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="415" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="200" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnYes" x="418" y="302" alpha="1">
+				<!-- <Image fileName="btnPopupBgYes.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericYesBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="1450" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+	<State popupType="medium,big" eventID="7">
+		<Container containerType="" name="all" x="22" y="597" alpha="1">
+			<Container containerType="" name="bg" x="0" y="0" alpha="1">
+				<Shape style="PopupVisibleBackground" width="1036" height="764" x="0" y="0" alpha="1"/>
+				<!--<Image fileName="pop-top.png" width="1036" height="54" name="" x="0" y="0" alpha="1"/>
+				<Image fileName="pop-center.png" width="1036" height="641" name="" x="0" y="54" alpha="1"/>
+				<Image fileName="pop-bottom.png" width="1036" height="69" name="" x="0" y="695" alpha="1"/>-->
+			</Container>
+			
+			<Text content="" messageID="" textFormat="PopupTitleText" autoSize="true" width="836" height="400" name="txtMessage" x="100" y="100" alpha="1"/>
+			
+			<Container containerType="button" name="btnYes" x="418" y="602" alpha="1">
+				<!-- <Image fileName="btnPopupBgYes.png" width="200" height="74" name="bg" x="0" y="0" alpha="1"/> -->
+				<Shape style="PopupGenericYesBtn" width="200" height="74" name="bg" x="0" y="0" alpha="1"/>
+				<Text content="" messageID="1450" isUppercase="true" textFormat="PopupYesText" autoSize="true" width="180" height="38" name="txtLabel" x="10" y="18" alpha="1"/>
+			</Container>
+		</Container>
+	</State>
+</Style>

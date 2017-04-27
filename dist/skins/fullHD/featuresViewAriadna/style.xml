@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<ElementProperties showSteps="0" bulletsType="animated" />
+
+	<Container name="mcWhiteBg" x="0" y="0" >
+		<Shape width="1080" height="1920" x="0" y="0" style="MenuBackground" />
+	</Container>
+	
+	<Shape width="1080" height="4" x="0" y="727" style="MenuSeparator" />
+	
+	<Container containerType="MenuHeader" name="MenuHeader" x="0" y="126" width="1080" height="61" />
+	
+	
+	<State withQuantity="1">
+		<Text content="Choisissez sauces: " messageID="" name="textTitle" textFormat="NormalTitleRight" x="90" y="764" width="600" height="65" />
+		
+		<Text content="0"  textFormat="FeatruesViewTitleContorDown" width="30" autoSize="true" height="65" name="itemContor" x="490" y="766" alpha="1" />
+		<Text content="/" textFormat="FeatruesViewTitleSmallDwon"   width="25" autoSize="true" height="65" name="itemSlashSeparator" x="515" y="764" alpha="1" />
+		<Text content=""  textFormat="FeatruesViewTitleContorDown"  width="30" autoSize="true" height="65" name="itemTotal"  x="540" y="766" alpha="1" />
+	</State>
+	<State withQuantity="0">
+		<Text content="Current Step Title" messageID="" name="textTitle" textFormat="NeutralButtonText" x="40" y="784" width="1000" height="80" />
+	</State>
+
+	<Container name="btnFakeCancel" containerType="button" x="725" y="1781" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="230" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2014011501" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	
+	<Container containerType="button" name="btnSkip" x="424" y="1781" >
+		<Shape style="PopupGenericNoBtn" width="230" height="70" x="0" y="0"  />
+		<Text content="" messageID="1304" textFormat="FeatureViewOkBtn" width="230" height="50" autoSize="true" name="txt" x="0" y="10" />
+	</Container>
+	
+	<Container containerType="button" name="btnOk" x="424" y="1701" >
+		<Shape style="PopupGenericYesBtn" width="230" height="70" x="0" y="0"  />
+		<Text content="" messageID="1450" textFormat="FeatureViewBackBtn" width="230" height="50" autoSize="true" name="txt" x="0" y="10" />
+	</Container>
+	
+	
+	
+	<Container name="pageGuide" x="40" y="864" >
+		<Shape  alpha="0" width="1000" height="800"  />
+	</Container>
+	
+	<Container name="DAHComponent" containerType="DAHComponent" x="911" y="1830" />
+</style>

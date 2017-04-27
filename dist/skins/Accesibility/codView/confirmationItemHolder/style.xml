@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties buttonScale="0.6"/>
+	
+	<Shape style="GeneralBackground" width="84.81%"  height="12.5%"  name="background" x="0%" y="0%"/>
+	<Container containerType="" name="bg" x="3.05%" y="0%" alpha="1">
+		<Shape style="WhiteRectangle" alpha="1" name="top"  x="0%" y="0%" width="84.81%" height="2.39%" />
+		<Shape style="WhiteRectangle" alpha="1" name="center"  x="0%" y="0%" width="84.81%" height="2.39%"  />
+		<Shape style="WhiteRectangle" alpha="1" name="bottom"  x="0%" y="0%" width="84.81%" height="2.39%" />
+		
+		<!--
+		<Image width="84.81%" height="2.39%" name="top" x="0%" y="0%" fileName="box-top.png" alpha="1"/>
+		<Image width="84.81%" height="2.39%" name="center" x="0%" y="0%" fileName="box-center.png" alpha="1"/>
+		<Image width="84.81%" height="2.39%" name="bottom" x="0%" y="0%" fileName="box-bottom.png" alpha="1"/>
+		-->
+	</Container>
+	
+	<Text content="" messageID="" textFormat="CodViewItemHolderText" width="83.33%" height="1.87%" name="customViewHolderCaption" x="3.79%" y="0.36%" alpha="1"/>
+	
+	<Container containerType="" name="itemsContainer" x="3.33%" y="2.6%" alpha="1"/>
+	<Shape width="84.25%" height="9.37%" style="WhiteRectangle" name="itemsContainerMask" x="3.33%" y="2.6%" alpha="1"/>
+	
+	<Shape width="13.88%" height="7.81%" style="WhiteRectangle" name="itemDimensionGuide" x="0%" y="0%" alpha="1"/>
+	<Shape width="2.31%" height="1.3%" style="WhiteRectangle" name="itemSpacingGuide" x="0%" y="0%" alpha="1"/>
+	
+	<Container containerType="button" name="btnLeft" x="0%" y="5.72%" alpha="1">
+		<!-- <Image width="3.14%" height="1.92%" name="" x="0%" y="0%" fileName="btn-scroll-left.png" alpha="1"/> -->
+		<Shape style="Button1" width="3.14%" height="1.92%" name="" x="0%" y="0%"/>
+			<Shape name="arrow" style="ScrollArrow" x="0.18%" y="0.18%" width="2.77%" height="1.56%" orientation="right" />
+	</Container>
+	<Container containerType="button" name="btnRight" x="87.77%" y="5.72%" alpha="1">
+		<!-- <Image width="3.14%" height="1.92%" name="" x="0%" y="0%" fileName="btn-scroll-right.png" alpha="1"/> -->
+		<Shape style="Button1" width="3.14%" height="1.92%" name="" x="0%" y="0%"/>
+			<Shape name="arrow" style="ScrollArrow" x="0.18%" y="0.18%" width="2.77%" height="1.56%" orientation="left" />
+	</Container>
+</Style>

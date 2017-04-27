@@ -1,0 +1,49 @@
+<Style alpha="1" childrenTransition="slideLeft">
+	<ElementProperties>
+		<TimeOut name="behaviour" OnLangChanged="reload" />	
+	</ElementProperties>
+	
+	<Image fileName="[common]bg_default.png" width="1080" height="1920" name="" x="0" y="0" alpha="1"/>
+	
+
+	<Image fileName="logo1.png" width="82" height="57" name="" x="583" y="43" alpha="1"/>
+	<Image fileName="logo2.png" width="62" height="83" name="" x="694" y="25" alpha="1"/>
+	<Image fileName="logo3.png" width="106" height="85" name="" x="797" y="25" alpha="1"/>
+	<Image fileName="logo4.png" width="104" height="69" name="" x="934" y="28" alpha="1"/>
+	<Text content="payment acceptes" textFormat="InOutPaymentHeader" messageID="2017010501" autoSize="true" x="290" y="52" height="32" width="285" />
+	
+	
+	<Container name="CLICKME" />
+    <Container >
+        <Text content="Title" textFormat="InOutTitle" messageID="2013100301" isUppercase="false" transition="slideUp" autoSize="true" x="40" y="376" height="84"  width="1002" />  
+		<Text content="Title" textFormat="InOutSubTitle" messageID="2013100300" isUppercase="false" transition="slideUp" autoSize="true" x="37" y="464" height="49"  width="1002" />
+        <State DefInOut="1">
+          <Container  containerType="button" name="buttonIn" x="321" y="642" transition="slideUp">
+			<Image fileName="btn_inout_in.png" x="0" y="0" width="438" height="438" transition="fadeIn" />
+			<Text content="in" textFormat="InOutButton" messageID="36" autoSize="true" x="59" y="300" height="73" width="320" />
+          </Container>
+        </State>
+        <State DefInOut="2">
+          <Container containerType="button" name="buttonOut" x="321" y="642" transition="slideUp">
+            <Image fileName="btn_inout_out.png" x="0" y="0" width="438" height="438" transition="fadeIn"  />
+			<Text content="out" textFormat="InOutButton" messageID="37" autoSize="true" x="59" y="300" height="73" width="320" />
+          </Container>
+        </State>
+        <State DefInOut="0">
+          <Container  containerType="button" name="buttonIn" x="57" y="632" transition="slideUp">
+			<Image fileName="btn_inout_in.png" x="0" y="0" width="438" height="438" transition="fadeIn" />
+			<Text content="in" textFormat="InOutButton" messageID="36" autoSize="true" x="59" y="300" height="73" width="320" />
+          </Container>
+          <Text textFormat="InOutOu" messageID="2013100302" isUppercase="false" content="OU" x="479"  y="809" width="123" height="56" autoSize="true" transition="slideUp" />
+          <Container containerType="button" name="buttonOut" x="582" y="632" transition="slideUp">
+			<Image fileName="btn_inout_out.png" x="0" y="0" width="438" height="438" transition="slideUp"  />
+			<Text content="out" textFormat="InOutButton" messageID="37" autoSize="true" x="59" y="300" height="73" width="320" />
+          </Container>
+        </State>		
+		
+		<Container name="languageButtonContainer" orientation="horizontal" transition="slideUp" y="30" />
+    </Container>
+	  
+	<Image fileName="[common]logo_KFC_footer.png" width="572" height="426" name="" x="0" y="1494" alpha="1"/>
+	<Container name="DAHComponent" containerType="DAHComponent" x="911" y="1820" alpha="1" />
+</Style>

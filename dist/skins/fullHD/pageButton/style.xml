@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Container x="0" y="0" name="btnContainer">
+		
+		<Container x="0" y="0" name="btnContent" containerType="button">
+			
+
+			<State buttonDisplay="imageOnly">
+				<Container x="0" y="0" name="mcHolder" />
+			</State>
+
+			<State buttonDisplay="imageAndText">
+				<Container x="0" y="0" name="mcHolder" />
+				<Text content="NOS MENUS" name="txtTitle" messageID="" textFormat="Productname" x="0" y="216" width="278" height="52" wordWrap="true" isUppercase="true"/>
+			</State>			
+			
+
+			<State buttonDisplay="textOnly">
+				<Container x="0" y="0" name="mcBg">
+					<Shape style="BackBackground" x="0" y="0"  width="396" height="396"/>
+				</Container>
+				<Text content="NOS MENUS" name="txtTitle" messageID="" textFormat="Productname" x="0" y="216" width="278" height="52" wordWrap="true" isUppercase="true"/>
+			</State>
+
+			<State hasPrice="1">
+				<Container x="138" y="40" name="mcPrice">
+					<Shape style="BlackPriceBackground" x="0" y="0"  width="100" height="28"/>
+					<Text content="0.00" name="strLabel" messageID="" textFormat="ProductPrice" x="0" y="0" width="100" height="28" autoSize="true" />
+				</Container>
+			</State>
+			
+			<Container x="40" y="12" name="indexPageBtn">
+				<Shape style="PlusTardCircle" x="-1" y="-1" width="40" height="40" />
+				<Text content="1" name="indexTxt" messageID="" textFormat="Productname" x="-2" y="0" autoSize="true" width="31" height="31"/>
+			</Container>
+			
+			<Container x="0" y="70" name="mcUnavailable">
+				<Shape style="UnavailabBackground" x="0" y="0" width="184" height="32"/>
+				<Text content="" name="unavailableTxt" messageID="2017012703" textFormat="ProductPrice" x="0" y="0" width="184" height="32" autoSize="true"/>
+			</Container>
+			
+		</Container>
+		
+		<State hasInfo="1">
+			<Container x="0" y="14" containerType="button" name="btnInfo">
+				<Shape style="InfoIconBg" x="0" y="0"  width="28" height="28"/>
+				<Text content="i" name="" messageID="" textFormat="InfoIconText" x="-5" y="-5" width="36" height="36" autoSize="true" />
+			</Container>
+		</State>
+		
+		<State hasQuantity="1">
+			<Container x="0" y="14" name="spQuantityControls">
+				<Container x="0" y="0" name="btnQuantityPlus">
+					<Shape style="InOutCircle" x="0" y="0"  width="28" height="28"/>
+					<Text content="" name="txtQuantity" messageID="" textFormat="InfoIconText" x="-5" y="-4" width="36" height="36" autoSize="true" />
+				</Container>
+				<Container x="40" y="0" containerType="button" name="btnQuantityMinus">
+					<Shape style="InfoIconBg" x="0" y="0" width="28" height="28"/>
+					<Text content="-" name="" messageID="" textFormat="InfoIconText" x="-5" y="-6" width="36" height="36" autoSize="true" />
+				</Container>
+			</Container>
+		</State>
+		
+		
+	</Container>
+</Style>

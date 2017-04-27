@@ -1,0 +1,12 @@
+<Style>
+	<State selected="0">
+		<Shape name="background" style="BackBackground" x="0" y="0" width="190" height="190"/>
+		<Text content="NavigationButton" name="txtLabel" messageID="" textFormat="NavButtonText" autoSize="true" x="0" y="140" width="190" height="30"/>	
+	</State>
+	<State selected="1">
+		<Shape name="background" style="PromoButtonBackground" x="0" y="0" width="190" height="190"/>
+		<Text content="NavigationButton" name="txtLabel" messageID="" textFormat="PromoButtonText" autoSize="true" x="0" y="140" width="190" height="30"/>		
+	</State>
+
+
+</Style>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Shape style="CodViewUnselectedBullet" name="unselected" x="0" y="0" alpha="1" width="23" height="23" />
+	<Shape style="CodViewSelectedBullet" name="selected" x="0" y="0" alpha="1" width="23" height="23" />	
+</Style>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<!-- <Image fileName="borders.png" width="528" height="607" name="" x="150" y="312.65" alpha="1"/>  -->
+	<Container width="528" height="607" x="0" y="0"  alpha="1">
+		<Shape width="100" style="InOutRectangle" height="100" y="0"   x="0" alpha="1"/>
+		<Shape width="100" style="InOutRectangle" height="100" y="100"   x="0" alpha="1"/>
+		<Shape width="100" style="InOutRectangle" height="100" y="200"   x="0" alpha="1"/>
+		<Shape width="100" style="InOutRectangle" height="100" y="300"   x="0" alpha="1"/>
+		
+		
+		<Text content="" messageID="3000000009" textFormat="KeyboardScannerWhiteNumberButton" autoSize="true" width="90" height="90" x="5"  y="105" alpha="1"/>
+		<Text content="" messageID="3000000010" textFormat="KeyboardScannerWhiteNumberButton" autoSize="true" width="90" height="90" x="5"  y="205" alpha="1"/>
+		<Text content="" messageID="3000000011" textFormat="KeyboardScannerWhiteNumberButton" autoSize="true" width="90" height="90" x="5"  y="305" alpha="1"/>
+	</Container>
+	
+</style>

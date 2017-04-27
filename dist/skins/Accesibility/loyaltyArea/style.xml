@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Container containerType="button" name="loyaltyArea" x="0%" y="0%" >
+		<Shape style="OrangeBtnBackground" width="26.94%" height="4.06%" name="" x="0%" y="0%" /><!--SelectedNavButton -->
+		<Text content="" messageID="3000000014" textFormat="WhiteProductName" isUppercase="true" autoSize="true" width="24.07%" height="1.56%" name="txtLoyaltyArea" x="0.69%" y="1.25%" />
+		<!-- <Text content="Price" textFormat="WhiteProductName" isUppercase="true" autoSize="true" width="24.07%" height="1.45%" name="loyaltyAreaPrice" x="0.69%" y="1.82%"/> -->
+		<!-- <Text content="Discount" textFormat="WhiteProductName" isUppercase="true" autoSize="true" width="24.07%" height="1.45%" name="discountLoyaltyArea" x="0.69%" y="3.12%"/> -->
+	</Container>
+</Style>

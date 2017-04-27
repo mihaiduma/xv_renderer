@@ -1,0 +1,24 @@
+<Style>
+		<!-- minimum number for TransitionDelay should be 2 -->
+		<!-- possible effects: 
+			VerticalSlice (slice count = 15, coming down from left to right)
+			VerticalSlice2 (slice count = 50, coming down from left to right)
+			VerticalSlice3 (slice count = 15, coming down from center to edges)
+			HorizontalSlice (slice count = 12, coming down from top to bottom)
+			HorizontalSlice2 (slice count = 30, coming down from top to bottom)
+			HorizontalSlice3 (slice count = 20, coming down from top to bottom)
+			Grid (8x5 rectangles)
+			Flash1 (8x5 rectangles)
+			Flash2 (8x5 rectangles)
+			Chess (8x5 rectangles)
+			SlideToLeft (duration: 0.9 seconds, if you want both pictures to slide to the left, use Members="Both", like this:  <Effect TransitionType="SlideToLeft" Members="Both"/>)
+			SlideToRight (duration: 0.9 seconds, if you want both pictures to slide to the right, use Members="Both", like this:  <Effect TransitionType="SlideToRight" Members="Both"/>)
+			SlideToTop (duration: 1.5 seconds, if you want both pictures to slide upwards, use Members="Both", like this:  <Effect TransitionType="SlideToTop" Members="Both"/>)
+			SlideToBottom (duration: 1.5 seconds, if you want both pictures to slide downwards, use Members="Both", like this:  <Effect TransitionType="SlideToBottom" Members="Both"/>)
+			CrossFade (duration: 1.5 seconds, if you want both pictures to slide downwards, use Members="Both", like this:  <Effect TransitionType="SlideToBottom" Members="Both"/>)
+		-->
+		
+		<ElementProperties TransitionDelay="0.15%" SwipeOffset="310" Swipeable="false">
+			<Effect TransitionType="CrossFade"/>			
+		</ElementProperties>
+</Style>

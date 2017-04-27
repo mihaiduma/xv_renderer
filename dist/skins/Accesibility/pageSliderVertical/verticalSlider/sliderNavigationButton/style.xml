@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Container containerType="button" name="selected" x="0%" y="0%" alpha="1">
+		<Shape style="WhiteRectangle" width="3.79%" height="2.13%" x="0%" y="0%" alpha="1" />
+		<Text  name="pageNo" textFormat="NavigationButtonUnSelected" autoSize="true" width="3.61%" height="2.03%"  x="0.09%" y="0.05%" alpha="1"/>
+	</Container>
+	<Container containerType="button" name="unselected" x="0%" y="0%" alpha="1">
+		<Shape style="CODVIEWSelectedCodTabButton" width="3.79%" height="2.13%" x="0%" y="0%" alpha="1" />
+		<Text  name="pageNoUnselected" textFormat="NavigationButtonSelected" autoSize="true" width="3.61%" height="2.03%" x="0.09%" y="0.05%" alpha="1"/>
+	</Container>
+</style>

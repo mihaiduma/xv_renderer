@@ -1,0 +1,8 @@
+<Style alpha="1">
+	<ElementProperties orientation="horizontal" nrOfItems="2">
+		
+	</ElementProperties>
+	<!--<Container name="guide" x="0" y="0">
+		<Shape width="600" height="400" alpha="1"/>
+	</Container>-->
+</Style>

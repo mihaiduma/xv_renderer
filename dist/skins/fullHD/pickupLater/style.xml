@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Image name="bgImage" fileName="[common]/bg_default.png" width="1080" height="1920" x="0" y="0" alpha="1"/>
+	<Shape style="EditableBackground"  width="955" height="1795" x="62.5" y="62.5" alpha="1"/>
+	<Text  name="itemTitle" textFormat="RemisPlusTard" autoSize="true" width="955" height="60" x="62.5" y="150" alpha="1" />
+	<Container name="imageContainer"/>
+	<Text  name="questionItem" textFormat="RemisPlusTardSubTitle" autoSize="true" width="700" height="60" x="190" y="150" alpha="1" />
+	<Container name="buttonHolder" x="0" y="400"/>
+	
+	<Container x="0" y="1588" name="footer">
+		<Container  containerType="button" name="cancelBtn" x="256" y="41">
+			<Shape style="PopupGenericYesBtn" width="228" height="100" x="0" y="0" alpha="1"/>
+			<Text content="" messageID="2017011101" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="200" height="92" x="14" y="4" alpha="1"/>
+		</Container>
+		<Container containerType="button" name="okBtn" x="596" y="41">
+			<Shape style="PopupGenericYesBtn" width="228" height="100"  x="0" y="0" alpha="1"/>
+			<Text content="" messageID="13091004" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="200" height="92" x="14" y="4" alpha="1"/>
+		</Container>
+ 	</Container>
+</Style>

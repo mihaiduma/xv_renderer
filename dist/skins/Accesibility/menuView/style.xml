@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<ElementProperties showSteps="0" bulletsType="animated" />
+	
+	<Container name="mcWhiteBg" x="0%" y="0%" >
+		<Shape width="100%" height="100%" x="0%" y="0%" style="MenuBackground" />
+	</Container>
+	
+	<Container name="pageGuide" x="3.7%" y="45%" >
+		<Shape  alpha="0" width="92.59%" height="50%"  />
+	</Container>
+	<Shape width="100%" height="0.2%" x="0%" y="37.86%" style="MenuSeparator" />
+
+	<Container containerType="button" name="buttonRight" x="50.64%" y="90%">
+		<Shape style="Button1" width="3.7%" height="2.08%" name="" x="0%" y="0%" />
+		<Shape style="ScrollArrow" width="2.77%" height="1.56%" name="" x="0.46%" y="0.26%" orientation="left"/>
+	</Container>
+	<Container containerType="button" name="buttonLeft" x="44.81%" y="90%" >
+		<Shape style="Button1" width="3.7%" height="2.08%" name="" x="0%" y="0%" />
+		<Shape style="ScrollArrow" width="2.77%" height="1.56%" name="" x="0.46%" y="0.26%" orientation="right"/>
+	</Container>
+
+	<!-- >
+	<Container containerType="button" name="buttonLinagoraRetour" x="39.25%" y="88.02%" >
+		<Shape style="NegativeButton" width="21.29%" height="3.64%" x="0%" y="0%"  />
+		<Text content="No thanks" messageID="2017011101" textFormat="NegativeButtonText" width="21.29%" height="3.64%" autoSize="true" name="txtRetourLabel" x="0%" y="0%" />
+	</Container> -->	
+	
+	<Container containerType="button" name="mcCancel" x="39.25%" y="95%" >
+		<Shape style="NeutralButton" width="21.29%" height="3.64%" x="0%" y="0%"  />
+		<Text content="" messageID="1001" textFormat="NeutralButtonText" width="21.29%" height="2.6%" autoSize="true" name="txtLabel" x="0%" y="0.52%" />
+	</Container>
+	
+	<Container containerType="button" name="btnOk" x="16.11%" y="95%" >
+		<Shape style="NeutralButton" width="21.29%" height="3.64%" x="0%" y="0%"  />
+		<Text content="" messageID="1450" textFormat="NeutralButtonText" width="21.29%" height="2.6%" autoSize="true" name="txtLabel" x="0%" y="0.52%" />
+	</Container>
+	
+	<Container containerType="MenuHeader" name="MenuHeader" x="0%" y="6.56%" width="100%" height="3.17%" />
+	
+	<State withQuantity="1">
+		<Text content="Choisissez sauces: " messageID="" name="txtStepTitle" textFormat="NormalTitleRight" x="8.33%" y="40%" width="55.55%" height="3.38%" />
+		<Text content="0"  textFormat="FeatruesViewTitleContorDown" width="3%" autoSize="true" height="3.5%" name="itemContor" x="49%" y="40%" alpha="1" />
+		<Text content="/" textFormat="FeatruesViewTitleSmallDwon"   width="2.5%" autoSize="true" height="3.5%" name="itemSlashSeparator" x="51%" y="40%" alpha="1" />
+		<Text content=""  textFormat="FeatruesViewTitleContorDown"  width="3%" autoSize="true" height="3.5%" name="itemTotal"  x="54%" y="40%" alpha="1" />
+	</State>
+	<State withQuantity="0">
+		<Text content="Current Step Title" messageID="" name="txtStepTitle" textFormat="NeutralButtonText" x="3.7%" y="40.83%" width="92.59%" height="4.16%" />
+	</State>
+	
+	<Container name="DAHComponent" containerType="DAHComponent" x="84.35%" y="95.31%" />
+	
+</style>

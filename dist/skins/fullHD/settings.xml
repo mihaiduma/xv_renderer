@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<Skin Name="FullHD" Width="1080" Height="1920" offsetX="0" offsetY="524" showTextBorder="false" backgroundColor="0xffffff" throwableBanner="false"/>
+	<PageButtonBreakpoints>
+		<Breakpoint maxNo="3" buttonDimension="450" buttonPadding="25" />
+		<Breakpoint maxNo="4" buttonDimension="325" buttonPadding="25" />
+		<Breakpoint maxNo="9" buttonDimension="260" buttonPadding="25" />
+		<Breakpoint maxNo="10" buttonDimension="220" buttonPadding="25" />
+		<Breakpoint maxNo="20" buttonDimension="220" buttonPadding="25" />
+		<Breakpoint maxNo="100" buttonDimension="220" buttonPadding="25" />
+	</PageButtonBreakpoints>
+	 <PageButtonBreakpoints_Menu>
+	  <Breakpoint maxNo="2" buttonDimension="550" buttonPadding="25" />
+	  <Breakpoint maxNo="3" buttonDimension="350" buttonPadding="25" />
+	  <Breakpoint maxNo="4" buttonDimension="250" buttonPadding="25" />
+	  <Breakpoint maxNo="9" buttonDimension="250" buttonPadding="25" />
+	  <Breakpoint maxNo="10" buttonDimension="250" buttonPadding="25"  />
+	  <Breakpoint maxNo="20" buttonDimension="250" buttonPadding="25" />
+	  <Breakpoint maxNo="100" buttonDimension="250" buttonPadding="25"/>
+	 </PageButtonBreakpoints_Menu>
+	 <PageButtonBreakpoints_PromoPage>
+	   <Breakpoint maxNo="3" buttonDimension="500" buttonPadding="25"/>
+	   <Breakpoint maxNo="100" buttonDimension="220" buttonPadding="25"/>
+	 </PageButtonBreakpoints_PromoPage>
+	
+	 <ColorStyles>
+		  <Style name="White" color="0xFFFFFF"  />
+		  <Style name="Black" color="0x000000"  />
+		  <Style name="GrayDark" color="0xA4A4A4"  />
+		  <Style name="GrayDark2" color="0x919191"  />
+		  <Style name="GrayDark3" color="0x777777"  />
+		  <Style name="GrayDark4" color="0xEBEBEB"  />
+		  <Style name="GrayDark5" color="0x797979"  />
+		  <Style name="GrayDark6" color="0x333333"  />
+		  <Style name="GrayDark7" color="0x555555"  />
+		  <Style name="GrayDark8" color="0x666666"  />
+		  <Style name="GrayLite" color="0x999999"  />
+		  <Style name="GrayLite2" color="0xAAAAAA"  />
+		  <Style name="GrayLite3" color="0xE1E1E1"  />
+		  <Style name="GrayLite4" color="0xF4F5FA"  />
+		  <Style name="GrayLite5" color="0xBBBBBB"  />
+		  <Style name="GrayLite6" color="0x444444"  />
+		  <Style name="GrayLite7" color="0x6F6F6F"  />
+		  <Style name="GrayLite8" color="0x545454"  />
+		  <Style name="GrayLite9" color="0xF7EFE1"  />
+		  <Style name="GrayLite10" color="0xF0F0F0"  />
+		  <Style name="GrayLite11" color="0xE5E5E5"  />
+		  <Style name="GrayUltraLite" color="0xCCCCCC"  />
+		  <Style name="GrayUltraLite2" color="0xEEEEEE"  />
+		  <Style name="GrayOrderList" color="0xEBE5DF"  />
+		  <Style name="GrayCrem" color="0xFAF6F3"  />
+		  <Style name="Gray" color="0x6F675F"  />
+		  <Style name="Red" color="0xFF0000"  />
+		  <Style name="Red2" color="0xF01616"  />
+		  <Style name="Blue" color="0x0000FF"  />
+		  <Style name="Blue2" color="0x00FFFF"  />
+		  <Style name="Blue3" color="0xAAGBBF"  />
+		  <Style name="Green" color="0x00FF00"  />
+		  <Style name="Green2" color="0x6EB637"  />
+		  <Style name="Green3" color="0x84B400"  />
+		  <Style name="GreenDark" color="0x004A07"  />
+		  <Style name="Yellow" color="0xFFFF00"  />
+		  <Style name="Yellow2" color="0xFAAF18"  />
+		  <Style name="Brown1" color="0xC28D80"  />
+		  <Style name="Brown3" color="0x854E40"  />
+		  <Style name="ClientColor1" color="0xC30C33"/>
+		  <Style name="ClientColor2" color="0xF9A968"/>
+		  <Style name="ClientColor3" color="0xC00124"/>
+		  <Style name="ClientColor4" color="0xD0A88E"/>
+		  <Style name="ClientColor5" color="0xBE0A25"/>
+		  <Style name="ClientColor6" color="0xE3E3E3"/>
+		  <Style name="ClientColor7" color="0x2E3639"/>
+		  <Style name="ClientColor8" color="0xC20023"/>
+		  <Style name="ClientColor9" color="0x9A9A9A"/>
+		  <Style name="ClientColor10" color="0x010101"/>
+		  <Style name="ClientColor11" color="0xCDCCC8"/>
+		  <Style name="ClientColor12" color="0xC7C7C7"/>
+		  <Style name="ClientColor13" color="0x6B6B6B"/>
+		  <Style name="ClientColor14" color="0xC00025"/>
+		  <Style name="ClientColor15" color="0x281B00"/>
+	 </ColorStyles>
+	
+	<ShapeStyles>
+		<style name="GeneralBackground" shapeType="rectangle" color="White"  />
+		<style name="GeneralBackgroundCrem" shapeType="rectangle" color="GrayCrem"  />
+		<style name="PopupBackground" shapeType="rectangle" color="White" alpha=".7" />
+		<!-- new styles -->
+		<!-- basic -->
+		<style name="WhiteRectangle" shapeType="rectangle" color="White" />
+		<style name="WhiteRectangleShaded" shapeType="rectangle" color="White" alpha="0.7" />
+		<style name="RoundedWhiteRectangle" shapeType="rectangle" color="White" cornerRadius="40" />
+		<style name="BorderedRoundedWhiteRectangle" shapeType="rectangle" color="White" cornerRadius="40" borderColor="GrayLite" borderSize="1" borderAlpha="1" />
+		<style name="RedRectangle" shapeType="rectangle" color="Red" />
+		<style name="BlackRectangle" shapeType="rectangle" color="Black" />
+		<style name="PaymentSelectorRoundedBackground" shapeType="rectangle" color="White" borderSize="2" borderColor="GrayLite" borderAlpha="1" />
+		<style name="SelectedCodTabButton" shapeType="rectangle" color="GrayLite"  />
+		<!-- new styles for  orderlist -->
+		<style name="CommandBackground" shapeType="rectangle" color="ClientColor4" />
+		<!-- end new styles for  orderlist -->
+		<style name="CODVIEWSelectedCodTabButton" shapeType="rectangle" color="ClientColor5"  />
+		<style name="CODVIEWSelectedCodTabButtonRounded" shapeType="rectangle" color="ClientColor3" cornerRadius="15"  />
+		<style name="WellcomeScreenBottomHolder" shapeType="rectangle" color="ClientColor5" cornerRadius="50"  />
+		<style name="ClosedScreenBottomHolder" shapeType="rectangle" color="Black" cornerRadius="50"  />
+		<style name="Scrollbar" shapeType="rectangle" color="GrayUltraLite" cornerRadius="15"  />
+		<style name="GreyRectangle" shapeType="rectangle" color="GrayUltraLite"/>
+		<style name="LightGreyRectangle" shapeType="rectangle" color="GrayLite"/>
+		<style name="LightGreyRectangle" shapeType="rectangle" color="GrayLite"/>
+		<style name="BlueRectangle" shapeType="rectangle" color="Blue2"/>
+		<style name="GreenRectangle" shapeType="rectangle" color="Green" />
+		<!-- end basic -->
+		<!-- unique colors -->
+		<style name="LanguageBackground" shapeType="rectangle" color="GrayLite10" />
+		<style name="LanguageItemBackground" shapeType="rectangle" color="White" borderSize="2" borderColor="ClientColor5" borderAlpha="1" />
+		<style name="RoundedLanguageItemBackground" shapeType="rectangle" color="White" borderSize="2" cornerRadius="15" borderColor="ClientColor5" borderAlpha="1" />
+		<style name="GreyerRectangle" shapeType="rectangle" color="GrayLite2"/>
+		<style name="LightGreyerRectangle" shapeType="rectangle" color="GrayLite3"/>
+		<style name="VeryLightGreyerRectangle" shapeType="rectangle" color="GrayLite4"/>		
+		<style name="UnknownColor2Rectangle" shapeType="rectangle" color="White"/>
+		<style name="ActualKeyboardScannerBackBtn" shapeType="rectangle" color="White" borderSize="2" borderColor="Black" borderAlpha="1" cornerRadius="75"/>
+		<style name="CurrentModifierPriceBackground" shapeType="rectangle" color="ClientColor5" borderSize="2" cornerRadius="75"/>
+		<style name="NormalGreyRectangle" shapeType="rectangle" color="GrayUltraLite2"/>
+		<style name="SelectedNavButton" shapeType="rectangle" color="Green3"  />
+		<!-- end unique -->
+		<style name="CurrentKeyboardScannerCircle" shapeType="circle" color="White" alpha="1" borderSize="4" borderColor="Black" borderAlpha="1"/>
+		<style name="RoundeTableServiceButtonBackground" shapeType="rectangle" color="GrayLite" alpha="1"/>
+		<style name="RoundedKeyboardscannerBackground" shapeType="rectangle" color="White" alpha="1" borderSize="4" borderColor="Black" borderAlpha="1" cornerRadius="100" />
+		<style name="PaymentSelectButtonRounded" shapeType="rectangle" color="GrayLite" cornerRadius="15"  />
+		<style name="AlergenItemUnselected" shapeType="rectangle" color="GrayDark" />
+		<style name="AlergenCircle" shapeType="circle" color="Blue" alpha="0" borderSize="4" borderColor="GrayDark2" borderAlpha="1"/>
+		<style name="AlergBackButton" shapeType="rectangle" alpha="1" color="White"  borderSize="2" borderColor="GrayLite" borderAlpha="1" />
+		<style name="InfoAllergItem" shapeType="rectangle" color="Black" alpha="0" borderSize="1.5" borderColor="GrayLite" borderAlpha="1" cornerRadius="20" />
+		<style name="InfoAlergSquare" shapeType="rectangle" color="GrayLite5" alpha="1" borderSize="0" />
+		<style name="InfoAlergSmallCircle" shapeType="circle" color="GrayLite5" alpha="1" borderSize="0" />
+		<style name="InfoAlergBiggerCircle" shapeType="circle" color="GrayLite5" alpha="0" borderSize="5" borderColor="GrayLite5" borderAlpha="1" />
+		<style name="InfoAllergDummyMenu" shapeType="rectangle" color="White" alpha="0" borderSize="2" borderColor="GrayLite5" borderAlpha="1"/>
+		<style name="CurrentInfoAllergDummyMenu" shapeType="rectangle" color="White" alpha="0" borderSize="2" borderColor="Black" borderAlpha="1" cornerRadius="150"/>
+		
+		<style name="UnSelectedCodTabButtonRounded" shapeType="rectangle" color="GrayLite11" cornerRadius="15" />
+		<style name="InOutButtonBackground" shapeType="rectangle" color="White" cornerRadius="15" />
+		<style name="PlusTardCircle" shapeType="circle" color="White" alpha="1" borderSize="4" borderColor="GrayLite" borderAlpha="1"/>
+		<style name="LineSeparator" shapeType="rectangle" color="GrayLite" alpha="1" />
+		<style name="InfoViewWhiteBullet" shapeType="circle" color="White" alpha="1" borderSize="4" borderColor="Red" borderAlpha="1"/>
+		<style name="InfoViewGrayBullet" shapeType="circle" color="GrayLite" alpha="1"/>
+		<style name="InfoViewGreenBullet" shapeType="circle" color="White" alpha="1" borderSize="4" borderColor="GreenDark" borderAlpha="1"/>		
+		<!-- PDU STYLES -->
+		<style name="InOutCircle" shapeType="circle" color="ClientColor5" alpha="1" />
+		<style name="InOutRectangle" shapeType="rectangle" color="ClientColor5" alpha="1" />
+		<style name="OrderListBackground" shapeType="rectangle" color="White" alpha="1" borderSize="1" borderColor="ClientColor6" borderAlpha="1" />
+		<style name="Button1" shapeType="rectangle" color="GrayUltraLite2" alpha="1" borderSize="1" borderColor="GrayLite6" borderAlpha="1" />
+		<style name="LogoBackground" shapeType="rectangle" color="GrayLite5" alpha="1" />
+		<style name="BackBackground" shapeType="rectangle" color="GrayDark4" alpha="1" borderSize="1" borderColor="White" borderAlpha="1"  />
+		<style name="OrderListAnnulerButtonBackground" shapeType="rectangle" color="White" alpha="1"  />
+		<style name="OrangeBtnBackground" shapeType="rectangle" color="ClientColor7" alpha="1"  />
+		<style name="OrderListPromoBackground" shapeType="rectangle" color="ClientColor8" alpha="1"  />
+		<style name="OrderListCustomerPromo" shapeType="rectangle" color="Black" alpha="1" cornerRadius="10" />
+		<style name="PromoButtonBackground" shapeType="rectangle" color="ClientColor5" alpha="1" />
+		<style name="BlackPriceBackground" shapeType="rectangle" color="GrayOrderList" alpha="1" borderSize="1"/>
+		<style name="UnavailabBackground" shapeType="rectangle" color="GrayLite6" alpha="0.5"  />
+		<style name="OrderListItemPriceBg" shapeType="rectangle" color="White" alpha="1"  />
+		<style name="PopupBox" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="ClientColor12" borderAlpha="1" />
+		<style name="PopupBoxNoBorders" shapeType="rectangle" color="White" alpha="1" />
+		<style name="MenuCompoentBackground" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="ClientColor5" borderAlpha="1" />
+		<style name="MenuBackground" shapeType="rectangle" color="White" />
+		<style name="InfoAllergDummyBackButton" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="GrayLite5" borderAlpha="1"  />
+		<style name="ScrollArrow" shapeType="triangle" color="Black"  />
+		<style name="InfoIconBg" shapeType="circle" color="GrayLite5" alpha="1" borderSize="0" />
+		<Style name="PopupGenericNoBtn" shapeType="rectangle" cornerRadius="15" alpha="1" color="White" borderSize="2" borderColor="GrayLite" borderAlpha="1" />
+		<Style name="PopupGenericNoBtnNew" shapeType="rectangle" cornerRadius="15" alpha="1" color="GrayUltraLite" />
+		<Style name="PopupGenericYesBtn" shapeType="rectangle" alpha="1" color="ClientColor5" cornerRadius="15" />
+		<Style name="PopupGenericRetourBtn" shapeType="rectangle" alpha="1" color="GrayLite" cornerRadius="20" />
+		<style name="SelectedThumbCloseBtn" shapeType="circle" color="White" alpha="1" borderSize="4" borderColor="GrayLite" borderAlpha="1"/>
+		<!-- new  -->
+		<style name="CodViewUnselectedBullet" shapeType="circle" color="GrayUltraLite2" alpha="1" borderSize="2" borderColor="ClientColor9" borderAlpha="1"/>
+		<style name="CodViewSelectedBullet" shapeType="circle" color="GrayLite" alpha="1" borderSize="2" borderColor="GrayUltraLite" borderAlpha="1"/>
+		<style name="PopupAlphaBackground" shapeType="rectangle" color="White" alpha="0.7"/>
+		<style name="PopupVisibleBackground" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="ClientColor11" borderAlpha="1"/>
+		<!-- -->
+		<Style name="PopupGenericIncrementsBtn" shapeType="rectangle" alpha="1" color="GrayLite8" cornerRadius="20"  />
+		<Style name="PopupGenericRetourWhiteBtn" shapeType="rectangle" alpha="1" color="White" />
+		
+		<style name="PopupGenericPersonalizerBtn" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="ClientColor5" borderAlpha="1"/>
+		<!-- -->
+		<!-- end new -->
+		<!-- EDITABLE VIEW STYLES -->
+		<style name="EditableBackground" shapeType="rectangle" color="White"  />
+		<style name="EditableHeader" shapeType="rectangle" color="ClientColor5"  />
+		<!-- <style name="EditableBackgroundButton" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="GrayLite" borderAlpha="1" cornerRadius="50" /> -->
+		<style name="EditableBackgroundButton" shapeType="rectangle" color="White" alpha="1" borderSize="2" borderColor="GrayLite" borderAlpha="1" />
+		<style name="EditableCloseBtnBorder" shapeType="circle" color="White" alpha="1" borderSize="1" borderColor="GrayLite" borderAlpha="1"/>
+		<style name="EditableCloseBtnInterior" shapeType="circle" color="GrayLite" alpha="1"/>
+		<!-- <style name="EditableFooterButtonBackground" shapeType="rectangle" color="White" alpha="1" cornerRadius="30"/> -->
+		<style name="EditableFooterButtonBackground" shapeType="rectangle" color="White" alpha="1" />
+		<style name="EditableQuantityBackground" shapeType="circle" color="ClientColor5"  />
+		<!-- end editable view styles -->
+			
+		<style name="MenuListUnSelectable" shapeType="rectangle" color="GrayDark7" alpha="1" />
+		<style name="MenuListCurrent" shapeType="rectangle" color="ClientColor5" alpha="1" />		
+		<style name="NeutralButton" shapeType="rectangle" color="GrayLite11" cornerRadius="15" />
+		<style name="PositiveButton" shapeType="rectangle" color="ClientColor1" cornerRadius="15" />
+		<style name="NegativeButton" shapeType="rectangle" color="ClientColor5" cornerRadius="15" />
+		<style name="NeutralButtonNoRadius" shapeType="rectangle" color="GrayLite11"  />
+		<style name="MenuSeparator" shapeType="rectangle" color="GrayLite11" />
+		<style name="MenuDotSelectable" shapeType="circle" color="ClientColor5" alpha="1" borderSize="3" borderColor="ClientColor5" borderAlpha="1" />
+		<style name="MenuDotUnSelectable" shapeType="circle" color="GrayUltraLite" alpha="1" borderSize="3" borderColor="GrayUltraLite" borderAlpha="1" />
+		<style name="MenuDotCurrent" shapeType="circle" color="White" alpha="1" borderSize="3" borderColor="ClientColor5" borderAlpha="1" />		
+		<style name="MenuDottedLineSelectable" shapeType="dotted_line" color="ClientColor5" />
+		<style name="MenuDottedLineUnSelectable" shapeType="dotted_line" color="GrayUltraLite" />
+		<style name="MenuDottedLineCurrent" shapeType="dotted_line" color="ClientColor5" />
+		<style name="ButtonBackground" shapeType="rectangle" color="ClientColor15" cornerRadius="15" alpha="1" />
+		<style name="BackButtonBackground" shapeType="rectangle" color="White" cornerRadius="15" alpha="1" borderColor="ClientColor15" borderSize="2" borderAlpha="1" />
+		
+		
+		
+	</ShapeStyles>
+	
+	<formats>
+		<!-- -new concept fonts-->
+		<format name="InOutPaymentHeader" color="ClientColor1" font="RalewayMedium" size="25" align="center" vAlign="middle"/>
+		<format name="InOutTitle" color="ClientColor1" font="Gotham Ultra" size="70" align="center" vAlign="middle"/>
+		<format name="InOutSubTitle" color="GrayDark6" font="RalewayBold" size="40" align="center" vAlign="middle"/>
+		<format name="InOutButton" color="GrayDark6" font="Gotham Black" size="30" align="center" vAlign="middle"/>
+		<format name="InOutOu" color="GrayDark6" font="RalewayMedium" size="50" align="center" vAlign="middle"/>
+		<format name="InOutLanguage" color="GrayDark6" font="RalewayMedium" size="24" align="center" vAlign="middle"/>
+		<format name="OrderMainTitle" color="GrayDark6" font="Gotham Ultra" size="40" align="left" vAlign="middle"/>
+		<format name="OrderListTitle" color="ClientColor1" font="RalewayExtraBold" size="20" align="center" vAlign="middle"/>
+		<format name="OrderListCustPromo" color="White" font="RalewayBold" size="23" align="center" vAlign="middle"/>
+		<format name="OrderListPromo" color="ClientColor1" font="RalewayBold" size="23" align="center" vAlign="middle"/>
+		<format name="OrderListValider" color="Gray" font="RalewayBlack" size="20" align="center" vAlign="middle"/>
+		<format name="OrderListValiderS" color="White" font="RalewayBlack" size="20" align="center" vAlign="middle"/>
+		<format name="OrderListCancel" color="ClientColor1" font="RalewayBold" size="15" align="center" vAlign="middle"/>
+		<format name="OrderListItemTitle" color="GrayDark6" font="RalewayExtraBold" size="18" align="left" vAlign="top"/>
+		<format name="OrderListItemBody" color="Black" font="RalewayMedium" size="18" align="left" vAlign="top"/>
+		<format name="OrderListModify" color="Black" font="RalewayBold" size="15" align="center" vAlign="middle"/>
+		
+		<format name="CodVTitle" color="GrayDark6" font="Gotham Black" size="45" align="center" vAlign="middle"/>
+		<format name="CodVTotalText" color="Black" font="RalewayMedium" size="31" align="center" vAlign="middle"/>
+		<format name="CodVTotalValue" color="ClientColor1" font="RalewayExtraBold" size="49" align="center" vAlign="middle"/>
+		<format name="CodVBtnBack" color="Gray" font="RalewayBlack" size="24" align="center" vAlign="middle"/>
+		<format name="CodVBtnOk" color="White" font="RalewayBlack" size="24" align="center" vAlign="middle"/>
+		
+		<format name="PaymentSelectorTitle" color="GrayDark6" font="Gotham Black" size="45" align="center" vAlign="middle"/>
+		<format name="PaymentSelectBtnn" color="GrayDark6" font="Gotham Black" size="30" align="center" vAlign="middle"/>
+		<format name="CodVBtnOk" color="White" font="RalewayBlack" size="24" align="center" vAlign="middle"/>
+		
+		<format name="ConfirmationSubTitle" color="GrayDark6" font="RalewayExtraBold" size="50" align="center" vAlign="middle"/>
+		<format name="ConfirmationNumber" color="ClientColor1" font="Gotham Ultra" size="110" align="center" vAlign="middle"/>
+		<format name="ConfirmationTitle" color="GrayDark6" font="RalewayBold" size="40" align="center" vAlign="middle"/>
+		<format name="ConfirmationLastTitle" color="GrayDark6" font="RalewayBlack" size="50" align="center" vAlign="middle"/>
+		
+		<!-- end -->
+	
+	
+	
+		<!-- end editable view styles -->
+		<format name="MenuListSelectable" color="Green3" font="Gotham Medium" size="15" align="center" vAlign="middle"/>
+		<format name="RemisPlusTard" color="Red2" font="Gotham Medium" size="60" align="center" vAlign="middle"/>
+		<format name="RemisPlusTardSubTitle" color="Black" font="Gotham Medium" size="45" align="center" vAlign="middle"/>
+		
+		<format name="MenuBuletLabel" color="GrayLite6" font="BlockBE Regular" size="16" align="center" vAlign="middle"/>
+		<!-- menu styles -->
+		<textFormat name="FeatruesViewTitleContor" color="Red2" font="Gotham Medium" size="30" align="center" valign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatruesViewTitleSmall" color="Black" font="Gotham Medium" size="30" align="center" valign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+	
+		<textFormat name="FeatruesViewTitleContorDown" color="Red2" font="Gotham Medium" size="30" align="center" vAlign="bottom" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatruesViewTitleSmallDwon" color="Black" font="Gotham Medium" size="30" align="center" vAlign="bottom" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+
+		<!-- NEW FONTS -->
+		<textFormat name="CounterViewBigggerText" color="ClientColor5" font="BlockBE Regular" size="60" align="center" vAlign="top" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<format name="KeyboardScannerWhiteNumberButton" color="White" font="BlockBE Regular" size="20" align="center" vAlign="middle"/>
+		<format name="KeyboardScannerNumberButton" color="GrayDark5" font="BlockBE Regular" size="25" align="center" vAlign="middle"/>
+		<format name="ViewKeyboardScannerNumberButton" color="GrayDark5" font="BlockBE Regular" size="50" align="center" vAlign="middle"/>
+		<format name="ActualViewKeyboardScannerNumberButton" color="ClientColor5" font="BlockBE Regular" size="50" align="center" vAlign="middle"/>
+		<format name="NewViewKeyboardScannerNumberButton" color="White" font="BlockBE Regular" size="50" align="center" vAlign="middle"/>
+		<format name="ActualLargeViewKeyboardScannerNumberButton" color="ClientColor5" font="BlockBE Regular" size="70" align="center" vAlign="middle"/>
+		
+		<format name="CurrentViewKeyboardScannerNumberButton" color="Black" font="BlockBE Regular" size="50" align="center" vAlign="middle"/>
+		<format name="PopupTitle" color="GrayLite" font="BlockBE Regular" size="48" align="center" vAlign="middle"/>
+		<format name="NavigationButtonSelected" color="White" font="BlockBE Regular" size="14" align="center" vAlign="middle"/>
+		<format name="NavigationButtonUnSelected" color="Black" font="BlockBE Regular" size="14" align="center" vAlign="middle"/>
+		<format name="KeyboardScannerCodTabButtonSelected" color="White" font="BlockBE Regular" size="32" align="center" vAlign="middle"/>
+		<format name="CurrentKeyboardScannerCodTabButtonSelected" color="Black" font="BlockBE Regular" size="32" align="center" vAlign="middle"/>
+		<format name="InfoViewNutriSubTitle" color="GrayLite6" font="RalewayMedium" size="24" align="center" vAlign="middle"/>
+		<format name="LanguageItemText" color="ClientColor5" font="BlockBE Regular" size="24" align="left" vAlign="middle"/>
+		<format name="InOutLanguageButton" color="White" font="BlockBE Regular" size="24" align="center" vAlign="middle"/>
+		<format name="CodTabSumText" color="GrayLite" font="BlockBE Regular" size="31" align="center" vAlign="middle"/>
+		<format name="CodTabSumRed" color="ClientColor3" font="BlockBE Regular" size="54" align="center" vAlign="middle"/>
+		<format name="OrderMainTitleBlack" color="Black" font="BlockBE Regular" size="36" align="left" vAlign="middle"/>
+		<format name="MenuSizeLabel" color="GrayLite6" font="BlockBE Regular" size="36" align="center" vAlign="middle"/>
+		<format name="OrderMainItem" color="GrayLite" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		<format name="CODViewNoBtnRounded" color="ClientColor13" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		<format name="OrderMainWhiteItem" color="White" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		<format name="LongMessageText" color="GrayDark5" font="BlockBE Regular" size="40" align="center" vAlign="middle"/>
+		<format name="ErrorMessageText" color="GrayDark5" font="BlockBE Regular" size="46" align="center" vAlign="middle"/>
+		
+		<format name="PopupInfoBigNumber" color="ClientColor5" font="BlockBE Regular" size="200" align="right" vAlign="middle"/>
+		<format name="PopupInfoUpperText" color="Black" font="BlockBE Regular" size="72" align="left" vAlign="middle"/>
+		<format name="PopupInfoLowerText" color="GrayLite8" font="BlockBE Regular" size="72" align="left" vAlign="middle"/>
+		<format name="PopupInfoTextDescript" color="Black" font="BlockBE Regular" size="33" align="center" vAlign="middle"/>
+		
+		
+		<format name="FirstScreenViewTitle" color="GrayLite8" font="BlockBE Regular" size="72" align="center" vAlign="middle"/>
+		<format name="FirstScreenViewTitleSmall" color="GrayLite8" font="BlockBE Regular" size="30" align="center" vAlign="middle"/>
+		<format name="FirstScreenViewButton" color="ClientColor3" font="BlockBE Regular" size="33" align="center" vAlign="middle"/>
+		<format name="LinkTextBetweenINOUT" color="White" font="BlockBE Regular" size="33" align="center" vAlign="middle"/>
+		<format name="TimeOutText" color="GrayLite" font="BlockBE Regular" size="45" align="center" vAlign="middle"/>
+		
+		
+		<textFormat name="ErrorViewText" color="GrayLite" font="BlockBE Regular" size="58" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CounterViewNormalText" color="ClientColor5" font="BlockBE Regular" size="50" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CounterViewNormalBlackText" color="Black" font="BlockBE Regular" size="50" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CounterViewNumberText" color="ClientColor5" font="BlockBE Regular" size="200" align="center" vAlign="top" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textformat name="LoadingViewText" color="GrayLite" font="BlockBE Regular" size="46" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CheckPINTextSmall" color="Black" font="BlockBE Regular" size="26" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>	
+		<textFormat name="CheckPINText" color="GrayLite" font="BlockBE Regular" size="48" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatruesViewTitle" color="GrayLite" font="BlockBE Regular" size="28" align="left" valign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatruesViewTitleNew" color="Black" font="Gotham Medium" size="40" align="center" valign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatruesViewTitleGotham" color="GrayLite" font="Gotham" size="28" align="left" valign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<!-- END NEW FONTS -->
+		<format name="WelcomeTitle" color="GrayLite" font="BlockBE Regular" size="48" align="center" vAlign="middle"/>
+		<format name="CurrentWelcomeTitle" color="White" font="BlockBE Regular" size="48" align="center" vAlign="middle"/>
+		<format name="SmallText" color="White" font="BlockBE Regular" size="10" align="center" vAlign="middle"/>
+		<format name="ProductName" color="GrayLite6" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		<format name="ProductNameOrderList" color="GrayLite6" font="BlockBE Regular" size="26" align="left" vAlign="middle"/>
+		<format name="ProductNameLeft" color="GrayLite6" font="BlockBE Regular" size="26" align="left" vAlign="middle"/>
+		<format name="WhiteProductName" color="White" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		
+		<format name="Productname" color="GrayLite6" font="BlockBE Regular" size="26" align="center" vAlign="top"/>
+		<format name="ProductPrice" color="GrayLite6" font="BlockBE Regular" size="26" align="center" vAlign="middle"/>
+		<format name="NavButtonSmallSelected" color="White" font="BlockBE Regular" size="15" align="center" vAlign="middle"/>
+		<format name="NavButtonText" color="Black" font="BlockBE Regular" size="15" align="center" vAlign="middle"/>
+		<format name="PromoButtonText" color="White" font="BlockBE Regular" size="17" align="center" vAlign="middle"/>
+		<format name="OrderListTotal" color="GrayLite6" font="Gotham Medium" size="45" align="center" vAlign="middle"/>
+		<format name="ItemOrdered" color="Black" font="BlockBE Regular" size="20" align="left" vAlign="top"/>
+		<format name="ItemOrderedSubItem" color="Black" font="BlockBE Regular" size="17" align="left" vAlign="top"/>
+		<format name="OrderListItemPrice" color="Black" font="BlockBE Regular" size="17" align="center" vAlign="middle"/>
+		<format name="InfoIconText" color="White" font="BlockBE Regular" size="26" align="center" vAlign="middle" italic="true" />
+		<!-- new fonts -->
+		<textFormat name="PaymentSelectSelectButton" color="ClientColor5" font="BlockBE Regular" size="44" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CODViewTitle" color="ClientColor5" font="BlockBE Regular" size="44" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<format name="PaymentSelectSubTitle" color="GrayLite" font="BlockBE Regular" size="26" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<format name="AreaConfirmationBigText" color="GrayLite" font="BlockBE Regular" align="center" vAlign="middle" size="38"/>
+		<textFormat name="AllergTitle" color="GrayLite" font="BlockBE Regular" size="41" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AllergSubTitle" color="GrayLite" font="BlockBE Regular" size="32" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AlergBackButtonText" color="GrayLite" font="BlockBE Regular" size="24" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AlergItemRendererText" color="White" font="BlockBE Regular" size="16" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AllergensInfoBottomText" color="GrayLite" font="BlockBE Regular" size="14" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AllergensInfoBottomBoldText" color="GrayLite" font="BlockBE Regular" size="14" align="left" bold="true" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="AlergensInfoSubtitleText" color="GrayLite" font="BlockBE Regular" size="24" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="AlergensInfoSmalTitleText" color="GrayLite" font="BlockBE Regular" size="38" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="PictureTexts" color="White" font="BlockBE Regular" size="40" align="center" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="InfoAllergDummwWindowText" color="GrayLite" font="BlockBE Regular" size="14" align="center" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="InfoAllergDummwWindowButtonText" color="GrayLite" font="BlockBE Regular" size="10" align="center" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="InfoAllergTexts" color="White" font="BlockBE Regular" size="36" align="center"  bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="InfoAllergActivateBtnText" color="White" font="BlockBE Regular" size="18" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="InfoAllergHamburgerText" color="GrayLite" font="BlockBE Regular" size="41" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="NutritionTableText" color="GrayLite6" font="BlockBE Regular" size="17" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="NutritionTitle" color="GrayLite6" font="BlockBE Regular" size="24" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="NutritionGreenTitle" color="Green3" font="BlockBE Regular" size="46" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CodViewItemHolderText" color="White" font="BlockBE Regular" size="33" align="center" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CodViewListViewSmallText" color="GrayLite" font="BlockBE Regular" size="20" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CodViewListViewBigText" color="GrayLite" font="BlockBE Regular" size="22" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CodViewListViewBigTextRounded" color="Black" font="RalewayExtraBold" size="30" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CodViewListViewSmallTextRounded" color="Black" font="RalewayMedium" size="25" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="PopupNoText" color="GrayLite" font="BlockBE Regular" size="38" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="PopupNoTextNew" color="GrayDark2" font="BlockBE Regular" size="38" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="PopupYesText" color="White" font="BlockBE Regular" size="38" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="PopupTitleText" color="ClientColor5" font="BlockBE Regular" size="48" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatureViewBackBtn" color="White" font="BlockBE Regular" size="34" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="FeatureViewOkBtn" color="GrayLite" font="BlockBE Regular" size="34" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="PopupGenericPersonaliserText" color="Black" font="BlockBE Regular" size="34" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CustomizeTitleText" color="Black" font="BlockBE Regular" size="40" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CustomizePriceText" color="Black" font="BlockBE Regular" size="30" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="CustomizeTextUpdated" color="Black" font="BlockBE Regular" size="40" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="InfoViewListItem" color="GrayLite" font="BlockBE Regular" size="16" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AlergBackWhiteButtonText" color="White" font="BlockBE Regular" size="24" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="PaymentSelectCancelWhiteButton" color="GrayDark8" font="BlockBE Regular" size="38" align="center" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<!-- new -->
+		<textFormat name="OkViewSmallText" color="GrayLite" font="BlockBE Regular" size="45" align="center" vAlign="middle" bold="true" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>		
+		<!-- end new -->
+		<!-- editable -->
+		<textFormat name="EditableItemText" color="GrayLite8" font="BlockBE Regular" size="14" align="center" vAlign="top" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableListItemText" color="GrayLite8" font="BlockBE Regular" size="20" align="left" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableListButtonText" color="Black" font="BlockBE Regular" size="40" align="right" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableListButtonTextUsed" color="Black" font="BlockBE Regular" size="40" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableHeaderTitleText" color="White" font="Gotham Bold" size="40" align="left" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableHeaderSubTitleText" color="White" font="Gotham Bold" size="60" align="left" vAlign="top" bold="true" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableQuantityText" color="White" font="BlockBE Regular" size="20" align="center" vAlign="middle" bold="true" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableListTitleText" color="GrayLite8" font="BlockBE Regular" size="30" align="left" vAlign="middle" bold="true" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="EditableHeaderPriceText" color="GrayLite8" font="BlockBE Regular" size="40" align="left" vAlign="middle" bold="true" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="PickupLaterText" color="GrayDark7" font="BlockBE Regular" size="44" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="PickupLaterTextRed" color="Red2" font="Gotham Medium" size="50" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<!-- end editable -->
+		<textFormat name="AllergNumbers" color="GrayLite" font="BlockBE Regular" size="20" align="center" vAlign="middle" bold="false"  italic="false" letterSpacing="0" underline="false" kerning="true" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="AllergPopupInfoNewText" color="GrayLite" font="BlockBE Regular" size="24" align="left" bold="true" italic="false" letterSpacing="0" underline="false" kerning="false" leading="0" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<textFormat name="ConfirmationCustomText" color="GrayLite" font="BlockBE Regular" size="35" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>			
+		<textFormat name="ImageViewText" color="GrayLite" font="BlockBE Regular" size="39" align="center" vAlign="middle" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<!-- alerg container -->
+		 <textFormat name="AlergContainerTitle" color="GrayLite" font="BlockBE Regular" size="24" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		 <textFormat name="AlergContainerSubTitleText" color="GrayLite" font="BlockBE Regular" size="20" align="left" bold="false" italic="false" letterSpacing="0" underline="false" kerning="false" leading="2" leftMargin="0" rightMargin="0" blockIndent="0" indent="0" bullet="false"/>
+		<!-- end alerg container-->
+		<!-- end new fonts-->	
+		
+		<format name="NeutralButtonText" color="GrayDark8" font="BlockBE Regular" size="25" align="center" vAlign="middle" />
+		<format name="NegativeButtonText" color="White" font="BlockBE Regular" size="25" align="center" vAlign="middle" />
+		<format name="OrderMainBackButton" color="ClientColor14" font="BlockBE Regular" size="25" align="left" vAlign="middle" />
+		<format name="NormalTitle" color="GrayLite8" font="BlockBE Regular" size="20" align="center" vAlign="middle" />
+		<format name="NormalTitleRight" color="GrayLite8" font="BlockBE Regular" size="26" align="right" vAlign="bottom" />
+		<format name="ValidateOrder" color="ClientColor5" font="BlockBE Regular" size="26" align="center" vAlign="middle" />
+		<format name="MenuQuantity" color="ClientColor5" font="BlockBE Regular" size="35" align="left" vAlign="bottom" />
+		<format name="MenuTitle" color="GrayLite8" font="BlockBE Regular" size="40" align="center" vAlign="middle" />
+		<format name="MenuSubTitle" color="ClientColor5" font="Arial" size="30" align="center" vAlign="middle" />
+		
+	</formats>
+</style>

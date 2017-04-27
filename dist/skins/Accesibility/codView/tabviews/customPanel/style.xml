@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties scroll="vertical">
+	</ElementProperties>
+	 <Container  name="listGuide" x="21.14%" y="15%" alpha="1"> 
+		<Shape width="67.59%"  height="59%" style="RedRectangle" x="0%" y="0%" alpha="0.5"/>
+	 </Container>
+	 <Shape width="37.12%" height="0.1%" style="AlergenItemUnselected" x="31.43%" y="74.5%" />
+	 <Shape  style="Scrollbar" name="scrollBar" width="0.37%" height="17%" x="69%" y="15%"/>
+</Style>

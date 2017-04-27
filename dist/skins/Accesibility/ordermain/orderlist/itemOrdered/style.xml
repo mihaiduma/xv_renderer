@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Container containerType="" name="mcTexts" x="0.46%" y="0%" >
+		<Text content="" name="txtItemQuantity" messageID="" textFormat="OrderListItemPrice" autoSize="true" width="2.77%" height="1.38%"  x="0%" y="0%" />
+		<Text content="" name="txtAddonPrice" messageID="" textFormat="ItemOrderedSubItem" width="3.61%" height="1.25%"  x="29.9%" y="0%" />
+		<Text content="" name="txtAddonPromoPrice" messageID="" textFormat="ItemOrderedSubItem" width="5%" height="1.19%"  x="28.98%" y="0%" />
+		<Text content="" name="txtItemName" messageID="" textFormat="OrderListItemTitle" width="20.37%" height="15.62%"  x="2.77%" y="0%" />
+		<Text content="..." name="txtDots" messageID="" textFormat="ItemOrderedSubItem" width="20.37%" height="2.08%"  x="2.77%" y="0%" />
+	</Container>
+	<Container containerType="" name="btnOrderMask" x="0.64%" y="0%" alpha="0" >
+		<Shape style="PromoButtonBackground" width="24.07%" height="3.38%" name="" x="0%" y="0%" />
+	</Container>
+	<Container containerType="" name="mcButtons" x="0" y="30" >
+		<Container containerType="button" name="mcExpand" x="4" y="0" >
+			<Shape style="NeutralButtonNoRadius" width="25" height="25" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="5" y="5" width="15" height="15" orientation="down" />
+		</Container>
+		<Container containerType="button" name="mcModifier" x="54" y="0" >
+			<Shape style="NeutralButtonNoRadius" width="114" height="25" name="" x="0" y="0" />
+			<Text content="MODIFY" messageID="2014010822" name="txtLabel" textFormat="OrderListModify" autoSize="true" width="114" height="25"  x="0" y="0" />
+		</Container>
+		<Container containerType="" name="mcPrice" x="190" y="0" >
+			<Shape style="NeutralButtonNoRadius" width="69" height="25" name="" x="0" y="0"/>
+			<Text content="" messageID="" textFormat="OrderListItemPrice" autoSize="true" width="69" height="25" name="txtItemPrice" x="0" y="0" />
+		</Container>
+		<!--<Container containerType="" name="mcSeparator" x="0" y="30" >
+			<Shape style="OrderListItemSeparator" width="365" height="2" name="" x="0" y="0" />
+		</Container>-->
+	</Container>
+</style>

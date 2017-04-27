@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+
+	<Shape name="bg" style="EditableBackground" width="100%" height="100%" x="0%" y="0%" alpha="1" />
+	<Container x="0%" y="0%" name="header">
+		<Shape style="EditableHeader" width="100%" height="8.17%" x="0%" y="0%" alpha="1"/>
+		<Image fileName="headerImg.png" width="10.37%" height="5.93%" x="2.77%" y="1.3%" alpha="1"/>
+		<Text name="headerTitle" messageID="2016042203" content="Customize your" textFormat="EditableHeaderTitleText" autoSize="true" width="55.55%" height="3.12%" x="13.88%" y="1.56%" alpha="1" />
+	</Container>
+	
+	<Container name="buttonHolder" x="0%" y="20.83%"/>
+	
+	<Container x="0%" y="85.98%" name="footer">
+		<Shape style="WhiteRectangle" x="0%" y="0%" width="100%" height="8.17%" alpha="1" />
+		<Container  containerType="button" name="cancelBtn" x="4.62%" y="1.77%">
+			<Shape style="NegativeButtonBackground" x="0%" y="0%" width="26.85%" height="4.16%" alpha="1" />
+			<Text messageID="2014101003" name="btnTitle" content="" textFormat="EditableListButtonText" autoSize="true" width="26.66%" height="2.08%" x="0.09%" y="1.04%" alpha="1" />
+		</Container>
+		<Container containerType="button" name="okBtn" x="68.7%" y="1.77%">
+			<Shape style="PozitiveButtonBackground" x="0%" y="0%" width="26.85%" height="4.16%" alpha="1" />
+			<Text messageID="2016042201" name="btnTitle" content="" textFormat="EditableListButtonText" autoSize="true" width="26.66%" height="2.08%" x="0.09%" y="1.04%" alpha="1" />
+		</Container>
+ 	</Container>
+</Style>

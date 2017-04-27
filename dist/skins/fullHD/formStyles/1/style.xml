@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Image fileName="bg_mask.png" width="1080" height="1920" />
+	<Image fileName="bg_content.png" width="1080" height="1920" />
+	<Container containerType="" name="mcTitle" x="155" y="645" >
+		<Text content="" messageID="" textFormat="OrderListTotal" width="775" height="90" autoSize="true" name="txtLabel" x="0" y="0" />
+	</Container>
+	<Container containerType="button" name="btnCancel" x="425" y="1262" >
+		<Shape width="230" height="70" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="NeutralButtonText"width="230" height="60" autoSize="true" name="txtLabel" x="0" y="5" />
+	</Container>
+	<Container containerType="button" name="btnCancelAll" x="425" y="1300" >
+		<Shape width="230" height="70" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="NeutralButtonText"  width="230" height="60" autoSize="true" name="txtLabel" x="0" y="5" />
+	</Container>
+	<Container name="pageGuide" x="185" y="752" >
+		<Shape  alpha="0" width="702" height="500" />
+	</Container>
+</Style>

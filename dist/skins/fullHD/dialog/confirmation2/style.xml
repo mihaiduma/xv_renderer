@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Image fileName='[common]bg_default.png' y='0'  x='0' name='genericItem1' width='1080'  height='1920'  alpha='1'/>
+	<Image fileName='merci_circle.png' y='704'  x='407' name='' width='254'  height='254'  alpha='1'/>
+	<Image fileName='merci_separator.png' y='1088'  x='249' name='' width='578'  height='1'  alpha='1'/>
+	<Image fileName='merci_img_footer.png' y='1202'  x='406' name='' width='257'  height='257'  alpha='1'/>
+	
+	
+	
+	<Text content="" messageID="" textFormat="ConfirmationSubTitle" autoSize="true" width="800" height="185" name="txtMessage3" x="140" y="306" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationTitle" autoSize="true" width="800" height="50" name="txtMessage1" x="140" y="620" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationNumber" autoSize="true" width="800" height="130" name="txtMessage2" x="140" y="755" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationLastTitle" autoSize="true" width="800" height="300" name="txtMessage4" x="140" y="1573" alpha="1"/>
+	
+</style>

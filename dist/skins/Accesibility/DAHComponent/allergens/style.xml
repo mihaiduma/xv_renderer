@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Container name="alergensImage" x="0%" y="0%"  >
+		<Shape style="GeneralBackground" width="100%" height="100%" x="0%" y="0%" alpha="1"/>
+		<Image fileName="page2.png" name="img2" width="100%" height="95%" x="0" y="5%" alpha="1"/>
+		<Image fileName="page1.png" name="img1" width="100%" height="95%" x="0" y="5%" alpha="1"/>
+		<Text content="" textFormat="FirstScreenViewTitle" messageID="2017012702" autoSize="true" x="0%" y="0%" height="5%" width="100%" />
+		<Container name="nextButton" containerType="button" x="90%" y="47.7%">
+			<Image fileName="arrow.png" width="8.05%" height="4.53%" x="0%" y="0%" alpha="1"/>
+		</Container>
+		<Container name="prevButton" containerType="button" x="0.92%" y="47.7%">
+			<Image fileName="back.png" width="8.05%" height="4.53%" x="0%" y="0%" alpha="1"/>
+		</Container>
+		<Container name="closeButton" containerType="button" x="38%" y="96.2%">
+			<Shape style="PopupGenericYesBtn" width="24.07%" height="3%" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="1001" textFormat="FeatureViewBackBtn" autoSize="true" width="20.37%" height="3%" name="txt" x="1.85%" y="0%" alpha="1" isUppercase="true"/> 
+		</Container>
+	</Container>
+</Style>

@@ -1,0 +1,23 @@
+<Style>
+	
+	<Container name="overlay" x="0%" y="0%">
+		<Shape width="100%" height="100%"  x="0%" y="0%" />
+	</Container>
+
+	<Container containerType="slideshow" name="slideshow" x="0%" y="83.22%" width="100%" height="16.77%" dataSource="Banner" templateId="1" jumpToPage="true" />
+	
+	<Container name="mcHeader" x="0.92%" y="3.64%">
+		<Text content="Page Title" name="mcTitle" messageID="" autoSize="true" textFormat="OrderMainTitleBlack" x="0%" y="0%" width="51.85%" height="5.98%"/>	
+	</Container>
+
+	
+	<Container name="pageGuide" x="0%" y="10.41%" >
+		<Shape  alpha="0" width="69.44%" height="62.39%"  />
+	</Container>
+		
+	<Container name="orderList" containerType="orderList" x="70.64%" y="10.41%" width="26.94%" height="49.63%" alpha="1" />
+	
+	 <Container name="navigation" containerType="Navigation" x="0%" y="0%" alpha="1" /> 
+	
+	<Container name="DAHComponent" containerType="DAHComponent" x="84.35%" y="78.33%" alpha="1" />
+</Style>

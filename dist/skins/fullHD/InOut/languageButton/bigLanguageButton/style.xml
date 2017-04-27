@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style alpha="1">
+	 <Container name="btn" containerType="button" x="5" y="60">
+		<Container name="selected">
+			<Text name="txtLabelSelected" content=""  textFormat="InOutLanguage" autoSize="true" x="105" y="50" width="130" height="30" alpha="1"/>
+		</Container>
+		<Container name="unselected">
+			<Text name="txtLabelUnselected" content="" textFormat="InOutLanguage" autoSize="true" x="105" y="50"  width="130" height="30" alpha="1"/>
+		</Container>
+		<Container name="flagHolder" x="0"/>
+	</Container>
+</Style>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Container name="itemButton" x="0%" y="0%">
+		<Shape style="EditableBackgroundButton" name="bg" width="20.37%" height="3.64%" alpha="1" x="0%" y="0.15%"/>
+		<Container name="imageContainer" x="0.92%" y="1.11%">
+			<Shape x="0%" y="0%" color="0xff0000" width="18.51%" height="1.56%" alpha="0"/>
+		</Container>
+		<Text name="btnTitle" content="" textFormat="EditableItemText" autoSize="true" width="18.51%" height="1.56%" x="0.92%" y="1.51%" alpha="1" />
+		<Container name="closeButton" x="18.79%">
+			<Shape style="EditableCloseBtnBorder" width="2.77%" height="1.56%" x="0%" y="-8" alpha="1"/>
+			<Shape style="EditableCloseBtnInterior" width="1.85%" height="1.04%" x="0.37%" y="-4" alpha="1"/>
+			<Shape style="WhiteRectangle" width="1.2%" height="0.2%" x="0.74%" y="0.2%" alpha="1"/>
+			<Shape style="WhiteRectangle" width="0.37%" height="0.67%" x="1.13%" y="-0.5" alpha="1"/>
+		</Container>
+		
+	</Container>
+</Style>

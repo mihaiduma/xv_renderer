@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<style>
+
+	<Container containerType="" name="mcBackTransparent" x="0" y="0" alpha="0.9">
+		<Shape width="1080" height="1920" x="0" y="0" style="GeneralBackground" />
+	</Container>
+	<Container containerType="" name="background" x="38" y="52" >
+		<Shape width="1005" height="1815" x="0" y="0" style="PopupBox" />
+	</Container>
+	<Container x="39" y="343">
+		<Shape x="0" y="0" width="1000" height="1442" style="WhiteRectangle" alpha="1"/>
+	</Container>
+	
+	<Text content="" messageID="" textFormat="InOutSubTitle" width="506" height="100" name="textTitle" x="54" y="62" alpha="1"/>	
+	<Container x="100" y="170" name="imageHolder">
+		<Shape x="0" y="0" width="400" height="400" alpha="1" style="WhiteRectangle" />
+	</Container>
+	
+	
+	<Container name="btnOk" containerType="button" x="410" y="1730" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="1450" textFormat="FeatureViewBackBtn" autoSize="true" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnRecommencer" containerType="button" x="410" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="0" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnSupprimer" containerType="button" x="410" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2014011502" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnSkip" containerType="button" x="410" y="1800" alpha="1">
+		<Shape style="PopupGenericNoBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2017013001" textFormat="FeatureViewOkBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnFakeCancel" containerType="button" x="710" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2014011501" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	
+	<Container name="pageGuide" x="38" y="570" >
+		<Shape  alpha="0" width="1004" height="1150"  />
+	</Container>
+
+</style>

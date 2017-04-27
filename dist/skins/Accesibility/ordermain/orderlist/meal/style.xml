@@ -1,0 +1,9 @@
+<Style>
+	<Shape x="0%" y="0%" name="mcFader" style="PopupBackground" width="100%" height="100%"/>
+	<Shape x="4.62%" y="2.6%" style="LanguageItemBackground" width="90.74%" height="94.79%"/>
+	<Text name="mealTitle"  textFormat="OrderListTotal" autoSize="true" x="5.55%" y="2.86%" width="88.88%" height="5.2%"/>	
+	<Container containerType="button" name="btnBack" x="37.96%" y="93.22%">
+		<Shape style="PromoButtonBackground" x="0%" y="0%" width="24.07%" height="3.12%"/>
+		<Text name="txtLabel" messageID="0" isUppercase="true" textFormat="PromoButtonText" autoSize="true" x="0%" y="0.26%" width="23.88%" height="2.6%"/>	
+	</Container>
+</Style>

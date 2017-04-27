@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<ElementProperties showSteps="0" bulletsType="animated" />
+
+	<Container name="mcWhiteBg" x="0%" y="0%" >
+		<Shape width="100%" height="100%" x="0%" y="0%" style="MenuBackground" />
+	</Container>
+	
+	<Shape width="100%" height="0.2%" x="0%" y="37.86%" style="MenuSeparator" />
+	
+	<Container containerType="MenuHeader" name="MenuHeader" x="0%" y="6.56%" width="100%" height="3.17%" />
+	
+	<State withQuantity="1">
+		<Text content="Choisissez sauces: " messageID="" name="textTitle" textFormat="NormalTitleRight" x="8.33%" y="40%" width="55.55%" height="3.38%" autoSize="true" />
+		<Text content="0"  textFormat="FeatruesViewTitleContorDown" width="3%" autoSize="true" height="3.5%" name="itemContor" x="49%" y="40%" alpha="1" />
+		<Text content="/" textFormat="FeatruesViewTitleSmallDwon"   width="2.5%" autoSize="true" height="3.5%" name="itemSlashSeparator" x="51%" y="40%" alpha="1" />
+		<Text content=""  textFormat="FeatruesViewTitleContorDown"  width="3%" autoSize="true" height="3.5%" name="itemTotal"  x="54%" y="40%" alpha="1" />
+	</State>
+	<State withQuantity="0">
+		<Text content="Current Step Title" messageID="" name="textTitle" textFormat="NeutralButtonText" x="0" y="40.98%" width="100%" height="3.38%" />
+	</State>
+	
+	<Container name="btnFakeCancel" containerType="button" x="67.12%" y="92.76%" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="21.29%" height="2.91%" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="2014011501" textFormat="FeatureViewBackBtn" width="20.37%" height="1.71%" name="txt" x="1.85%" y="0.62%" alpha="1" isUppercase="true"/>
+	</Container>
+	
+	<Container containerType="button" name="btnSkip" x="51.335%" y="95%" >
+		<Shape style="PopupGenericNoBtn" width="21.29%" height="3.64%" x="0%" y="0%"  />
+		<Text content="" messageID="1304" textFormat="FeatureViewOkBtn" width="21.29%" height="2.6%" autoSize="true" name="txt" x="0%" y="0.52%" />
+	</Container>
+	
+	<Container containerType="button" name="btnOk" x="27.335%" y="95%" >
+		<Shape style="PopupGenericYesBtn" width="21.29%" height="3.64%" x="0%" y="0%"  />
+		<Text content="" messageID="1450" textFormat="FeatureViewBackBtn" width="21.29%" height="2.6%" autoSize="true" name="txt" x="0%" y="0.52%" />
+	</Container>
+	
+	
+	
+	<Container name="pageGuide" x="3.7%" y="45%" >
+		<Shape  alpha="0" width="92.59%" height="48.66%"  />
+	</Container>
+	
+	<Container name="DAHComponent" containerType="DAHComponent" x="84.35%" y="95.31%" />
+</style>

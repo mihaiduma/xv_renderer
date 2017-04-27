@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0"  alpha="1"/>
+	<Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/>
+	
+	<Text content="" messageID="" textFormat="LongMessageText" width="1080" height="1510" name="txtMessage2" x="0" y="385" alpha="1"/>
+	
+</Style>

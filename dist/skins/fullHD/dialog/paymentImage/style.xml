@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+    <Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1" />	
+    <Image fileName="pay_ok.png" width="255" height="250" name="" x="436.4" y="833.1" alpha="1"/>
+</style>

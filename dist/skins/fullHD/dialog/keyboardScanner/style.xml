@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideLeft">
+
+	<Container>
+		
+		<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
+		
+		<Container containerType="" name="mcNumeric" x="335.05" y="829.45" alpha="1">
+			<Container containerType="button" name="no1" x="0" y="0" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="1" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no2" x="141.75" y="0" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="2" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no3" x="286.25" y="0" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="3" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no4" x="0" y="144" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="4" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no5" x="141.75" y="144" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="5" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no6" x="286.25" y="144" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="6" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no7" x="0" y="289" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="7" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no8" x="141.75" y="289" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="8" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no9" x="286.25" y="289" alpha="1">
+				<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="9" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no0" x="0" y="434.7" alpha="1">
+				<!--<Image fileName="bgNo0.png" width="259" height="114" name="" x="0" y="0" alpha="1"/>-->
+				<Shape style="CurrentKeyboardScannerCircle" width="114" height="114" name="" x="0" y="0"/>
+				<Text content="0" messageID="" textFormat="ActualViewKeyboardScannerNumberButton" width="90" height="90" name="txtNr" x="7" y="10" alpha="1"/>
+			</Container>
+		</Container>
+		
+		<Container containerType="button" name="btnCancel" x="347.5" y="1648" alpha="1">
+			<Shape style="ActualKeyboardScannerBackBtn"  width="385" height="70" name="" x="0" y="0" alpha="1"/> 
+			<Text content="" messageID="1304" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="385" height="66" name="txtLabel" x="0" y="2" alpha="1"/>
+		</Container>
+		
+		<Container containerType="button" name="btnYes" x="347.5" y="1514.75" alpha="1">
+			<!--<Image fileName="btn_valider.png" width="398" height="107" name="" x="0" y="0" alpha="1"/>-->
+			<Shape style="CurrentModifierPriceBackground"  width="385" height="70" name="" x="0" y="0" alpha="1"/> 
+			<Text content="OK" messageID="" textFormat="KeyboardScannerCodTabButtonSelected" width="385" height="66" name="txtLabel" x="0" y="2" alpha="1"/>
+		</Container>
+		
+		<Text content="" messageID="" textFormat="CurrentViewKeyboardScannerNumberButton" width="1056.4" height="114" name="txtMessage" x="10.9" y="352.7" alpha="1"/>
+		<Text content="" messageID="" textFormat="KeyboardScannerNumberButton" width="1056.4" height="35.2" name="txtSubMessage" x="10.9" y="698.7" alpha="1"/>
+		
+		<Shape style="CurrentInfoAllergDummyMenu" width="575" height="120" name="" x="252.45" y="553.95" alpha="1"/>
+		<Text content="" messageID="" textFormat="ActualLargeViewKeyboardScannerNumberButton" autoSize="true" width="548.1" height="150" name="lblOrderNo_normal" x="264.1" y="575.2" alpha="1"/>
+		<Text content="" messageID="" textFormat="ActualLargeViewKeyboardScannerNumberButton" autoSize="true" width="548.1" height="150" name="lblOrderNo_green" x="264.1" y="540.05" alpha="1"/>
+		
+		<Container containerType="button" name="btnClear" x="475.1" y="1265.75" alpha="1">
+			<!--<Image fileName="bgNo1_9.png" width="114" height="114" name="" x="0" y="0" alpha="1"/>-->
+			<Shape  style="RoundedKeyboardscannerBackground" width="250" height="106" name="" x="0" y="0" alpha="1"/>
+			<Image fileName="arrow.png" width="68" height="58" name="" x="85" y="28" alpha="1"/>
+		</Container>
+	</Container>
+	
+	<Container name="scannerScreen">
+		<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
+		<Image fileName="logo.png" width="697" height="250" name="" x="206" y="109" />
+		<Image fileName="phone.png" width="520" height="1013" name="" x="295" y="516" />
+		<Text content="SCAN COUPON" messageID="" name="scannerTitle" textFormat="ViewKeyboardScannerNumberButton" autoSize="true" width="1000" height="150" x="40" y="1648"/>
+		
+		<Container containerType="button" name="btnKeyboard" x="690" y="1800" alpha="1">
+			<!--<Image fileName="btn_valider.png" width="398" height="107" name="" x="0" y="0" alpha="1"/>-->
+			<Shape style="CurrentModifierPriceBackground"  width="240" height="68" name="" x="0" y="0" alpha="1"/> 
+			<Text content="" messageID="3000000017" textFormat="KeyboardScannerCodTabButtonSelected" width="240" height="55" name="txtLabel" x="0" y="9" alpha="1"/>
+		</Container>
+		
+		<Container containerType="button" name="btnSkip" x="320" y="1600" alpha="1">
+			<Shape style="ActualKeyboardScannerBackBtn"  width="440" height="68" name="" x="0" y="0" alpha="1"/> 
+			<Text content="I don't have a coupon" messageID="" textFormat="CurrentKeyboardScannerCodTabButtonSelected" width="440" height="55" name="txtLabel" x="0" y="8" alpha="1"/>
+		</Container>
+		
+		<Container containerType="button" name="btnCancelScanner" x="150" y="1800" alpha="1">
+			<Shape style="ActualKeyboardScannerBackBtn"  width="240" height="68" name="" x="0" y="0" alpha="1"/> 
+			<Text content="" messageID="1304" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="240" height="55" name="txtLabel" x="0" y="9" alpha="1"/>
+		</Container>
+	</Container>
+	
+</Style>

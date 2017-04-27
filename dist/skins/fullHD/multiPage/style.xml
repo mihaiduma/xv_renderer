@@ -1,0 +1,26 @@
+<Style>
+	
+	<Container name="overlay" x="0" y="0">
+		<Shape width="1080" height="1920" style="GeneralBackground" x="0" y="0" />
+	</Container>
+	
+	<Image fileName="[common]/logo.png" width="140" height="140" x="5" y="45" alpha="1"/>
+	
+	<Text content="Page Title" name="mcTitle" messageID="" autoSize="true" textFormat="InOutButton" x="142" y="167" width="600" height="102"/>	
+	
+	<Container name="pageArea" x="0" y="338">
+		<Container name="pageGuide" x="0" y="0" >
+			<Shape  alpha="0" width="770" height="1330"/>
+		</Container>
+	</Container>
+		
+	<Container name="orderList" containerType="orderList" x="770" y="200" width="291" height="953" alpha="1" />
+	
+	<Container containerType="button" name="buttonRetour" x="271" y="1727" >
+		<Shape style="NegativeButton" width="275" height="73" x="0" y="0"  />
+		<Text content="" messageID="2017040701" textFormat="NegativeButtonText" width="275" height="73" autoSize="true" name="txtLabel" x="0" y="0" />
+	</Container>
+	
+	
+	
+</Style>

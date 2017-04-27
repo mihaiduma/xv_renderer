@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Shape style="WhiteRectangleShaded" name="background" width="100%" height="100%" x="0" y="0" alpha="1"/>	
+	<Shape style="BorderedRoundedWhiteRectangle" name="background" width="70%" height="70%" x="15%" y="15%" alpha="1"/>	
+	<Text content="Comment obtenir des points?" messageID="" name="scannerTitle" textFormat="ViewKeyboardScannerNumberButton" autoSize="true" width="60%" height="15%" x="20%" y="10%"/>
+	<Container x="38%" y="28%">
+		<Text content="1" messageID="" textFormat="PopupInfoBigNumber" autoSize="true" width="12%" height="15%" x="0" y="0"/>
+		<Text content="point" messageID="" textFormat="PopupInfoUpperText" autoSize="true" width="12%" height="7.5%" x="11%" y="0.5%"/>
+		<Text content="OFFERT" messageID="" textFormat="PopupInfoLowerText" autoSize="true" width="12%" height="7.5%" x="11%" y="7.5%"/>
+	</Container>
+	<Text content="Pour toute commande superieure a 6 E" messageID=""  textFormat="PopupInfoTextDescript" autoSize="true" width="60%" height="7.5%" x="20%" y="40%"/>
+	
+	<Container x="38%" y="53.4%">
+		<Text content="2" messageID="" textFormat="PopupInfoBigNumber" autoSize="true" width="11%" height="15%" x="0" y="0"/>
+		<Text content="point" messageID="" textFormat="PopupInfoUpperText" autoSize="true" width="12%" height="7.5%" x="11%" y="0.5%"/>
+		<Text content="OFFERT" messageID="" textFormat="PopupInfoLowerText" autoSize="true" width="12%" height="7.5%" x="11%" y="7.5%"/>
+		
+	</Container>
+	<Text content="Pour toute commande superieure a 15 E" messageID="" textFormat="PopupInfoTextDescript" autoSize="true" width="60%" height="7.5%" x="20%" y="67%"/>
+	
+	<Container containerType="button" name="btnBack" x="40%" y="75%" alpha="1">
+		<Shape style="UnSelectedCodTabButtonRounded"  width="20%" height="7%" name="" x="0" y="0" alpha="1"/> 
+		<Text content="" messageID="2017160308" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="20%" height="6.4%" name="txtLabel" x="0" y="0.3%" alpha="1"/>
+	</Container>
+</Style>

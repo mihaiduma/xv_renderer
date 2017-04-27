@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Image fileName="bg.png" width="1080" height="1920" />
+	
+	<Container containerType="" name="background" x="75" y="60" >
+		<Shape width="933" height="1700" x="0" y="0" style="PopupBoxNoBorders" />
+		<Container containerType="" name="mcTitle" x="0" y="0" >
+			<Text content="" messageID="" textFormat="OrderListTotal" width="833" height="100" autoSize="true" name="txtLabel" x="50" y="50" />
+		</Container>
+	</Container>
+	
+	<Container containerType="button" name="btnCancel" x="425" y="1600" >
+		<Shape width="230" height="70" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="NeutralButtonText"width="230" height="60" autoSize="true" name="txtLabel" x="0" y="5" />
+	</Container>
+	<Container containerType="button" name="btnCancelAll" x="425" y="1600" >
+		<Shape width="230" height="70" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="NeutralButtonText"  width="230" height="60" autoSize="true" name="txtLabel" x="0" y="5" />
+	</Container>
+	<Container name="pageGuide" x="50" y="130" >
+		<Shape  alpha="0" width="985" height="1590" />
+	</Container>
+</Style>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties tabOffsetX="20" offsetTextBoxTextInsideHeight="2" offsetTextBoxTextInsideWhenIsPrice="163"/>
+	
+	<Text content="" messageID="" textFormat="CodViewListViewBigText" width="2.96%" height="2.34%" name="txtItemQuantity" x="0.27%" y="0.2%" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewBigText" width="1.48%" height="1.51%" name="txtX" x="3.24%" y="0.31%" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewBigText" width="26.01%" height="3.38%" name="txtItemName" x="6.01%" y="0.2%" alpha="1"/>
+	
+	<Container containerType="" name="dinamicTextsContainer" x="7.12%" y="1.66%" alpha="1"/>
+	
+	<Container containerType="" name="plusTardIcon" x="35.46%" y="0.31%" alpha="1">
+		<Shape style="PlusTardCircle" name="plus" height="2.08%" width="3.7%"/> 
+		<Shape height="0.2%" width="1.38%" y="0.7%" x="1.38%"  style="LineSeparator"/>
+		<Shape style="PlusTardCircle" name="minus" height="2.08%" width="3.7%"/> 
+		
+	</Container>
+</Style>

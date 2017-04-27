@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Text content="" messageID="" textFormat="MenuSubTitle" autoSize="true" width="1000" height="86" name="txtSubtitle" x="40" y="18" />
+	<Shape width="15" height="15" name="" x="0" y="0" style="WhiteRectangle" alpha="0" />
+	<Container name="BulletsHolderGuide" x="0" y="0" alpha="0">
+		<Shape x="0" y="0" width="1080" height="540" style="MenuListCurrent"  />
+	</Container>
+	
+	
+</Style>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<Container name="selectedThumb" x="0" y="0" alpha="1">
+		<Container name="_closeImage" width="25" height="25" containerType="button" x="90" y="5" alpha="1">
+			 <Image fileName='iconX.png' width="25" height="25"  name="" x="0" y="0" alpha="1"/> 
+		</Container>
+	</Container>
+</style>

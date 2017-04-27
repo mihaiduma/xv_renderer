@@ -1,0 +1,11 @@
+<style alpha="1" childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+  <Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
+  <!-- <Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/> -->
+  <Text width="660" x="210" messageID="3000000015" y="179" isUppercase="false" textFormat="CounterViewBigggerText" height="300" autoSize="true" content="" alpha="1"/>
+  <Text width="860" x="110" messageID="5011" y="290" isUppercase="false" textFormat="CounterViewNormalBlackText" height="100" autoSize="true" content="" name="Message1" alpha="1"/>
+  <Text width="700" x="190" messageID="2015062005" y="450" isUppercase="false" textFormat="CounterViewBigggerText" height="50" autoSize="true" content="" name="Message2" alpha="1"/>
+  <Image fileName="img.png" width="1080" height="1239" name="" x="0" y="681" alpha="1"/>
+</style>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties offsetX="465" spacingY="50" startX="0" startY="10"/>
+	
+	<Container containerType="" name="subtitle2" x="33" y="9" alpha="1">
+		<!-- <Image width="916" height="3" name="" x="0" y="44" fileName="separator-grey.png" alpha="1"/> -->
+	</Container>
+	
+	<Shape width="916" height="1455" style="BlackRectangle" name="slides2PositionAndSizeGuide" x="33" y="80" alpha="1"/>
+</Style>

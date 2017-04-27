@@ -1,0 +1,13 @@
+<style alpha="1">
+  <Shape style="GeneralBackground" name="background" width="100%" height="100%" x="0%" y="0%"  alpha="1"/>
+  <Shape name="headerShape" width="100%" height="3.54%" style="GreyerRectangle" x="0%" y="0%" alpha="1"/>
+  <Image fileName="[common]logo.png" width="27.77%" height="15.62%" name="" x="36.11%" y="3.54%" alpha="1"/>
+  <Image height="36.97%" y="38.65%" fileName="kiosk-bankconnection.png" width="46.29%" alpha="1" path="kiosk-bankconnection.png" name="kiosk_3" x="26.85%"/>
+  <Text messageID="" y="78.64%" content="" name="txtMessage" textFormat="PickupLaterText" height="18.75%" alpha="1" width="98.14%" x="0.92%"/>
+ 
+ <Container y="30.46%" containerType="" alpha="1" name="wirelessAnim" x="62.03%">
+    <Image height="11.3%" y="0%" fileName="wireless_3.png" width="17.59%" alpha="1" path="wireless_3.png" name="wireless_3" x="0%"/>
+    <Image height="7.55%" y="3.38%" fileName="wireless_2.png" width="11.66%" alpha="1" path="wireless_2.png" name="wireless_2" x="0%"/>
+    <Image height="3.64%" y="6.87%" fileName="wireless_1.png" width="5.74%" alpha="1" path="wireless_1.png" name="wireless_1" x="0.21%"/>
+  </Container>
+</style>

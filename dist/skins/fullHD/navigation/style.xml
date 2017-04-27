@@ -1,0 +1,20 @@
+<Style>
+	<ElementProperties envException="true"/>
+	<Container containerType="button" name="buttonHome" x="50" y="50">
+		<Image fileName='arrow-back.png' y='0' name='genericItem1' width='32'  height='33'  alpha='1' x='0'/>
+		<Text content="" messageID="1" textFormat="OrderMainBackButton" width="230" height="30" autoSize="true" name="txtLabel" x="40" y="3" />
+	</Container>
+	<!--<Container containerType="button" name="buttonPromo" x="760" y="340">
+		<Shape style="PromoButtonBackground" x="0" y="0" width="291" height="43"/>
+		<Text content="Promo" name="txtLabel" messageID="2013110801" textFormat="PromoButtonText" autoSize="true" x="5" y="6" width="280" height="30"/>
+	</Container>-->
+	<!--<Container containerType="button" name="" x="260" y="1500">
+		<Shape style="BackBackground" x="0" y="0" width="291" height="43"/>
+		<Text content="Retour" name="txtLabel" messageID="0" textFormat="ProductName" isUppercase="true" autoSize="true"  x="5" y="6" width="280" height="30"/>
+	</Container>-->
+	<Container containerType="button" name="buttonRetour" x="260" y="1500" >
+		<Shape style="NeutralButton" width="230" height="70" x="0" y="0"  />
+		<Text content="" messageID="0" textFormat="NeutralButtonText" width="230" height="50" autoSize="true" name="txtLabel" x="0" y="10" />
+	</Container>
+
+</Style>

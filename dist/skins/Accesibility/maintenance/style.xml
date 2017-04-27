@@ -1,0 +1,13 @@
+<Style>
+	<Shape name="background" width="100%" height="100%" style="GeneralBackground" x="0%" y="0%"/>
+	<State hasErrorDetails="false">
+		<Text content="Merci de patienter" name="txtLabel" messageID="2014080102" textFormat="WelcomeTitle" autoSize="true" isUppercase="true" x="4.62%" y="34.89%" width="90.74%" height="15.62%"/>
+	</State>
+	<State hasErrorDetails="true">
+		<Text content="Merci de patienter" name="txtLabel" messageID="2014080102" textFormat="WelcomeTitle" autoSize="true" isUppercase="true" x="4.62%" y="34.89%" width="90.74%" height="15.62%"/>
+		<Text content="" name="ssvErrorText" messageID="" textFormat="WelcomeTitle" x="0%" y="50.52%" width="100%" height="15.62%" autoSize="true"/>
+	</State>
+	
+	<Container containerType="DotID" name="DotId" x="0%" y="98.43%"/>
+	<Container containerType="DotVersion" name="DotVersion" x="74.07%" y="98.43%"/>
+</Style>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<State Statss="unselectable">
+		<Container name="bullet" x="0%" y="2%">
+			<Shape width="3%" height="3%" style="MenuDotUnSelectable"  x="0%" y="0%"  />
+		</Container>
+		<Shape width="64.81%" height="0.3%"  x="0.92%"  y="3.3%" style="MenuDottedLineUnSelectable" name="line" />
+	</State>
+	<State Statss="selectable">
+		<Container name="bullet" x="0%" y="2%">
+			<Shape width="3%" height="3%" style="MenuDotSelectable"  x="0%" y="0%"  />
+		</Container>
+		<Shape width="64.81%" height="0.3%"  x="0.92%"  y="3.3%" style="MenuDottedLineSelectable" name="line" />
+	</State>
+	<State Statss="current">
+		<Container name="bullet" x="0%" y="2%">
+			<Shape width="3%" height="3%" style="MenuDotCurrent"  x="0%" y="0%"  />
+		</Container>
+		<Shape width="64.81%" height="0.3%"  x="1.3%" y="3.3%" style="MenuDottedLineUnSelectable" name="line" />
+	</State>
+	<Text content="" messageID="2013102401" textFormat="MenuBuletLabel" autoSize="true" width="18.51%" height="3%" name="txtLabel" x="-8.8%" y="0%" />
+	<Container name="imageHolder" x="0%" y="0%">
+		<Shape width="5%" height="5%"  x="0%" y="0%" style="MenuListCurrent" />
+	</Container>
+</style>

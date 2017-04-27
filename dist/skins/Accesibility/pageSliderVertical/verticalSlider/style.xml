@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+
+	<State slideType="horizontal" >
+		<Container containerType="button" name="buttonDown" x="11.57%" y="0%" alpha="1">
+			<Shape style="WhiteRectangle" width="7.12%" height="2.13%" name="" x="0%" y="0%" />
+			<Shape name="arrow" style="ScrollArrow" x="2.77%" y="0.52%" width="1.85%" height="1.04%" orientation="left" />
+		</Container>
+		<Container containerType="button" name="buttonUp" x="0%" y="0%" alpha="1">
+			<Shape style="WhiteRectangle" width="7.12%" height="2.13%" name="" x="0%" y="0%" />
+			<Shape name="arrow" style="ScrollArrow" x="2.77%" y="0.52%" width="1.85%" height="1.04%" orientation="right" />
+		</Container>
+		<Image name="slideAnimation" fileName="[common]/slideIcon.swf" x="-200" y="0%" width="9.25%" height="5.2%" />
+	</State>
+	<State slideType="vertical" >
+		<Container containerType="button" name="buttonUp" x="0%" y="0%" alpha="1">
+			<Shape style="SelectedThumbCloseBtn" width="8%" height="8%" name="" x="0%" y="0%" />
+			<Image fileName="arrow-up.png" width="4.72%" height="4.72%" x="1.65%" y="1.65%"/>
+ 		</Container>
+		<Container containerType="button" name="buttonDown" x="0%" y="3.64%" alpha="1">
+			<Shape style="SelectedThumbCloseBtn" width="8%" height="8%" name="" x="0%" y="0%" />
+			<Image fileName="arrow-down.png" width="4.72%" height="4.72%" x="1.65%" y="1.65%"/>
+		</Container>
+	</State>	
+</style>

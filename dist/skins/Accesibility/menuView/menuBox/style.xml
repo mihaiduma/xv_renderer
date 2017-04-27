@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Shape name="verticalLine" style="MenuListCurrent" x="0%" y="0%" width="1.38%" height="75.52%" />
+	<Shape name="boxWithBorder" style="MenuCompoentBackground" x="1.38%" y="0%" width="85.64%" height="75.52%" />
+</Style>

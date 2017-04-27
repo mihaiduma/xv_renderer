@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	
+	
+	
+	<State isExtra="2" >
+		<Image fileName="meal-size-2.png" width="350" height="350" name="image" x="0" y="0" />
+		<Shape style="BlackPriceBackground" x="123" y="350"  width="100" height="30" />
+		<Text content="" messageID="" textFormat="MenuSizeLabel" width="100" height="30" name="txtMaxiPrice" x="123" y="350" autoSize="true"  />
+	</State>
+	<State isExtra="0" >
+		<Image fileName="meal-size-0.png" width="350" height="350" name="image" x="23" y="0" />
+	</State>
+	<State isExtra="1" >
+		<Image fileName="meal-size-1.png" width="350" height="350" name="image" x="23" y="0" />
+		<Shape style="BlackPriceBackground" x="123" y="350"  width="100" height="30" />
+		<Text content="" messageID="" textFormat="MenuSizeLabel" width="100" height="30" name="txtMaxiPrice" x="123" y="350" autoSize="true"  />
+	</State>
+</style>

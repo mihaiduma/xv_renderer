@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>	
+	<Container name="alergensImage" x="0" y="0"  >
+		<Image fileName="Alergens.png" width="1080" height="1920" x="0" y="0" alpha="1"/>
+		<Image fileName="page2.png" name="img2" width="740" height="1052" x="170" y="300" alpha="1"/>
+		<Image fileName="page1.png" name="img1" width="740" height="1052" x="170" y="300" alpha="1"/>
+		<Text content="" textFormat="FirstScreenViewTitle" messageID="2017012702" autoSize="true" x="40" y="140" height="100" width="1000" />
+		<Text content="Touch to continue" textFormat="FirstScreenViewTitle" messageID="" autoSize="true" x="40" y="1800" height="35" width="1000" />
+		<Container name="nextButton" containerType="button" x="983" y="916">
+			<Image fileName="arrow.png" width="87" height="87" x="0" y="0" alpha="1"/>
+		</Container>
+		<Container name="prevButton" containerType="button" x="10" y="916">
+			<Image fileName="back.png" width="87" height="87" x="0" y="0" alpha="1"/>
+		</Container>
+		<Container name="closeButton" containerType="button" x="410" y="1800">
+			<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+			<Text content="" messageID="1001" textFormat="FeatureViewBackBtn" autoSize="true" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/> 
+		</Container>
+	</Container>
+</Style>

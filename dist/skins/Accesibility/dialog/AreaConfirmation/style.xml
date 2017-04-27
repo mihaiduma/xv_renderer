@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<Shape style="GeneralBackground" name="background" width="100%" height="100%" x="0%" y="0%" alpha="1"/>
+	<Shape name="headerShape" width="100%" height="3.54%" style="GreyerRectangle" x="0%" y="0%" alpha="1"/>
+	<Image fileName="[common]logo.png" width="27.77%" height="15.62%" name="" x="36.11%" y="3.54%" alpha="1"/>
+	<Text content="" name="Message1" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="18.51%" y="26.04%" width="59.25%" height="7.81%"/>
+	<Text content="0010" name="OrderID" messageID="" textFormat="OrderMainItem" isUppercase="false" x="34.25%" y="33.85%" width="27.77%" height="10.41%"/>
+	<Shape x="28.7%" y="39.06%" width="40.74%" height="0.15%" style="GreyRectangle" />
+	
+	<Text content="" name="Message2" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="24.07%" y="39.32%" width="48.14%" height="11.45%"/>
+	<Shape x="28.7%" y="51.04%" width="40.74%" height="0.15%" style="GreyRectangle" />
+	
+	<Text content="" name="Message3" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="19.44%" y="54.16%" width="57.4%" height="10.41%"/>
+	
+	<Text content="" name="Message4" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="14.81%" y="57.81%" width="66.66%" height="3.64%"/>
+	<Text content="" name="Message5" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="14.81%" y="71.87%" width="66.66%" height="10.41%"/>
+	<Text content="" name="Message6" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="14.81%" y="82.29%" width="66.66%" height="10.41%"/>
+	<Text content="" name="Message7" messageID="" textFormat="AreaConfirmationBigText" isUppercase="false" x="14.81%" y="87.5%" width="66.66%" height="10.41%"/>
+	
+</style>

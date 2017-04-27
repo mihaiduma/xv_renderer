@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+
+	<Shape name="bg" style="EditableBackground" width="1080" height="1920" x="0" y="0" alpha="1" />
+	<Container x="0" y="0" name="header">
+		<Shape style="EditableHeader" width="1080" height="157" x="0" y="0" alpha="1"/>
+		<Image fileName="headerImg.png" width="112" height="114" x="30" y="25" alpha="1"/>
+		<Text name="headerTitle" messageID="2016042203" content="Customize your" textFormat="EditableHeaderTitleText" autoSize="true" width="600" height="60" x="150" y="30" alpha="1" />
+		<Text name="headerSubTitle" content="" textFormat="EditableHeaderSubTitleText" autoSize="true" width="600" height="100" x="150" y="70" alpha="1" />
+	</Container>
+	<Container name="price" x="767" y="48">
+		<Shape style="WhiteRectangle" name="priceBg" width="280" height="62" x="0" y="0" alpha="1"/>
+		<Text name="headerPriceText" content="TEST" textFormat="EditableHeaderPriceText" autoSize="true" width="260" height="52" x="15" y="5" alpha="1" />
+	</Container>
+	<!---->
+	<Text name="headerSubTitle" messageID="2016042204" content="" textFormat="EditableListTitleText" autoSize="true" width="400" height="60" x="50" y="180" alpha="1" />
+	<Container name="upperMenuGuide" x="0" y="250">
+		<Shape style="RedRectangle" width="1080" height="230" x="0" y="0"/>
+	</Container>
+	<Text name="burgerSubTitle" messageID="2016042205"  textFormat="EditableListTitleText" autoSize="true" width="400" height="60" x="50" y="500" alpha="1" />
+	<Container name="burgerGuide" x="0" y="560" alpha="1">
+		<Shape style="RedRectangle" width="1080" height="1200" x="0" y="0"/>
+	</Container>
+	
+	<Container x="0" y="1651" name="footer">
+		<Shape style="WhiteRectangle" x="0" y="0" width="1080" height="157" alpha="1" />
+		<Container  containerType="button" name="cancelBtn" x="50" y="34">
+			<Shape style="NegativeButtonBackground" x="0" y="0" width="290" height="80" alpha="1" />
+			<Text messageID="2014101003" name="btnTitle" content="" textFormat="EditableListButtonTextUsed" autoSize="true" width="288" height="40" x="1" y="20" alpha="1" />
+		</Container>
+		<Container containerType="button" name="retryBtn" x="395" y="34">
+			<Shape style="GrayButtonBackground" x="0" y="0" width="290" height="80" alpha="1" />
+			<Text messageID="2016042202" name="btnTitle" content="" textFormat="EditableListButtonTextUsed" autoSize="true" width="288" height="40" x="1" y="20" alpha="1" />
+		</Container>
+		<Container containerType="button" name="okBtn" x="742" y="34">
+			<Shape style="PozitiveButtonBackground" x="0" y="0" width="290" height="80" alpha="1" />
+			<Text messageID="2016042201" name="btnTitle" content="" textFormat="EditableListButtonTextUsed" autoSize="true" width="288" height="40" x="1" y="20" alpha="1" />
+		</Container>
+ 	</Container>
+</Style>

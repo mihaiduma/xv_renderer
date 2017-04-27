@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<Skin Name="Accesibility" Width="1080" Height="1920" offsetX="0" offsetY="0" showTextBorder="false" backgroundColor="0xffffff" throwableBanner="false"/>
+	<PageButtonBreakpoints>
+		<Breakpoint maxNo="3" buttonDimension="370" buttonPadding="25" />
+		<Breakpoint maxNo="4" buttonDimension="220" buttonPadding="25" />
+		<Breakpoint maxNo="9" buttonDimension="220" buttonPadding="25" />
+		<Breakpoint maxNo="10" buttonDimension="180" buttonPadding="25"  />
+		<Breakpoint maxNo="20" buttonDimension="180" buttonPadding="25"/>
+		<Breakpoint maxNo="100" buttonDimension="220" buttonPadding="25"/>
+	</PageButtonBreakpoints>
+	 <PageButtonBreakpoints_Menu>
+	  <Breakpoint maxNo="2" buttonDimension="220" buttonPadding="25" />
+	  <Breakpoint maxNo="3" buttonDimension="220" buttonPadding="25" />
+	  <Breakpoint maxNo="4" buttonDimension="220" buttonPadding="25" />
+	  <Breakpoint maxNo="9" buttonDimension="220" buttonPadding="25" />
+	  <Breakpoint maxNo="10" buttonDimension="180" buttonPadding="25"  />
+	  <Breakpoint maxNo="20" buttonDimension="180" buttonPadding="25"/>
+	  <Breakpoint maxNo="100" buttonDimension="220" buttonPadding="25"/>
+	 </PageButtonBreakpoints_Menu>
+	  <PageButtonBreakpoints_PromoPage>
+	   <Breakpoint maxNo="3" buttonDimension="500" buttonPadding="25"/>
+	   <Breakpoint maxNo="100" buttonDimension="220" buttonPadding="25"/>
+	 </PageButtonBreakpoints_PromoPage>
+	 <ColorStyles>
+
+	 </ColorStyles>
+	
+	<ShapeStyles>
+		
+	</ShapeStyles>
+	
+	<formats>
+		
+	</formats>
+</style>

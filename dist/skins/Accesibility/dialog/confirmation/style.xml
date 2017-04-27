@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Shape style="GeneralBackground" name="background" width="100%" height="100%" x="0%" y="0%" alpha="1"/>	
+	<Text content="" messageID="" textFormat="ConfirmationCustomText" autoSize="true" width="74.07%" height="20.83%" name="txtMessage" x="12.96%" y="32.55%" alpha="1"/>
+
+	<Container containerType="button" name="btnNo" x="52.03%" y="67.34%" alpha="1">
+		<Image fileName="btn-finaliser.png" width="41.01%" height="7.23%" name="" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="ConfirmationCustomText" autoSize="true" width="37.03%" height="4.16%" name="txtLabel" x="1.29%" y="2.08%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="button" name="btnYes" x="6.94%" y="67.34%" alpha="1">
+		<Image fileName="btn-revenir.png" width="41.01%" height="7.23%" name="" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="ConfirmationCustomText" autoSize="true" width="37.03%" height="5.72%" name="txtLabel" x="1.29%" y="1.56%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="button" name="btnCancel" x="31.57%" y="81.19%" alpha="1">
+		<Image fileName="btn_bg.png" width="36.85%" height="5.57%" name="btn_bg" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="ConfirmationCustomText" autoSize="true" width="35.27%" height="3.22%" name="txtLabel" x="0.64%" y="1.45%" alpha="1"/>
+	</Container>
+	
+</style>

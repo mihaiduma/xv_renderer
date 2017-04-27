@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Text content="" name="txtMenuName" messageID="" textFormat="MenuTitle" width="1000"  autoSize="true" height="61" x="40" y="0" />
+</Style>

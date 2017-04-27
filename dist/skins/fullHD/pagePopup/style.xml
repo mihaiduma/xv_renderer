@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Container containerType="" name="mcBackTransparent" x="0" y="0" alpha="0.9">
+		<Shape width="1080" height="1920" x="0" y="0" style="GeneralBackground" />
+	</Container>
+	<Container containerType="" name="background" x="38" y="52" >
+		<Shape width="1005" height="1805" x="0" y="0" style="PopupBox" />
+		<Container containerType="" name="mcTitle" x="0" y="50" >
+			<Text content="" messageID="" textFormat="OrderListTotal" width="905" height="100" autoSize="true" name="txtLabel" x="50" y="0" />
+		</Container>
+	</Container>
+	<Container containerType="button" name="btnCancel" x="425" y="1740" >
+		<Shape width="230" height="50" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="OrderListTotal" width="230" height="30" autoSize="true" name="txtLabel" x="0" y="10" />
+	</Container>
+	<Container containerType="button" name="btnCancelAll" x="425" y="1800" >
+		<Shape name="addOnBackground" width="275" height="73" x="-10.75" y="0" style="PopupGenericYesBtn" />
+		<Shape name="normalBackground" width="230" height="50" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="" textFormat="NegativeButtonText" width="275" height="73" autoSize="true" name="addOnText" x="-10.75" y="0" />
+		<Text content="" messageID="" textFormat="PromoButtonText" width="230" height="30" autoSize="true" name="txtLabel" x="0" y="10" />
+	</Container>
+	<Container name="pageGuide" x="50" y="180" >
+		<Shape  alpha="0" width="985" height="1540" />
+	</Container>
+</Style>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	 <Shape style="GeneralBackground" name="background" width="100%" height="100%" x="0%" y="0%" alpha="1" />	
+	<Image fileName='merci_img_footer.png' y='50%'  x='37%' name='' width='25%'  height='25%'  alpha='1'/>
+	
+	
+	
+	<Text content="" messageID="" textFormat="ConfirmationSubTitle" autoSize="true" width="74.07%" height="9.63%" name="txtMessage3" x="12.96%" y="15.93%" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationTitle" autoSize="true" width="74.07%" height="2.6%" name="txtMessage1" x="12.96%" y="32.29%" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationNumber" autoSize="true" width="74.07%" height="6.77%" name="txtMessage2" x="12.96%" y="39.32%" alpha="1"/>
+	<Text content="" messageID="" textFormat="ConfirmationLastTitle" autoSize="true" width="74.07%" height="15.62%" name="txtMessage4" x="12.96%" y="81.92%" alpha="1"/>
+	
+</style>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties showHideDuration="0.5" handMovementY="-136" delayToMovement="0.25" movementTime="0.55" scaleAnimDuration="0.1" scaleXY="0.93"/>
+	
+	<Shape name="bg" x="0%" y="0%" width="100%" height="100%" style="GeneralBackground" alpha="1"/>
+	
+	<Text content="" messageID="2013101502" textFormat="TimeOutText" width="96.29%" height="17.18%" name="txtHolder" x="1.85%" y="18.43%" alpha="1"/>
+	
+	<Container containerType="" name="handHolder" x="55.55%" y="71.87%" alpha="1">
+		<Image fileName="hand-timeout.png" width="47.68%" height="45.05%" name="img" x="-257.5" y="-432.5" alpha="1"/>
+	</Container>
+	<Container containerType="" name="signal" x="55.55%" y="71.87%" alpha="1">
+		<Image fileName="signal.png" width="47.68%" height="45.05%"  x="-257.5" y="-568.5" alpha="1"/>
+	</Container>
+</Style>

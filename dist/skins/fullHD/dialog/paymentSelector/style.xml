@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="30000" Return="3"/>	
+	</ElementProperties>
+
+	<Image fileName='[common]bg_default.png' y='0'  x='0' name='genericItem1' width='1080'  height='1920'  alpha='1'/>
+	
+	<Text content="Title" textFormat="PaymentSelectorTitle" messageID="2013111902" isUppercase="false"   name="titleMessage" transition="slideUp" autoSize="true" x="50" y="581" height="50"  width="950" />  
+	<Text content="" textFormat="PaymentSelectorTitle" messageID="" isUppercase="false" name="subTitleMessage" transition="slideUp" autoSize="true" x="150" y="120" height="290"  width="750" />
+	<!-- <Text content="Title" textFormat="PaymentSelectorTitle" messageID="2017012701" isUppercase="false" name="subTitleMessage" transition="slideUp" autoSize="true" x="150" y="120" height="290"  width="750" /> -->
+	
+	<Container containerType="button" name="btnMod2" x="403" y="1733" Return="0" alpha="1"><!-- BACK BUTTON -->
+		<Image fileName="btn_abandonner.png" width="257" height="68" />
+		<Text content="" messageID="1304"  textFormat="CodVBtnBack"  width="257" height="50" autoSize="true" name="txtLabel" x="0" y="10"/>
+	</Container>
+	
+	<Container containerType="button" name="btnMod0" x="593" y="760" Return="2" alpha="1"><!-- CASH BUTTON -->
+		<Image fileName="btn_pay_cash.png" width="398" height="398" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2013111904"  textFormat="PaymentSelectBtnn" autoSize="true" width="398" height="100" name="txtLabel" x="0" y="250" alpha="1"/>
+	</Container>
+	 
+	 <Text textFormat="InOutOu" messageID="2013100302" isUppercase="false" content="OU" x="495"  y="960" width="80" height="50" autoSize="true" transition="slideUp" />
+	 
+	<Container containerType="button" name="btnMod1" x="80" y="760" Return="1" alpha="1"><!-- CARD BUTTON -->
+		<Image fileName="btn_pay_card.png" width="398" height="398" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2013111903" textFormat="PaymentSelectBtnn" autoSize="true" width="398" height="100" name="txtLabel" x="0" y="250" alpha="1"/>
+	</Container>
+</Style>

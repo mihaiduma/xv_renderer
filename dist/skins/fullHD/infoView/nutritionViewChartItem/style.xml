@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<!-- <Image fileName="borders.png" width="528" height="607" name="" x="150" y="312.65" alpha="1"/>  -->
+	<Container name="chart" x="0" y="0"  alpha="1">
+		<Container name="upperWall">
+			<Shape width="100" style="LightGreyRectangle"     height="2"  y="0"  x="0" alpha="1"/>
+		</Container>
+		<Container name="lowerWall">
+			<Shape width="100" style="LightGreyRectangle"     height="2"  y="48"  x="0" alpha="1"/>
+		</Container>
+		<Shape width="2" style="LightGreyRectangle"     height="50"  y="0"  x="0" alpha="1"/>
+		<Container name="candle" x="101">
+			<Shape style="InOutRectangle" width="900" height="50" name="" y="0" x="0" alpha="1"/>
+		</Container>
+		
+		<Text content="TEST TEST TEST TEST" textFormat="NutritionTableText" autoSize="true" width="90" height="40" name="name"   x="5"  y="5" alpha="1"/>
+		<Text content="" textFormat="NutritionTableText" autoSize="true" width="60" height="40" name="percentMoveText"   x="5"  y="5" alpha="1"/>
+	</Container>
+	
+</style>

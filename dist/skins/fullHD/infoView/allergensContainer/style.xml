@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<ElementProperties offsetX="85.5" offsetY="-300" numColumns="2"/>
+
+	<Shape width="900" style="WhiteRectangle" height="1091" name="bg" x="0" y="0" alpha="0"/>
+	
+	 <!-- <Text content="" messageID="" textFormat="AlergContainerSubTitleText" autoSize="true" width="700" height="33" name="txtLabel" x="17" y="-100" alpha="1"/>  -->
+	
+	 <Text content="" messageID="" textFormat="AlergContainerTitle" autoSize="true" width="900" height="45" name="noInfoLabel" x="0" y="545" alpha="1"/> 
+	
+	<Container containerType="" name="viewsContainer" x="4" y="47" alpha="1">
+		<Container containerType="" name="rendererContainer" x="0" y="0" alpha="1"/>
+		<Shape width="892" height="1040" style="WhiteRectangle" name="rendererContainerRectGuide" x="0" y="0" alpha="1"/>
+		
+		<!-- <Image fileName="parenthesis.png" width="38" height="23" name="parenthesis1" x="41" y="546" alpha="1"/> -->
+		<!-- <Image fileName="bullet2.png" width="24" height="24" name="puce" x="48" y="546" alpha="1"/> -->
+		<Shape name="puce" style="InfoViewGrayBullet" width="24" height="24" x="48" y="546" alpha="1"/>
+		<Text content="" messageID="2014211102" textFormat="AlergContainerSubTitleText"  autoSize="true" width="900" height="45" name="textPuce" x="88" y="548" alpha="1"/>
+		
+		<!-- <Image fileName="parenthesis.png" width="38" height="23" name="parenthesis2" x="41" y="581" alpha="1"/> -->
+		<!-- <Image fileName="bullet1.png" width="24" height="24" name="circle" x="48" y="581" alpha="1"/> -->
+		<Shape name="circle" style="InfoViewGreenBullet" width="30" height="30" x="48" y="581" alpha="1"/>
+		<Text content="" messageID="2014211103" textFormat="AlergContainerSubTitleText" autoSize="true" width="900" height="45" name="textCircle" x="88" y="583" alpha="1"/>
+		
+		<!-- <Image fileName="parenthesis.png" width="38" height="23" name="parenthesis3" x="41" y="615" alpha="1"/> -->
+		<!-- <Image fileName="bullet3.png" width="24" height="24" name="circleRed" x="48" y="615" alpha="1"/> -->
+		<Shape name="bulletImage"  style="InfoViewWhiteBullet" width="30" height="30" x="48" y="615" alpha="1"/>
+		<Text content="" messageID="2014251101" textFormat="AlergContainerSubTitleText" autoSize="true" width="900" height="45" name="textCircleRed" x="88" y="617" alpha="1"/>
+		
+		<Container containerType="button" name="activeAllertersBtn" x="323" y="660" alpha="1">
+			<!-- <Image fileName="btn-activer-alerts.png" width="389" height="46" name="btnBg" x="0" y="0" alpha="1"/> -->
+			<Shape style="RoundeTableServiceButtonBackground" width="433" height="48" x="0" y="0" alpha="1"/>
+			<Text content="" messageID="2014211101" isUppercase="true" textFormat="InfoAllergActivateBtnText" autoSize="true" width="433" height="48" name="txt" x="0" y="0" alpha="1"/>
+		</Container>
+	</Container>
+</style>

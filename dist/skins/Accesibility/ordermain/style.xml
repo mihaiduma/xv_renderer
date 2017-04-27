@@ -1,0 +1,26 @@
+<Style>
+	
+	<Container name="overlay" x="0%" y="0%">
+		<Shape width="100%" height="100%"  x="0%" y="0%" />
+	</Container>
+	
+	<Container containerType="button" name="logo" x="0.46%" y="3%">
+		<Image fileName="[common]/logo.png" width="12.96%" height="7.29%" x="0%" y="0%" alpha="1"/>
+	</Container>
+	<Container name="mcHeader" x="13%" y="5%">
+		<Text content="Page Title" name="mcTitle" messageID="" autoSize="true" textFormat="OrderMainTitle" x="0%" y="0%" width="55.55%" height="4.89%"/>	
+	</Container>
+
+	
+	<Container name="pageGuide" x="0%" y="10%" >
+		<Shape  alpha="0" width="70%" height="80%"  />
+	</Container>
+	
+	
+		
+	<Container name="orderList" containerType="orderList" x="70.64%" y="10.41%" width="26.94%" height="49.63%" alpha="1" />
+	
+	 <Container name="navigation" containerType="Navigation" x="9.25%" y="0%" alpha="1" /> 
+	
+	<Container name="DAHComponent" containerType="DAHComponent" x="84.35%" y="95%" alpha="1" />
+</Style>

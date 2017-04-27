@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties startX="35" startY="10" maxHeightSpecials="220" slidesY="55" offsetX="491" confirmationItemHolderX="1" confirmationItemHolderY="15" spacingY="50"/>
+	
+	<Container containerType="" name="subtitleCommSpec" x="3.05%" y="0.46%" alpha="1">
+		<Text content="" messageID="2013121003" textFormat="CodViewListViewBigText" width="84.53%" height="2.29%" name="" x="0%" y="0%" alpha="1"/>
+		<!-- <Image width="84.81%" height="0.15%" name="" x="0%" y="2.29%" fileName="separator-grey.png" alpha="1"/> -->
+	</Container>
+	
+	<Container containerType="" name="subtitleAvecAllergens" x="3.05%" y="16.09%" alpha="1">
+		<Text content="" messageID="2014020301" textFormat="CodViewListViewBigText" width="84.53%" height="2.29%" name="" x="0%" y="0%" alpha="1"/>
+		<!-- <Image width="84.81%" height="0.15%" name="" x="0%" y="2.29%" fileName="separator-grey.png" alpha="1"/> -->
+		<Shape style="LightGreyRectangle" width="84.81%" height="0.15%" name="" x="0%" y="2.29%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="" name="itemsWithAllergContainer" x="0%" y="18.9%" alpha="1"/>
+	<Shape containerType="" name="maskAllergItemsContainer" x="0%" y="18.9%" width="90.92%" height="57.29%" alpha="1"/>
+	
+	<Container containerType="" name="btnDown" x="34.35%" y="76.56%" alpha="1">
+		<!-- <Image width="10.18%" height="2.6%" name="" x="0%" y="0%" fileName="btn-scroll-down.png" alpha="1"/> -->
+		<Shape style="Button1" width="10.18%" height="2.6%" name="" x="0%" y="0%"/>
+			<Shape name="arrow" style="ScrollArrow" x="0.18%" y="0.18%" width="2.77%" height="1.56%" orientation="down" />
+	</Container>
+	<Container containerType="" name="btnUp" x="46.38%" y="76.56%" alpha="1">
+		<!-- <Image width="10.18%" height="2.6%" name="" x="0%" y="0%" fileName="btn-scroll-up.png" alpha="1"/> -->
+		<Shape style="Button1" width="10.18%" height="2.6%" name="" x="0%" y="0%"/>
+			<Shape name="arrow" style="ScrollArrow" x="0.18%" y="0.18%" width="2.77%" height="1.56%" orientation="up" />
+	</Container>
+</Style>

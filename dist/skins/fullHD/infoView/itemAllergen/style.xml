@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<State isChild="false" status="STATUS_NON_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="2" alpha="1"/>
+		
+		<Shape width="385" height="64" style="WhiteRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="12" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="20" alpha="1"/>
+		<!-- <Image fileName="bullet4.png" width="24" height="24" name="bulletImage" x="349" y="20" alpha="0"/> -->
+		 <!-- <Shape name="bulletImage" style="InfoViewWhiteBullet" width="30" height="30" x="349" y="20" alpha="0"/>  -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="62" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="2" alpha="1"/>
+		
+		<Shape width="385" height="64" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="12" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="20" alpha="1"/>
+		<!-- <Image fileName="bullet2.png" width="24" height="24" name="bulletImage" x="349" y="20" alpha="1"/> -->
+		<Shape name="bulletImage" style="InfoViewGrayBullet" width="24" height="24" x="349" y="20" alpha="1"/>
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="62" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_PRESENT_AND_ACTIVE">
+		<Container containerType="" name="containerChildren" x="0" y="2" alpha="1"/>
+		
+		<Shape width="385" height="64" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="12" alpha="1"/>
+		<Text content="" messageID="" textFormat="AlergContainerSubTitleText" autoSize="true" width="314" height="23" name="txt" x="70" y="20" alpha="1"/>
+		<!-- <Image fileName="bullet3.png" width="24" height="24" name="bulletImage" x="349" y="20" alpha="1"/> -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="62" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_MAYBE_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="2" alpha="1"/>
+	
+		<Shape width="385" height="64" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="12" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="20" alpha="1"/>
+		<!-- <Image fileName="bullet1.png" width="24" height="24" name="bulletImage" x="349" y="20" alpha="1"/> -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="62" alpha="1"/>
+	</State>
+	
+	<State isChild="true" status="STATUS_NON_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="0" alpha="1"/>
+		
+		<Shape width="385" height="40"  style="WhiteRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="8" alpha="1"/>
+		<!-- <Shape name="bulletImage" style="InfoViewWhiteBullet" width="30" height="30" x="349" y="8" alpha="0"/> -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="38" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="0" alpha="1"/>
+		
+		<Shape width="385" height="40" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="8" alpha="1"/>
+		<!-- <Image fileName="bullet2.png" width="24" height="24" name="bulletImage" x="349" y="8" alpha="1"/> -->
+		<Shape name="bulletImage" style="InfoViewGrayBullet" width="24" height="24" x="349" y="8" alpha="0"/>
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="38" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_PRESENT_AND_ACTIVE">
+		<Container containerType="" name="containerChildren" x="0" y="0" alpha="1"/>
+		
+		<Shape width="385" height="40" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="" textFormat="AlergContainerSubTitleText" autoSize="true" width="314" height="23" name="txt" x="70" y="8" alpha="1"/>
+		<!-- <Image fileName="bullet3.png" width="24" height="24" name="bulletImage" x="349" y="8" alpha="1"/> -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="38" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_MAYBE_PRESENT">
+		<Container containerType="" name="containerChildren" x="0" y="0" alpha="1"/>
+		
+		<Shape width="385" height="40" style="VeryLightGreyerRectangle" name="bg" x="0" y="0" alpha="1"/>
+		<Shape width="40" height="40" name="iconImageGuide" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="314" height="23" name="txt" x="70" y="8" alpha="1"/>
+		<!-- <Image fileName="bullet1.png" width="24" height="24" name="bulletImage" x="349" y="8" alpha="1"/> -->
+		<Shape width="385" height="2" style="LightGreyerRectangle" name="separator" x="0" y="38" alpha="1"/>
+	</State>
+</style>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties/>
+	
+	<Shape width="100%" height="100%" style="WhiteRectangle" name="mcBackTransparent" x="0%" y="0%" alpha="0.7"/>
+	
+	<Container containerType="" name="all" x="2.03%" y="18.07%" alpha="1">
+		<Container containerType="" name="bg" x="0%" y="0%" alpha="1">
+			<Shape style="PopupVisibleBackground" width="95.92%" height="58.54%" x="0%" y="0%" alpha="1"/>
+			<!--<Image fileName="pop-top.png" width="95.92%" height="2.81%" name="" x="0%" y="0%" alpha="1"/>
+			<Image fileName="pop-center.png" width="95.92%" height="60.46%" name="" x="0%" y="2.81%" alpha="1"/>
+			<Image fileName="pop-bottom.png" width="95.92%" height="3.59%" name="" x="0%" y="63.28%" alpha="1"/>-->
+		</Container>
+		
+		<Text content="" messageID="" textFormat="PopupTitleText"  autoSize="true" width="77.77%" height="5.31%" name="txtMessageTitle" x="7.4%" y="6.77%" alpha="1"/>
+		<Text content="" messageID="" textFormat="PopupTitleText"  autoSize="true" width="77.77%" height="15.67%" name="txtMessageInfoBig" x="7.4%" y="14.47%" alpha="1"/>
+		<Text content="" messageID="" textFormat="PopupNoText"  autoSize="true" width="77.77%" height="5.2%" name="txtMessageInfoSmall" x="7.4%" y="32.55%" alpha="1"/>
+		<Text content="" messageID="2013111502" isUppercase="true" textFormat="PopupNoText" width="38.88%" autoSize="true" height="2.03%" name="txtMajeurMessage" x="50%" y="41.92%" alpha="1"/>
+		<Text content="" messageID="2013111503" isUppercase="true" textFormat="PopupNoText" width="38.88%" autoSize="true" height="2.03%" name="txtMineurMessage" x="3.7%" y="41.92%" alpha="1"/>
+		
+		<Container containerType="button" name="btnNo" x="11.11%" y="50.52%" alpha="1">
+			<!-- <Image fileName="btn-18+.png" width="24.07%" height="6.56%" name="bg" x="0%" y="0%" alpha="1"/> -->
+			<Shape style="PopupGenericNoBtn" width="24.07%" height="6.56%" name="bg" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="2013111501" isUppercase="true" textFormat="PopupNoText" autoSize="true" width="22.03%" height="3.64%" name="txtLabel" x="1.01%" y="1.71%" alpha="1"/>
+		</Container>
+		<Container containerType="button" name="btnYes" x="57.4%" y="50.52%" alpha="1">
+			<!-- <Image fileName="btn-18+yes.png" width="24.07%" height="6.56%" name="bg" x="0%" y="0%" alpha="1"/> -->
+			<Shape style="PopupGenericYesBtn" width="24.07%" height="6.56%" name="bg" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="1450" isUppercase="true" textFormat="PopupYesText" autoSize="true" width="22.03%" height="3.64%" name="txtLabel" x="1.01%" y="1.71%" alpha="1"/>
+		</Container>
+	</Container>
+</Style>

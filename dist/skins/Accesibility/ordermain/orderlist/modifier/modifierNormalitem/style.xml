@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Text content="" messageID="" textFormat="CustomizePriceText" autoSize="true" width="26.17%" height="5.2%" name="txtLabelItemTitle" x="27.4%" y="3.07%" alpha="1"/>
+	<Container containerType="button" name="btnModify" x="58.52%" y="2.81%" alpha="1">
+		<Shape style="PopupGenericPersonalizerBtn" x="0%" y="0%" width="17%" height="4%"/>
+		<Text content="" messageID="" textFormat="PopupGenericPersonaliserText" autoSize="true" width="17%" height="4%" name="labelTxt" x="0%" y="0%" alpha="1"/>
+	</Container>
+	<Text content="" messageID="" textFormat="CustomizePriceText" width="44.29%" height="10.67%" name="txtLabelItem" x="30.74%" y="4.84%" alpha="1"/>   
+</style>

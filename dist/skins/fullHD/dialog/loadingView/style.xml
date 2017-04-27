@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties startArrowX="870" endArrowX="679">
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0"  alpha="1"/>	
+	<Image fileName="wait_bg.png" width="1080" height="1920" x="0" y="0" alpha="1"/>
+	<Text content="" messageID="" textFormat="LoadingViewText" autoSize="true" width="680" height="260" name="txtMessage" x="200" y="102" alpha="1"/>
+	<!-- <Shape name="headerShape" width="1080" height="68" style="GreyerRectangle" x="0" y="0" alpha="1"/> -->
+	<Image fileName="wait_circle.png" width="254" height="254" x="413" y="420" alpha="1"/>
+	<Container name="arrows">
+		<Image fileName="wait_arrow1.png" height="82" width="48" name="arrow1" x="464.5" y="505" alpha="1"/>
+		<Image fileName="wait_arrow2.png" height="82" width="48" name="arrow2" x="512.5" y="505" alpha="1"/>
+		<Image fileName="wait_arrow3.png" height="82" width="48" name="arrow3" x="564.5" y="505" alpha="1"/>
+	</Container>
+</style>

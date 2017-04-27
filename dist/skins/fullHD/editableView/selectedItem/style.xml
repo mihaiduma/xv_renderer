@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>	
+	<Image fileName="bread1.png" width="290" height="107" name="upperBread" x="166" y="0" alpha="1"/>
+	<Image fileName="bread2.png" width="290" height="107" name="lowerBread" x="166" y="0" alpha="1"/>
+	<Image fileName="[common]wrap.png" width="450" height="266" name="wrap" x="80" y="0" alpha="1"/>
+</Style>

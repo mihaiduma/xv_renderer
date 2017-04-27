@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style alpha="1">
+  <Container name="btnLanguage" containerType="button"  y="1400">
+	 <Shape style="CODVIEWSelectedCodTabButton" name="bg" width="277" height="103" x="0" y="0"/>
+	 <Shape style="WhiteRectangle" name="flagsBg" width="273" height="60" x="2" y="40"/>
+	 <Container name="flagHolder" y="44"/>
+	 <Text messageID="3000000000" name="langButtonTitle" content="" textFormat="InOutLanguageButton" isUppercase="true" x="10" y="3" width="257" height="40"/>
+  </Container>
+</Style>

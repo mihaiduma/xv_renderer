@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Shape width="1" height="30" style="BlackRectangle" name="panelsHeightSpacingGuide" x="0" y="0" alpha="1"/>
+	
+	<Container containerType="" name="panelsContainer" x="0" y="0" alpha="1"/>
+	<Shape width="982" height="1335" style="BlackRectangle" name="panelsContainerMask" x="0" y="0" alpha="1"/>
+	
+	<Container containerType="button" name="btnDown" x="371" y="1370" alpha="1">
+		<Shape style="Button1" width="110" height="50" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="40" y="10" width="30" height="30" orientation="down" />
+	</Container>
+	<Container containerType="button" name="btnUp" x="501" y="1370" alpha="1">
+		<Shape style="Button1" width="110" height="50" name="" x="0" y="0"/>
+			<Shape name="arrow" style="ScrollArrow" x="40" y="10" width="30" height="30" orientation="up" />
+	</Container>
+</Style>

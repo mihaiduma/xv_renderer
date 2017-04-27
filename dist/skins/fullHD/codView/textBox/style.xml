@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<ElementProperties maxTextWidth="150"/>
+
+	<Text content="" messageID="" textFormat="CodViewListViewSmallTextRounded" autoSize="true" width="274" height="29" name="normal" x="0" y="0" alpha="1"/>
+	<Text content="" messageID="" textFormat="CodViewListViewSmallTextRounded" autoSize="true" width="274" height="29" name="small" x="0" y="0" alpha="1"/>
+</Style>

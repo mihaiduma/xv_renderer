@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Container>
+		<Shape name="background" width="100%" height="100%" x="0%" y="0%" alpha="1" style="NormalGreyRectangle"/>
+		<Image fileName="[common]logo.png" width="27.77%" height="15.62%" name="" x="36.11%" y="3.54%" alpha="1"/>
+		<Image fileName="" width="100%" height="31.25%" name="image" x="0%" y="41.66%" alpha="1"/>
+		<Text content="" name="txtTitle" messageID="" textFormat="ImageViewText" x="0%" y="20.83%" width="100%" height="10.41%"/>
+	</Container>
+</Style>

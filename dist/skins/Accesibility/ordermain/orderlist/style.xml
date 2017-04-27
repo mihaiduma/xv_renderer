@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<ElementProperties kfcException="true"/>
+		
+	<Shape style="GeneralBackgroundCrem" name="background" x="0%" y="1.97%" width="24.9%" height="44.27%" alpha="1" />
+	
+	<Container name="header" x="0%" y="0%">	
+		<Container containerType="" name="mcVotreCommande" x="0%" y="0%">
+			<Image fileName="orderlist_icon.png" x="8.445%" y="1.1%" width="8.01%" height="4.38%" alpha="1" />
+			<Text content="" messageID="8" textFormat="OrderListTitle" autoSize="true" isUppercase="true" width="24.9%" height="3%" name="txtLblVotreCommande" x="0%" y="6%"/>
+		</Container>
+	</Container>
+	
+	<Container containerType="" name="mcListMasked" x="0%" y="4.42%" >
+		<Shape width="25%" height="28.64%" name="" x="0%" y="0%" alpha="0"/>
+	</Container>
+	<Container containerType="" name="mcMask" x="0%" y="4.42%" >
+		<Shape style="GreenRectangle" width="25%" height="28.64%" name="" x="0%" y="0%" alpha="0.5"/>
+	</Container>
+	
+	<Container name="footer" x="0%" y="30.2%">
+		<Container containerType="button" name="btnDown" x="5.38%" y="0%" >
+			<Shape style="BackBackground" width="7.12%" height="3%" name="" x="0%" y="0%" />
+			<Shape name="arrow" style="ScrollArrow" x="2.77%" y="0.75%" width="1.57%" height="1.5%" orientation="down" />
+		</Container>
+		<Container containerType="button" name="btnUp" x="13.25%" y="0%" >
+			<Shape style="BackBackground" width="7.12%" height="3%" name="" x="0%" y="0%" />
+			<Shape name="arrow" style="ScrollArrow" x="2.77%" y="0.75%" width="1.57%" height="1.5%" orientation="up" />
+		</Container>
+		<Text content="" messageID="" textFormat="OrderListTotal" isUppercase="true" autoSize="true" width="24.07%" height="2.6%" name="txtPrice" x="0.37%" y="4%" />
+		<Shape style="WhiteRectangle" width="24.9%" height="12%" x="0%" y="11%"/>
+		
+		
+		<State hasCustomerPromo="1">	
+
+			<Container containerType="button" name="customerPromo" x="0" y="12%">
+				<Shape style="OrderListCustomerPromo" width="24.9%" height="3.54%" x="0%" y="0%" />
+				<Text content="" messageID="2017041201" textFormat="OrderListCustPromo" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblCancel" x="0.46%" y="0.2%" />
+			</Container>	
+		
+			<Container containerType="button" name="promotion" x="0%" y="16.5%">
+				<Shape style="NeutralButtonNoRadius" width="24.9%" height="3.54%" x="0%" y="0%"  /> 
+				<Text content="" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblCancel" x="0.46%" y="0.2%" />
+			</Container>
+			
+			<Container containerType="button" name="mcOrder" x="0%" y="21%" >
+				<Container name="active">
+					<Image distort="true" fileName="btn_valider_commande2.png" width="24.9%" height="3.54%" name="" x="0%" y="0%" />
+					<Text content="" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblValidate" x="0.46%" y="0.2%" />
+				</Container>
+				<Container name="inactive">
+					<Image distort="true" fileName="btn_valider_commande.png" width="24.9%" height="3.54%" name="" x="0%" y="0%" />
+					<Text content="" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblValidate" x="0.46%" y="0.2%" />
+				</Container>
+			</Container>
+			
+			<Container containerType="button" name="mcCancel" x="0%" y="25.5%" >
+				<Image fileName="btn_annuler_commande.png" x="0.92%" y="0.2%" width="3.33%" height="1.87%"  alpha="1" />
+				<Text content="" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="15%" height="2.34%" name="txtLblCancel" x="3.88%" y="0%" />
+			</Container>
+		</State>		
+		
+		<State hasCustomerPromo="0">		
+			<Container containerType="button" name="promotion" x="0%" y="12.03%">
+				<Shape style="NeutralButtonNoRadius" width="24.9%" height="3.54%" x="0%" y="0%"  /> 
+				<Text content="" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblCancel" x="0.46%" y="0.2%" />
+			</Container>
+			<Container containerType="button" name="mcOrder" x="0%" y="16.51%" >
+
+				<Container name="active">
+					<Image distort="true" fileName="btn_valider_commande2.png" width="24.9%" height="3.54%" name="" x="0%" y="0%" />
+					<Text content="" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblValidate" x="0.46%" y="0.2%" />
+				</Container>
+				<Container name="inactive">
+					<Image distort="true" fileName="btn_valider_commande.png" width="24.9%" height="3.54%" name="" x="0%" y="0%" />
+					<Text content="" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="23.98%" height="3.12%" name="txtLblValidate" x="0.46%" y="0.2%" />
+				</Container>	
+			
+			</Container>
+			<Container containerType="button" name="mcCancel" x="0%" y="20.83%" >
+				<Image fileName="btn_annuler_commande.png" x="0.92%" y="0.2%" width="3.33%" height="1.87%"  alpha="1" />
+				<Text content="" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="15%" height="2.34%" name="txtLblCancel" x="3.88%" y="0%" />
+			</Container>
+		</State>
+	</Container>
+	
+	<State hasCustomerPromo="0">	
+		<Shape style="BackBackground"  width="25%" height="80%" name="minDimensionsGuide" x="0%" y="0%" alpha="0"/>
+		<Shape style="BackBackground"  width="25%" height="80%" name="maxDimensionsGuide" x="0%" y="0%" alpha="0"/>
+	</State>
+	<State hasCustomerPromo="1">	
+		<Shape style="BackBackground"  width="25%" height="80%" name="minDimensionsGuide" x="0%" y="0%" alpha="0"/>
+		<Shape style="BackBackground"  width="25%" height="80%" name="maxDimensionsGuide" x="0%" y="0%" alpha="0"/>
+	</State>
+	
+</style>

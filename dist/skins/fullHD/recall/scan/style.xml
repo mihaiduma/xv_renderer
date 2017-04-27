@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideLeft">
+
+	<Shape style="WhiteRectangleShaded" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
+	<Shape style="BorderedRoundedWhiteRectangle" name="background" width="890" height="890" x="95" y="515" alpha="1"/>	
+	<Image fileName="img-cod.png" width="400" height="225.10" name="" x="320" y="630" /> 
+	<!-- <Image fileName="phone.png" width="520" height="1013" name="" x="295" y="516" /> -->
+	<Text content="SCAN COUPON" messageID="2017160307" name="scannerTitle" textFormat="ViewKeyboardScannerNumberButton" autoSize="true" width="1000" height="150" x="40" y="480"/>
+	<Text content="" messageID="" name="txtMessage" textFormat="ViewKeyboardScannerNumberButton" autoSize="true" width="1000" height="150" x="40" y="1165"/>
+	
+	<Container containerType="button" name="btnBack" x="427.5" y="1315" alpha="1">
+			<Shape style="UnSelectedCodTabButtonRounded"  width="225" height="70" name="" x="0" y="0" alpha="1"/> 
+			<Text content="" messageID="2017160306" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="225" height="66" name="txtLabel" x="0" y="2" alpha="1"/>
+		</Container>
+	
+	
+	<Container name="loadingScreen" alpha="0.9">
+		<Shape style="GeneralBackground" name="loadingBackground" width="1080" height="1920" x="0" y="0" />
+		<Text content="Please wait" messageID="2017160311" textFormat="CurrentViewKeyboardScannerNumberButton" width="1000" height="100" name="txtLoading" x="40" y="910" alpha="1"/>
+	</Container>
+		
+</Style>

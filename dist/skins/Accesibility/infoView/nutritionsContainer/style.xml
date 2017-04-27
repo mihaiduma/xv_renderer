@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Shape style="OrderListItemPriceBg" width="83.33%" height="36.45%" name="bg" x="0%" y="0%" alpha="1"/>
+	<Text content="" messageID="3000000012" textFormat="NutritionGreenTitle" autoSize="true" width="100%" height="1.71%" name="txtLabel" x="0%" y="-400" alpha="1"/>
+	<Text content="" messageID="" textFormat="NutritionTitle" width="64.81%" height="1.71%" name="txtLabel" x="15.74%" y="-50" alpha="1"/>
+	<!-- <Image fileName="icon-info-small.png" width="3.24%" height="1.82%" name="infoBtn" x="28.24%" y="-50" alpha="1"/>  -->
+	
+	<Text content="" messageID="" textFormat="OrderListItemPrice" width="83.33%" height="2.34%" name="noInfoLabel" x="0%" y="23.17%" alpha="1"/>
+	
+	<Container containerType="" name="viewsContainer" x="0.37%" y="-300" alpha="1">
+		<Container containerType="" name="rendererContainer" x="0%" y="0%" alpha="1"/>
+		<Shape width="82.59%" height="54.16%" style="WhiteRectangle" name="rendererContainerRectGuide" x="0%" y="0%" alpha="1"/>
+	</Container>
+</style>

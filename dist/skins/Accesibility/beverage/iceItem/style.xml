@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Text content="" messageID="3000000007" name="txtLabel" maxLines="2"  autoSize="true"  textFormat="PickupLaterText" x="8.33%" y="33.85%" width="83.33%" height="7.81%" alpha="1" />
+	<Container containerType="button" y="39.58%" x="40%"  name="pickup">
+		<Container name="button_selected"  x="0%" y="0%">
+			<Image fileName="bg-checkbox.png" x="0%" y="0%" width="20%" height="11.35%" />
+			<Image fileName="checkbox.png" x="2.31%" y="1.3%" width="17.5%" height="8.28%" />
+		</Container>
+		
+		<Container name="button_unselected" x="0%" y="0%">
+			<Image fileName="bg-checkbox.png" x="0%" y="0%" width="20%" height="11.35%" />
+		</Container>
+	</Container>
+	<Container name="cupHolder"  y="5.2%" alpha="1"/>
+</Style>

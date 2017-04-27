@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<ElementProperties slideType="vertical"/>
+	<Container name="maskedHolder">
+		<Container name="holder" x="0%" y="0%">
+			<Shape name="holderBg" x="0%" y="0%" width="0.09%" height="0.05%"  alpha="0" />
+		</Container>
+	</Container>
+	<Shape name="slidesMask" x="0%" y="0%" width="0.09%" height="0.05%"  alpha="0"/>
+</style>

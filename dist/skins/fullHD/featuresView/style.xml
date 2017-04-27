@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<style>
+	<!-- non visual element only used to indicate the type of display for order list maxQuantity or current quantity, delete is if you want maxQuantity-->
+
+	<Container containerType="" name="mcBackTransparent" x="0" y="0" alpha="1">
+		<Shape width="1080" height="1920" x="0" y="0" style="GeneralBackground" />
+	</Container>
+	
+	
+	
+	
+	<Text content="" messageID="" textFormat="FeatruesViewTitle" width="500" height="130" name="textTitle" x="60" y="100" alpha="1"/>	
+	
+	<Text content="" messageID="2013102401" textFormat="FeatruesViewTitle" width="500" height="130" name="" x="60" y="710" alpha="1"/>	
+	
+	<Container name="btnOk" containerType="button" x="410" y="1730" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="1450" textFormat="FeatureViewBackBtn" autoSize="true" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnRecommencer" containerType="button" x="410" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="0" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnSupprimer" containerType="button" x="410" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2014011502" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnSkip" containerType="button" x="410" y="1810" alpha="1">
+		<Shape style="PopupGenericNoBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2017013001" textFormat="FeatureViewOkBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	<Container name="btnFakeCancel" containerType="button" x="710" y="1800" alpha="1">
+		<Shape style="PopupGenericYesBtn" width="260" height="56" x="0" y="0" alpha="1"/>
+		<Text content="" messageID="2014011501" textFormat="FeatureViewBackBtn" width="220" height="33" name="txt" x="20" y="12" alpha="1" isUppercase="true"/>
+	</Container>
+	
+	
+	
+	
+	
+	<Container name="headerGuide" x="37.5" y="50">
+		<Shape alpha="0" width="840" height="650"/>
+	</Container>
+	<Container name="pageGuide" x="90" y="875" >
+		<Shape  alpha="0" width="900" height="850"  />
+	</Container>
+	<Container x="410" name="centerButton"/>
+</style>

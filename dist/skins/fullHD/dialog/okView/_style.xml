@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0"  alpha="1"/>
+	<Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/>
+	
+	<Text content="" messageID="" textFormat="OkViewSmallText" autoSize="true" width="1080" height="80" name="txtMessage" x="0" y="1605" alpha="1"/>
+	<Text content="" messageID="2015062012" textFormat="OkViewSmallText" autoSize="true" width="1080" height="80" name="txtSubMessage" x="0" y="1663" alpha="1"/>
+	<Shape width="530" height="1221" name="helperGirlAnimDim" x="-586.5" y="205.45" alpha="1"/>
+	
+</style>

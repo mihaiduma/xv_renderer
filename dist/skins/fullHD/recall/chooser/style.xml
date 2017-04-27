@@ -1,0 +1,30 @@
+<Style childrenTransition="slideLeft">
+	<Image name="background" width="1080" height="1920" fileName="bg.png" x="0" y="0"/>
+	
+	<Text name="txtLabel" content="Avez vouz un compte | KFC fidelite ?" messageID="2017160301" textFormat="InOutTitle" autoSize="true" isUppercase="true" x="50" y="75" width="980" height="300"/>
+	
+	<Container  containerType="button" name="buttonKeyboard" x="90" y="658" transition="slideUp">
+		<!-- <Image fileName="btn.png" x="0" y="0" width="580" height="179" transition="fadeIn" /> -->
+		<Shape style="RoundedWhiteRectangle" width="360" height="360" x="0" y="0"/>
+		<Image fileName="img-keyboard.png" x="72" y="160" width="216" height="154" transition="fadeIn" />
+		<Text content="Saisir votre numero client" textFormat="InOutSubTitle" messageID="2017160302" autoSize="true" x="0" y="0" height="100" width="360" />
+	</Container>
+	
+	<Container  containerType="button" name="buttonScan" x="630" y="658" transition="slideUp">
+		<!-- <Image fileName="btn.png" x="0" y="0" width="580" height="179" transition="fadeIn" /> -->
+		<Shape style="RoundedWhiteRectangle" width="360" height="360" x="0" y="0"/>
+		<Image fileName="img-cod.png" x="80.5" y="160" width="199" height="112" transition="fadeIn" />
+		<Text content="Scaner votre code client" textFormat="InOutSubTitle" messageID="2017160303" autoSize="true" x="0" y="0" height="100" width="360" />
+	</Container>
+	
+	<Image name="background" width="228" height="76" fileName="logo-google.png" x="293" y="1358"/>
+	<Image name="background" width="228" height="76" fileName="logo-apple.png" x="546" y="1358"/>
+	
+	<Text content="Pour rejoindre le programme de fidelite | rendez-vous sur www.kfcfidelite.fr" textFormat="InOutSubTitle" messageID="2017160304" autoSize="true" x="143" y="1180" height="119" width="781" />
+	
+	<Container  containerType="button" name="buttonSkip" x="372" y="1735" transition="slideUp">
+		<Image fileName="btn_passer.png" x="0" y="0" width="330" height="89" transition="fadeIn" />
+		<Text content="Passer cete etape" textFormat="CurrentWelcomeTitle" messageID="2017160305" autoSize="true" x="0" y="25" height="35" width="330" />
+	</Container>
+	
+</Style>

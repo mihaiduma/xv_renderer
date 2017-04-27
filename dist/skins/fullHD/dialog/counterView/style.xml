@@ -1,0 +1,19 @@
+<style alpha="1" childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+  <Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
+  <!-- <Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/> -->
+  <Text width="660" x="210" messageID="" y="80" isUppercase="false" textFormat="CounterViewBigggerText" height="300" autoSize="true" content="MI-E FOARTE FOAMEEEEEE" alpha="1"/>
+  <Text width="660" x="210" messageID="5011" y="200" isUppercase="false" textFormat="CounterViewNormalBlackText" height="180" autoSize="true" content="" name="Message1" alpha="1"/>
+  
+  <Image fileName="foto.png" width="715" height="715" name="" x="182.5" y="410" alpha="1"/>
+  
+  <Text width="700" x="190" messageID="3000000016" y="1150" isUppercase="false" textFormat="CounterViewNormalText" height="110" autoSize="true" content=""  alpha="1"/>
+  <Text width="1080" x="00" messageID="" y="1220" isUppercase="false" textFormat="CounterViewNumberText" height="300" autoSize="true" content="" name="OrderID" alpha="1"/>
+  
+  
+  
+  <Text width="700" x="190" messageID="5012" y="1520" isUppercase="false" textFormat="CounterViewNormalBlackText" height="300" autoSize="true" content="" name="Message2" alpha="1"/>
+  <Text width="630" x="225" messageID="2015062005" y="1750" isUppercase="false" textFormat="CounterViewNormalText" autoSize="true" height="180" content="" name="Message3" alpha="1"/>
+</style>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<State isChild="false" status="STATUS_NON_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0.1%" alpha="1"/>
+		
+		<Shape width="35.64%" height="3.33%" style="WhiteRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0.62%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="1.04%" alpha="1"/>
+		<!-- <Image fileName="bullet4.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="1.04%" alpha="0"/> -->
+		 <!-- <Shape name="bulletImage" style="InfoViewWhiteBullet" width="2.77%" height="1.56%" x="32.31%" y="1.04%" alpha="0"/>  -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="3.22%" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0.1%" alpha="1"/>
+		
+		<Shape width="35.64%" height="3.33%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0.62%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="1.04%" alpha="1"/>
+		<!-- <Image fileName="bullet2.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="1.04%" alpha="1"/> -->
+		<Shape name="bulletImage" style="InfoViewGrayBullet" width="2.22%" height="1.25%" x="32.31%" y="1.04%" alpha="1"/>
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="3.22%" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_PRESENT_AND_ACTIVE">
+		<Container containerType="" name="containerChildren" x="0%" y="0.1%" alpha="1"/>
+		
+		<Shape width="35.64%" height="3.33%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0.62%" alpha="1"/>
+		<Text content="" messageID="" textFormat="AlergContainerSubTitleText" autoSize="true" width="29.07%" height="1.19%" name="txt" x="6.48%" y="1.04%" alpha="1"/>
+		<!-- <Image fileName="bullet3.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="1.04%" alpha="1"/> -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="3.22%" alpha="1"/>
+	</State>
+	<State isChild="false" status="STATUS_MAYBE_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0.1%" alpha="1"/>
+	
+		<Shape width="35.64%" height="3.33%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0.62%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="1.04%" alpha="1"/>
+		<!-- <Image fileName="bullet1.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="1.04%" alpha="1"/> -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="3.22%" alpha="1"/>
+	</State>
+	
+	<State isChild="true" status="STATUS_NON_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0%" alpha="1"/>
+		
+		<Shape width="35.64%" height="2.08%"  style="WhiteRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="0.41%" alpha="1"/>
+		<!-- <Shape name="bulletImage" style="InfoViewWhiteBullet" width="2.77%" height="1.56%" x="32.31%" y="0.41%" alpha="0"/> -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="1.97%" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0%" alpha="1"/>
+		
+		<Shape width="35.64%" height="2.08%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="0.41%" alpha="1"/>
+		<!-- <Image fileName="bullet2.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="0.41%" alpha="1"/> -->
+		<Shape name="bulletImage" style="InfoViewGrayBullet" width="2.22%" height="1.25%" x="32.31%" y="0.41%" alpha="0"/>
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="1.97%" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_PRESENT_AND_ACTIVE">
+		<Container containerType="" name="containerChildren" x="0%" y="0%" alpha="1"/>
+		
+		<Shape width="35.64%" height="2.08%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="AlergContainerSubTitleText" autoSize="true" width="29.07%" height="1.19%" name="txt" x="6.48%" y="0.41%" alpha="1"/>
+		<!-- <Image fileName="bullet3.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="0.41%" alpha="1"/> -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="1.97%" alpha="1"/>
+	</State>
+	<State isChild="true" status="STATUS_MAYBE_PRESENT">
+		<Container containerType="" name="containerChildren" x="0%" y="0%" alpha="1"/>
+		
+		<Shape width="35.64%" height="2.08%" style="VeryLightGreyerRectangle" name="bg" x="0%" y="0%" alpha="1"/>
+		<Shape width="3.7%" height="2.08%" name="iconImageGuide" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="" textFormat="InfoViewListItem" width="29.07%" height="1.19%" name="txt" x="6.48%" y="0.41%" alpha="1"/>
+		<!-- <Image fileName="bullet1.png" width="2.22%" height="1.25%" name="bulletImage" x="32.31%" y="0.41%" alpha="1"/> -->
+		<Shape width="35.64%" height="0.1%" style="LightGreyerRectangle" name="separator" x="0%" y="1.97%" alpha="1"/>
+	</State>
+</style>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Container containerType="button" name="pickup">
+		<Container name="button_unselected" x="0" y="0">
+			<Image fileName="clock-big-2.png" x="333.5" y="0" width="413" height="413" />
+			<Text content="" messageID="2016042299" name="txtLabel" maxLines="2"  autoSize="true"  textFormat="PickupLaterTextRed" x="90" y="400" width="900" height="150" alpha="1" />
+			
+		</Container>
+		
+		<Container name="button_selected" x="0" y="0">
+			<Image  fileName="clock-big-1.png" x="333.5" y="0" width="413" height="413" />
+		</Container>
+	</Container>
+</Style>

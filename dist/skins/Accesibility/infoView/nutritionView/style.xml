@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Container name="chart" x="0%" y="0%"  alpha="1">
+	</Container>
+	<Container name="candleContainer" x="0%" y="21.87%" alpha="1">
+	</Container>
+</style>

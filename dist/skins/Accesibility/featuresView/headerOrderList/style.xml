@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style>
+	<Container>
+		<Shape width="100%" height="39.06%" x="0%" y="0%" style="GeneralBackground" />
+	</Container>
+	<Container containerType="" name="headerBackgroundImage" x="0%" y="0%" alpha="1">
+		<Image fileName="header.png" width="1080" height="330" alpha="1"/>
+	</Container>
+	<Text name="titleGuide" content="" width="1080" height="20" textFormat="FeatruesViewTitleContor"  y="0" x="0"/>
+	
+	<Text content="" messageID="" textFormat="FeatruesViewTitleNew" x="0%" y="14.41%" autoSize="true" name="txtLabel" width="100%" height="6.77%"  alpha="1"/>	
+	<Text content="" messageID="2013102401" textFormat="FeatruesViewTitleSmall" width="100%" autoSize="true" height="5.2%" name="itemContorTitle" x="0%" y="35%" alpha="1" />
+	<Text content="0"  textFormat="FeatruesViewTitleContor" width="4.62%" autoSize="true" height="2.6%" name="itemContor" x="45.37%" y="40%" alpha="1" />
+	<Text content="/" textFormat="FeatruesViewTitleSmall"   width="4.62%" autoSize="true" height="2.6%" name=""           x="47.68%" y="40%" alpha="1" />
+	<Text content=""  textFormat="FeatruesViewTitleContor"  width="4.62%" autoSize="true" height="2.6%" name="itemTotal"  x="50%" y="40%" alpha="1" />
+</style>

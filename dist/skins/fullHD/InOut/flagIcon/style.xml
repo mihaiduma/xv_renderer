@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style alpha="1">
+  <Container >
+	 <Shape style="LanguageBackground" name="bg" width="43" height="35" x="0" y="0"/>
+	 <Text name="flagName" content="" textFormat="InOutLanguageButton" autoSize="true" isUppercase="true" x="1" y="1" width="41" height="33"/>
+  </Container>
+</Style>

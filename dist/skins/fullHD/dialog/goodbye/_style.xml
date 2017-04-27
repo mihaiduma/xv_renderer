@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	<ElementProperties>
+		<TimeOut name="timer" DisplayTime="3600" Return="3"/>	
+	</ElementProperties>
+	<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0"  alpha="1"/>	
+	<Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/>
+	
+	<Text content="" messageID="" textFormat="LongMessageText" width="1080" height="114" name="txtMessage" autoSize="true" x="0" y="850" alpha="1"/>
+	<Text content="Au revoir et bon appetit!" messageID="" textFormat="ErrorMessageText" width="1080" height="79" autoSize="true"  name="txtSubMessage"  x="0" y="970" alpha="1"/>
+	<Text content="" messageID="" textFormat="LongMessageText" width="1080" height="114" name="txtSubMessage2" autoSize="true" x="0" y="1055" alpha="1"/>
+</style>

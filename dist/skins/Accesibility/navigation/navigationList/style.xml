@@ -1,0 +1,8 @@
+<Style>
+	<Container name="topHolder" x="0%" y="0%">
+		<Shape style="LogoBackground" x="0%" y="0%" width="100%" height="9.89%"/>
+	</Container>
+	<Container name="bottomHolder" x="0%" y="9.89%">
+		<Shape style="PromoButtonBackground" x="0%" y="0%" width="100%" height="3.12%" alpha="0"/>
+	</Container>
+</Style>

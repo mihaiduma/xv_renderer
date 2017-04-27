@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>
+	<Shape width="100%" height="100%" x="0%" y="0%" style="GeneralBackground" />
+	<Text  name="itemTitle" textFormat="RemisPlusTard" autoSize="true" width="88.42%" height="5%" x="5.78%" y="1%" alpha="1" />
+	<Container name="imageContainer"/>
+	<Text  name="questionItem" textFormat="RemisPlusTardSubTitle" autoSize="true" width="64.81%" height="3.12%" x="17.59%" y="7.81%" alpha="1" />
+	<Container name="buttonHolder" x="0%" y="15%"/>
+	
+	<Container x="0%" y="88%" name="footer">
+		<Container  containerType="button" name="cancelBtn" x="23.7%" y="0%">
+			<Shape style="PopupGenericYesBtn" width="21.11%" height="9%" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="2017011101" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="18.51%" height="9%" x="1.29%" y="0%" alpha="1"/>
+		</Container>
+		<Container containerType="button" name="okBtn" x="55.18%" y="0%">
+			<Shape style="PopupGenericYesBtn" width="21.11%" height="9%"  x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="13091004" isUppercase="true" textFormat="PopupYesText"  autoSize="true" width="18.51%" height="9%" x="1.29%" y="0%" alpha="1"/>
+		</Container>
+ 	</Container>
+</Style>

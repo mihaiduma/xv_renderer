@@ -1,0 +1,5 @@
+<Style>
+	<Container name="btnClose" containerType="button" alpha="0.5" >
+		<Shape name="" style="ScrollArrow" width="4.62%" height="2.6%" x="0%" y="0%" orientation="right" />
+	</Container>
+</Style>

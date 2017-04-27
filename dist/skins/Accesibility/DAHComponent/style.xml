@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+<!-- 
+It's called DAH because of DissabilityAllergensHelp
+-->
+	<Container containerType="button" name="accesibility" x="0%" y="0%" >
+		<Image fileName="btn_acc.png" width="6.29%" height="3.54%" x="0%" y="0%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="button" name="allergen" x="7.87%" y="0%"  >
+		<Image fileName="btn_allerg.png" width="6.29%" height="3.54%" x="0%" y="0%" alpha="1"/>
+	</Container>
+</Style>

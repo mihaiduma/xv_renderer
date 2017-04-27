@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<!-- <Image fileName="borders.png" width="48.88%" height="31.61%" name="" x="13.88%" y="16.28%" alpha="1"/>  -->
+	<Container name="chart" width="48.88%" height="31.61%" x="0%" y="0%"  alpha="1">
+		<Shape width="9.25%" style="InOutRectangle" height="5.2%" y="0%"   x="0%" alpha="1"/>
+		<Container name="leftWall">
+			<Shape width="0.18%" style="LightGreyRectangle"     height="15.62%"  y="5.2%"  x="0%" alpha="1"/>
+		</Container>
+		<Container name="rightWall">
+			<Shape width="0.18%" style="LightGreyRectangle"     height="15.62%"  y="5.2%"  x="9.07%" alpha="1"/>
+		</Container>
+		
+		<Shape width="9.25%" style="LightGreyRectangle"     height="0.1%"  y="10.41%"  x="0%" alpha="1"/>
+		<Shape width="9.25%" style="LightGreyRectangle"     height="0.1%"  y="15.62%"  x="0%" alpha="1"/>
+		<Shape width="9.25%" style="LightGreyRectangle"     height="0.1%"  y="20.72%"  x="0%" alpha="1"/>
+		
+		<Text content="" messageID="" textFormat="KeyboardScannerWhiteNumberButton" autoSize="true" width="8.33%" height="4.68%" name="title"     x="0.46%"  y="0.26%"   alpha="1"/>
+		<Text content="" messageID="" textFormat="NutritionTableText" autoSize="true" width="8.33%" height="4.68%" name="value"     x="0.46%"  y="5.46%" alpha="1"/>
+		<Text content="" messageID="" textFormat="NutritionTableText" autoSize="true" width="8.33%" height="4.68%" name="value100g" x="0.46%"  y="10.67%" alpha="1"/>
+		<Text content="" messageID="" textFormat="NutritionTableText" autoSize="true" width="8.33%" height="4.68%" name="percent"   x="0.46%"  y="15.88%" alpha="1"/>
+	</Container>
+	
+</style>

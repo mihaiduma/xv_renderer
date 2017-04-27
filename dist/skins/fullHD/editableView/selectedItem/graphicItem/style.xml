@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style>	
+	<Container name="itemButton" x="0" y="0">
+		<Shape x="151" y="5" height="61" width="780" alpha="0" />
+		<Image fileName="parmesan-big.png" name="defaultImage" width="305" height="61" x="151" y="5" alpha="1"/>
+		<Container name="imgContainer" />
+		<Text name="btnTitle" content="" textFormat="EditableListItemText" autoSize="true" width="350" height="30" x="550" y="30" alpha="1" />
+		<Container name="addButton" containerType="button" x="800" y="30">
+			<Shape style="EditableCloseBtnBorder" width="30" height="30" x="0" y="-8" alpha="1"/>
+			<Shape style="EditableCloseBtnInterior" width="20" height="20" x="4" y="-4" alpha="1"/>
+			<Shape style="WhiteRectangle" width="13" height="4" x="8" y="4" alpha="1"/>
+			<Shape style="WhiteRectangle" width="4" height="13" x="12.3" y="-0.5" alpha="1"/>
+		</Container>
+		<Container name="closeButton" x="900" y="30">
+			<Shape style="EditableCloseBtnBorder" width="30" height="30" x="0" y="-8" alpha="1"/>
+			<Shape style="EditableCloseBtnInterior" width="20" height="20" x="4" y="-4" alpha="1"/>
+			<Shape style="WhiteRectangle" width="10" height="3" x="9.5" y="4.5" alpha="1"/>
+		</Container>
+		<Container name="quantity" x="415" y="-90">
+			<Shape style="EditableQuantityBackground" width="30" height="30" x="0" y="0" alpha="1"/>
+			<Text name="btnQuantityText" content="" textFormat="EditableQuantityText" autoSize="true" width="30" height="30" x="0" y="0" alpha="1" />
+		</Container>
+	</Container>
+</Style>

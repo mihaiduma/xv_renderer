@@ -1,0 +1,13 @@
+<div ng-show="generalProps.type == 'Image' && url != '' ">
+    <img src="{{url}}" style="{{stl}}" />
+</div>
+
+<div ng-show="generalProps.type == 'Text'">
+    <span style="{{stl}}" >{{generalProps.content}}</span>
+</div>
+
+<div ng-show="generalProps.type == 'Container'">
+    <div ng-repeat="child in generalProps.Children" style="{{stl}}" >
+        <skinelement details="{{child}}" ></skinelement>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+<style>
+	<Shape name="background" width="1080" height="1920" style="GeneralBackground" x="0" y="0"/>
+	<Text content="" name="txtLabel" messageID="2014080102" textFormat="WelcomeTitle" autoSize="true" isUppercase="true" x="50" y="810" width="980" height="300"/>
+</style>

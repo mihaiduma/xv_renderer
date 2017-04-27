@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<State Statss="unselectable">
+		<Shape name="background" style="WhiteRectangle" x="0" y="0" width="17" height="1450" />
+		<Shape name="mcChange" style="MenuListUnSelectable" x="1" y="0" width="15" height="1450" />
+	</State>
+	<State Statss="selectable">
+		<Shape name="background" style="WhiteRectangle" x="0" y="0" width="17" height="1450" />
+		<Shape name="mcChange" style="MenuListSelectable" x="1" y="0" width="15" height="1450" />
+	</State>
+</style>

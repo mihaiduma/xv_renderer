@@ -1,0 +1,294 @@
+<style>
+	<Shape alpha="0.7" style="WhiteRectangle" width="1920" height="1280" x="0" y="0" />
+	
+	<Container y='40' x='22' name='mcBackgroundStand'>
+		<Shape alpha="1" name='genericItem1' style="PopupVisibleBackground" width="1036" height="1840" x="0" y="0" />
+		<!--<Container y='0' name='bgTop' x='0' alpha='1'>
+			<Image fileName='pop-top.png' y='0' name='genericItem1' width='1036' path='pop-top.png' alpha='1' height='54' x='0'>
+			</Image>
+		</Container>
+		<Container y='54' x='0' name='bgCenter'>
+			<Image fileName='pop-center.png' y='0' name='genericItem2' width='1036' alpha='1' height='1717' x='0'>
+			</Image>
+		</Container>
+		<Container y='1771' x='0' name='bgBottom'>
+			<Image fileName='pop-bottom.png' y='0' name='genericItem3' width='1036' alpha='1' height='69' x='0'>
+			</Image>
+		</Container>-->
+	</Container>
+	
+	<Text name="txtTitle" content="" messageID="2014201101" textFormat="AllergTitle" width="957" height="120" x="62" y="130" alpha="1" />
+	<Text name="descriptionTxt" content="" messageID="2013100906" textFormat="AllergSubTitle" width="957" height="120" x="62" y="215" alpha="1" />
+	<Text name="descriptionBottomTxt" content="" messageID="2014191101" textFormat="AllergSubTitle" width="957" height="120" x="62" y="265" alpha="1" />
+	
+	<Container name="allergenItems" x="0" y="430">	
+	
+		<State buttons="14">
+			<!-- randul 1 -->
+				<Container name="allergen1" x="105" y="0" containerType="button" animation="none">
+					<Container name="allergen1_selected" x="0" y="0">
+						<!-- <Image name="allergen1_picSelected" fileName="icon-ANH-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content="" name="allergen1_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<!-- <Image name="allergen1_Checkbox_selected" fileName="checkbox-s.png" x="155" y="-30" width="58" height="54" /> -->
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen1_unselected" x="0" y="0">
+						<!-- <Image name="allergen1_picUnselected" fileName="icon-ANH.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content="" name="allergen1_LabelUnselected" maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<!--<Image name="allergen1_Checkbox_unselected" fileName="checkbox.png" x="155" y="-30" width="48" height="48" />-->
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				<Container name="allergen2" x="495" y="0" containerType="button" animation="none">
+					<Container name="allergen2_selected" x="0" y="0">
+						<!-- <Image name="allergen2_picSelected" fileName="icon-ARA-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen2_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen2_unselected" x="0" y="0">
+						<!-- <Image name="allergen2_picUnselected" fileName="icon-ARA.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen2_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				<Container name="allergen3" x="825" y="0" containerType="button" animation="none">
+					<Container name="allergen3_selected" x="0" y="0">
+						<!-- <Image name="allergen3_picSelected" fileName="icon-CEL-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen3_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen3_unselected" x="0" y="0">
+						<!-- <Image name="allergen3_picUnselected" fileName="icon-CEL.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen3_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+			<!-- randul 2 -->
+				<Container name="allergen4" x="105" y="250" containerType="button" animation="none">
+					<Container name="allergen4_selected" x="0" y="0">
+						<!-- <Image name="allergen4_picSelected" fileName="icon-CER-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text name="allergen4_txtNumSelectedAllergens" content="" messageID="" textFormat="AllergNumbers" width="62" height="50" x="153" y="57" alpha="1"/> 
+						<Text content=""  name="allergen4_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen4_unselected" x="0" y="0">
+						<!-- <Image name="allergen4_picUnselected" fileName="icon-CER.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen4_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				
+				
+				
+				
+				
+				<Container name="allergen5" x="495" y="250" containerType="button" animation="none">
+					<Container name="allergen5_selected" x="0" y="0">
+						<!-- <Image name="allergen5_picSelected" fileName="icon-CRU-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen5_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen5_unselected" x="0" y="0">
+						<!-- <Image name="allergen5_picUnselected" fileName="icon-CRU.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen5_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+						
+				<Container name="allergen6" x="825" y="250" containerType="button" animation="none">
+					<Container name="allergen6_selected" x="0" y="0">
+						<!-- <Image name="allergen6_picSelected" fileName="icon-MOU-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text name="allergen6_txtNumSelectedAllergens" content="" messageID="" textFormat="AllergNumbers" width="62" height="50" x="153" y="57" alpha="1"/>
+						<Text content=""  name="allergen6_LabelSelected" maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen6_unselected" x="0" y="0">
+						<!-- <Image name="allergen6_picUnselected" fileName="icon-MOU.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen6_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>	
+				</Container>
+				
+				<!-- randul 3 -->	
+				<Container name="allergen7" x="105" y="500" containerType="button" animation="none">
+					<Container name="allergen7_selected" x="0" y="0">
+						<!-- <Image name="allergen7_picSelected" fileName="icon-FRU-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen7_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen7_unselected" x="0" y="0">
+						<!-- <Image name="allergen7_picUnselected" fileName="icon-FRU.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen7_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>	
+				</Container>
+				
+				<Container name="allergen8" x="495" y="500" containerType="button" animation="none">
+					<Container name="allergen8_selected" x="0" y="0">
+						<!-- <Image name="allergen8_picSelected" fileName="icon-LAI-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen8_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen8_unselected" x="0" y="0">
+						<!-- <Image name="allergen8_picUnselected" fileName="icon-LAI.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen8_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				<Container name="allergen9" x="825" y="500" containerType="button" animation="none">
+					<Container name="allergen9_selected" x="0" y="0">
+						<!-- <Image name="allergen9_picSelected" fileName="icon-LUP-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen9_LabelSelected" maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen9_unselected" x="0" y="0">
+						<!-- <Image name="allergen9_picUnselected" fileName="icon-LUP.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen9_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				<!-- randul 4 -->
+				<Container name="allergen10" x="105" y="750" containerType="button" animation="none">
+					<Container name="allergen10_selected" x="0" y="0">
+						<!-- <Image name="allergen10_picSelected" fileName="icon-MOL-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen10_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen10_unselected" x="0" y="0">
+						<!-- <Image name="allergen10_picUnselected" fileName="icon-MOL.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen10_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				<Container name="allergen11" x="495" y="750" containerType="button" animation="none">
+					<Container name="allergen11_selected" x="0" y="0">
+						<!-- <Image name="allergenOEU_picSelected" fileName="icon-OEU-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen11_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen11_unselected" x="0" y="0">
+						<!-- <Image name="allergen11_picUnselected" fileName="icon-OEU.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen11_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				<Container name="allergen12" x="825" y="750" containerType="button" animation="none">
+					<Container name="allergen12_selected" x="0" y="0">
+						<!-- <Image name="allergen12_picSelected" fileName="icon-POI-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen12_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen12_unselected" x="0" y="0">
+						<!-- <Image name="allergen12_picUnselected" fileName="icon-POI.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen12_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>
+				</Container>
+				
+				
+				
+				<!-- randul 5 -->
+				
+				<Container name="allergen13" x="105" y="1000" containerType="button" animation="none">
+					<Container name="allergen13_selected" x="0" y="0">
+						<!-- <Image name="allergenSES_picSelected" fileName="icon-SES-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen13_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen13_unselected" x="0" y="0">
+						<!-- <Image name="allergen13_picUnselected" fileName="icon-SES.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen13_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>	
+				</Container>
+						
+				<Container name="allergen14" x="495" y="1000" containerType="button" animation="none">
+					<Container name="allergen14_selected" x="0" y="0">
+						<!-- <Image name="allergenSOJ_picSelected" fileName="icon-SOJ-s.png" x="0" y="0" width="158" height="158" /> -->
+						<Shape style="PopupGenericYesBtn" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen14_LabelSelected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+						<Shape style="InfoViewGrayBullet" width="20" height="20" x="165" y="10"/>
+					</Container>
+					
+					<Container name="allergen14_unselected" x="0" y="0">
+						<Shape style="SelectedNavButton" alpha="0" x="0" y="0" width="150" height="149" />
+						<Text content=""  name="allergen14_LabelUnselected"  maxLines="2"  autoSize="true"  textFormat="AlergItemRendererText" x="0" y="9" width="150" height="150" alpha="1" />
+						<Shape style="PaymentSelectorRoundedBackground" width="40" height="40" x="155" y="0"/>
+					</Container>	
+				</Container>
+		</State>
+	</Container>
+	
+	<Container name="buttonsContainer" x="0" y='1660'>
+		<Container x='70' y='16' alpha='1' containerType='button' name='btnNo'>
+			<Shape style="AlergBackButton" width="355" height="71" x="0" y="0"/>
+			<Text textFormat='AlergBackButtonText' name='btnNoLabel' messageID='2014101003' autoSize="true" alpha='1' x='2.5' content='' width='350' y='6' height='59' isUppercase="true">
+			</Text>
+		</Container>
+		
+		<Container y='16' name='btnYes' containerType='button' alpha='1' x='591'>
+			<Shape style="PopupGenericYesBtn" width="362" height="71" x="0" y="0"/>
+			<Text textFormat='AlergBackWhiteButtonText' name='btnYesLabel' messageID='2014101002' autoSize="true" alpha='1' x='2.5' content='' width='350' y='6' height='59' isUppercase="true">
+			</Text>
+		</Container>
+	</Container>
+</style>

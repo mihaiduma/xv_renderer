@@ -1,0 +1,29 @@
+<Style childrenTransition="slideLeft">
+	
+	<!-- <Image name="background" width="33.79%" height="10.41%" fileName="logo_kfc_fidelite.png" x="33.42%" y="6.92%"/> -->
+	<Image distort="true" name="background" width="100%" height="100%" fileName="bg.png" x="0" y="0"/>
+	<Text name="txtLabel" content="Avez vouz un compte | KFC fidelite ?" messageID="2017160301" textFormat="InOutSubTitle" autoSize="true" isUppercase="true" x="11.75%" y="2%" width="75.92%" height="8.43%"/>
+	
+	<Container  containerType="button" name="buttonKeyboard" x="10%" y="21.51%" transition="slideUp">
+		<Shape style="RoundedWhiteRectangle" width="30%" height="30%" x="0" y="0"/>
+		<Image fileName="img-keyboard.png" x="4.5%" y="7%" width="21%" height="15%" transition="fadeIn" />
+		<Text content="Saisir votre numero client" textFormat="InOutSubTitle" messageID="2017160302" autoSize="true" x="0" y="0" height="5%" width="30%" />
+	</Container>
+	
+	<Container  containerType="button" name="buttonScan" x="60%" y="21.51%" transition="slideUp">
+		<Shape style="RoundedWhiteRectangle" width="30%" height="30%" x="0" y="0"/>
+		<Image fileName="img-cod.png" x="7.25%" y="7%" width="15.5%" height="11%" transition="fadeIn" />
+		<Text content="Scaner votre code client" textFormat="InOutSubTitle" messageID="2017160303" autoSize="true" x="0" y="0"  height="5%" width="30%"/>
+	</Container>
+	
+	<Image name="background" width="21.11%" height="3.95%" fileName="logo-google.png" x="27.12%" y="72.5%"/>
+	<Image name="background" width="21.11%" height="3.95%" fileName="logo-apple.png" x="50.55%" y="72.5%"/>
+	
+	<Text content="Pour rejoindre le programme de fidelite | rendez-vous sur www.kfcfidelite.fr" textFormat="InOutSubTitle" messageID="2017160304" autoSize="true" x="13.24%" y="62.91%" height="6.19%" width="72.31%" />
+	
+	<Container  containerType="button" name="buttonSkip" x="34.44%" y="88.38%" transition="slideUp">
+		<Image fileName="btn_passer.png" x="0%" y="0%" width="30.55%" height="4.63%" transition="fadeIn" distort="true" />
+		<Text content="Passer cete etape" textFormat="CurrentWelcomeTitle" messageID="2017160305" autoSize="true" x="0%" y="1.3%" height="1.82%" width="30.55%" />
+	</Container>
+	
+</Style>

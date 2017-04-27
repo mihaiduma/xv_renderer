@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Style>
+	<Container containerType="" name="background" x="0" y="0" >
+		<Shape width="1080" height="1920" x="0" y="0" style="PopupBox" />
+	</Container>
+	<Container containerType="button" name="popupButton" x="290" y="70">
+		<Image fileName="i.png" width="59" height="59" x="440" y="0"/>
+		<Text content="Mon espace fidelite" messageID="" textFormat="OrderListTotal" width="410" height="59" autoSize="true" name="" x="0" y="0" />
+	</Container>
+	
+	<Container containerType="" name="mcTitle" x="155" y="250" >
+		<Text content="Recompences disponibles" messageID="" textFormat="CounterViewBigggerText" width="775" height="90" autoSize="true" name="" x="0" y="0" />
+	</Container>
+	
+	<Container containerType="button" name="btnCancel" x="425" y="1740" >
+		<Shape width="230" height="50" x="0" y="0" style="NeutralButton" />
+		<Text content="" messageID="2017011101" textFormat="OrderListTotal" width="230" height="30" autoSize="true" name="txtLabel" x="0" y="10" />
+	</Container>
+	
+	<Container containerType="" name="footerText" x="90" y="1810" >
+		<Text content="Une des ces recompences peut etre ajoutee a votre panier pour toute comandee d'un montant minimum de 1 €" messageID="" textFormat="OrderListTotal" width="900" height="90" autoSize="true" name="txtLabel" x="0" y="0" />
+	</Container>
+	<Container name="pageGuide" x="340" y="300" >
+		<Shape  alpha="0" width="400" height="1000" />
+	</Container>
+</Style>

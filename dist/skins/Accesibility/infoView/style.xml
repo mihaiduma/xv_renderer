@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Container containerType="" name="fader" x="0%" y="0%" alpha="1">
+		<Shape width="100%" height="100%" name="" x="0%" y="0%" style="WhiteRectangle" alpha="1"/>
+	</Container>
+	<Container containerType="" name="mainHolder" x="0%" y="20.83%" alpha="1">
+		<Container containerType="" name="mcBack" x="0%" y="0%" alpha="0">
+			<Container containerType="" name="bottom" x="0.37%" y="72.38%" alpha="1">
+				<Shape  width="95.92%" height="2.91%" name="" x="0%" y="0%" style="WhiteRectangle"/>
+			</Container>
+			<Container containerType="" name="middle" x="0.03%" y="1.77%" alpha="1">
+				<Shape  width="95.92%" height="92.55%" name="" x="0%" y="0%" style="WhiteRectangle"/>
+			</Container>
+			<Container containerType="" name="top" x="0.03%" y="0.02%" alpha="1">
+				 <Shape  width="95.92%" height="1.77%" name="" x="0%" y="0%" style="WhiteRectangle"/>
+			</Container>
+		</Container>
+		<Container containerType="" name="mcAlergNutri" x="0%" y="0%" alpha="1"/>
+		<Container containerType="" name="infoProdImgHolder" x="6.75%" y="46.87%" alpha="1">
+			<Shape style="GeneralBackground" width="38.88%" height="21.87%" name="prodImgRefDimensions" x="0%" y="0%" alpha="1"/>
+		</Container>
+	
+		<Container containerType="button" name="btnClose" x="12.12%" y="71.09%" alpha="1">
+			<Shape style="AlergBackButton" width="32.87%" height="3.69%"  x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="" textFormat="AlergBackButtonText" autoSize="true" width="32.4%" height="3.17%" name="txtLabel" x="0.23%" y="0.26%" alpha="1"/>
+		</Container>
+		<Container containerType="button" name="btnOk" x="54.72%" y="71.09%" alpha="1">
+			<Shape  width="32.87%" height="3.69%" style="CODVIEWSelectedCodTabButton" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="" textFormat="AlergBackWhiteButtonText" autoSize="true" width="32.4%" height="3.17%" name="txtLabel" x="0.23%" y="0.26%" alpha="1"/>
+		</Container>
+			<Container containerType="" name="mcPrice" x="73.7%" y="58.33%" alpha="1">
+			<Shape  width="13.88%" height="2.96%" style="InOutRectangle" x="0%" y="0%" alpha="1"/>
+			<Text content="" messageID="" textFormat="InfoAllergTexts" autoSize="true" width="13.88%" height="2.45%" name="labelPrice" x="0%" y="0.34%" alpha="1"/>
+		</Container>
+		<Container containerType="button" name="btnSwitch" x="68.14%" y="49.73%" alpha="1">
+			<Shape style="CODVIEWSelectedCodTabButton" width="19.44%" height="4.32%" alpha="1"/>
+			<Text content="" messageID="" textFormat="AlergBackWhiteButtonText" autoSize="true" width="19.44%" height="3.12%" name="txtLabel" x="0%" y="0.75%" alpha="1"/>
+		</Container>
+		<Text content="" messageID="" textFormat="InfoAllergHamburgerText" autoSize="true" width="37.28%" height="2.77%" name="productName" x="0%" y="67.7%" alpha="1"/>
+		
+		
+		 <Text content="" messageID="" textFormat="CodViewListViewBigText" width="83.05%" height="8.07%" name="productDesc" x="6.57%" y="29.32%" alpha="1"/> 
+		 <Text content="" messageID="" textFormat="CodViewListViewBigText" width="83.05%" height="1.77%" name="productTitle" x="6.66%" y="26.56%" alpha="1"/> 
+		
+		
+	</Container>
+</style>

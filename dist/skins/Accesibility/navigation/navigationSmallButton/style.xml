@@ -1,0 +1,11 @@
+<Style>
+	<State selected="0">
+		<Shape style="BackBackground" x="0%" y="0.15%" width="17.59%" height="2.81%"/>
+		<Text content="" name="txtLabel" messageID="" textFormat="NavButtonText" autoSize="true" x="0%" y="0.15%" width="17.59%" height="2.81%"/>
+	</State>
+	<State selected="1">
+		<Shape style="BlackPriceBackground" x="0%" y="0.15%" width="17.59%" height="2.81%"/>
+		<Text content="" name="txtLabel" messageID="" textFormat="NavButtonSmallSelected" autoSize="true" x="0%" y="0.15%" width="17.59%" height="2.81%"/>	
+	</State>
+	
+</Style>

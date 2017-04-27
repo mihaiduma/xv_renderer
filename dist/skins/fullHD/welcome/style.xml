@@ -1,0 +1,19 @@
+<Style childrenTransition="slideLeft">
+	<Shape name="background" width="1080" height="1920" style="GeneralBackground" x="0" y="0"/>
+
+	<Container containerType="slideshow" name="slideshow" x="0" y="0" width="1080" height="1920" dataSource="Slide" templateId="2" />
+	
+	<Container name="bottom" x="304" y="1870" alpha="1">
+		<State Statss="1">
+			<Shape name="" width="472" height="100" style="ClosedScreenBottomHolder" x="0" y="0"/>
+			<Text name="txtLabel" messageID="2013102811"  textFormat="CurrentWelcomeTitle" autoSize="true" isUppercase="true" x="50" y="0" width="372" height="50"/>
+		</State>
+		<State Statss="0">
+			<Shape name="" width="472" height="100" style="WellcomeScreenBottomHolder" x="0" y="0"/>
+			<Text name="txtLabel" messageID="33" textFormat="CurrentWelcomeTitle" autoSize="true" isUppercase="true" x="50" y="0" width="372" height="50"/>
+		</State>
+		
+	</Container>	
+	<Container containerType="DotID" name="DotId" x="0" y="1890"/>
+	<Container containerType="DotVersion" name="DotVersion" x="800" y="1890"/>
+</Style>

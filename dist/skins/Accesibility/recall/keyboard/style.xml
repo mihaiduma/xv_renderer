@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Style childrenTransition="slideLeft">
+
+	<Container>
+		
+		<Shape style="WhiteRectangleShaded" name="background" width="100%" height="100%" x="0" y="0" alpha="1"/>	
+		<Shape style="BorderedRoundedWhiteRectangle" name="background" width="70%" height="70%" x="15%" y="15%" alpha="1"/>	
+		
+		<Container containerType="" name="mcNumeric" x="24%" y="44%" alpha="1">
+			<Container containerType="button" name="no0" x="0" y="0" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="0" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no1" x="8.5%" y="0" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="1" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no2" x="17%" y="0" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="2" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no3" x="25.5%" y="0" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="3" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no4" x="34%" y="0" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="4" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no5" x="0" y="8.5%" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="5" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no6" x="8.5%" y="8.5%" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="6" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no7" x="17%" y="8.5%" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="7" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no8" x="25.5%" y="8.5%" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="8" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>
+			<Container containerType="button" name="no9" x="34%" y="8.5%" alpha="1">
+				<Shape style="ButtonBackground" width="7%" height="7%" name="" x="0" y="0"/>
+				<Text content="9" messageID="" textFormat="NewViewKeyboardScannerNumberButton" width="4.5%" height="4.5%" name="txtNr" x="1.25%" y="1.25%" alpha="1"/>
+			</Container>	
+		</Container>
+		
+		<Container containerType="button" name="btnClear" x="66.5%" y="44%" alpha="1">
+			<Shape  style="BackButtonBackground" width="7%" height="7%" name="" x="0%" y="0%" alpha="1"/>
+			<Image fileName="x.png" width="4.29%" height="4%" name="" x="1%" y="1.5%" alpha="1"/>
+		</Container>
+		
+		<Container containerType="button" name="btnBack" x="24.8%" y="78.89%" alpha="1">
+			<Shape style="UnSelectedCodTabButtonRounded"  width="20.4%" height="4.5%" name="" x="0" y="0" alpha="1"/> 
+			<Text content="" messageID="2017160306" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="20.4%" height="4.5%" name="txtLabel" x="0%" y="0%" alpha="1"/>
+		</Container>
+		
+		<Container containerType="button" name="btnYes" x="54.8%" y="78.89%" alpha="1">
+			<Shape style="PopupGenericYesBtn"  width="20.4%" height="4.5%" name="" x="0" y="0" alpha="1"/> 
+			<Text content="OK" messageID="" textFormat="KeyboardScannerCodTabButtonSelected" width="20.4%" height="4.5%" name="txtLabel" x="0%" y="0%" alpha="1"/>
+		</Container>
+		
+		<Text content="" messageID="" textFormat="CurrentViewKeyboardScannerNumberButton" width="97.81%" height="5.93%" name="txtMessage" x="1%" y="18.36%" alpha="1"/>
+		<Text content="" messageID="" textFormat="KeyboardScannerNumberButton" width="97.81%" height="1.83%" name="txtSubMessage" x="1%" y="36.39%" alpha="1"/>
+		
+		<Shape style="RoundedLanguageItemBackground" width="53.24%" height="6.25%" name="" x="23.37%" y="28.85%" alpha="1"/>
+		<Text content="" messageID="" textFormat="ActualLargeViewKeyboardScannerNumberButton" autoSize="true" width="50.75%" height="7.81%" name="lblOrderNo_normal" x="24.45%" y="29.95%" alpha="1"/>
+		<Text content="" messageID="" textFormat="ActualLargeViewKeyboardScannerNumberButton" autoSize="true" width="50.75%" height="7.81%" name="lblOrderNo_green" x="24.45%" y="28.12%" alpha="1"/>
+		
+		
+	</Container>
+	
+	<Container name="loadingScreen" alpha="0.9">
+		<Shape style="GeneralBackground" name="loadingBackground" width="100%" height="100%" x="0%" y="0%"/>
+		<Text content="Please wait" messageID="2017160311" textFormat="CurrentViewKeyboardScannerNumberButton" width="92.59%" height="5.2%" name="txtLoading" x="3.7%" y="47.39%" alpha="1"/>
+	</Container>
+	
+</Style>

@@ -1,0 +1,4 @@
+<Style >
+	<Shape name="background" width="100%" height="52.08%" style="GeneralBackground" x="0%" y="0%"/>
+	<Container containerType="slideshow" name="slideshow" x="0%" y="0%" width="100%" height="52.08%" dataSource="DisabilityBanner" />
+</Style>

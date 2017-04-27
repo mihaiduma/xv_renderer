@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style childrenTransition="slideUpShort">
+	
+	<Container containerType="" name="bg" x="0%" y="0%" alpha="1">
+		<Shape width="100%" height="100%" style="WhiteRectangle" name="" x="0%" y="0%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="button" name="skipBtn" x="111.11%" y="54.16%" alpha="1">
+		<Image fileName="btnBg.png" width="26.2%" height="3.28%" name="btnBg" x="0%" y="0%" alpha="1"/>
+		<Text content="" messageID="2014011001" textFormat="ImageViewText" width="20.74%" height="1.56%" name="txtLabel" x="0.74%" y="0.62%" alpha="1"/>
+	</Container>
+	
+	<Container containerType="" name="swfMask" x="111.11%" y="41.66%" alpha="1">
+		<Shape width="27.77%" height="10.41%" style="BlackRectangle" name="" x="0%" y="0%" alpha="0"/>
+	</Container>
+	
+</style>

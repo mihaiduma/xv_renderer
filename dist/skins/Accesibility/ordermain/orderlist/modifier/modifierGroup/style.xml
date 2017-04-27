@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+	<Shape style="PopupGenericNoBtn" name="background" width="64.81%" height="7.81%" />
+	<Container containerType="" name="mcArrow" x="0%" y="0%" alpha="1">
+		<Image fileName="arrowDown.png" width="2.68%" height="0.72%" name="" x="0%" y="0%" alpha="1"/>
+	</Container>
+	<Container containerType="button" name="btnMinus" x="30.27%" y="4.68%" alpha="1">
+		<Shape style="PopupGenericNoBtn" width="7.77%" height="4.37%"/>
+		<Shape style="PopupGenericRetourBtn" x="1.85%" y="2.08%" width="3.7%" height="0.2%"/>
+	</Container>
+	<Container containerType="button" name="btnPlus" x="30.27%" y="0.15%" alpha="1">
+		<Shape style="PopupGenericNoBtn" width="7.77%" height="4.37%"/>
+		<Shape style="PopupGenericRetourBtn" x="1.85%" y="2.08%" width="3.7%" height="0.2%"/>
+		<Shape style="PopupGenericRetourBtn" x="3.7%" y="1.04%" width="0.37%" height="2.08%"/>
+	</Container>
+	<Shape style="PopupGenericNoBtn" name="buttonGuide" width="12.03%" height="6.77%" alpha="0" />
+</style>
