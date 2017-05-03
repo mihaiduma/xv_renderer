@@ -83,8 +83,9 @@ class AppDirective{
 
         //var screen = 'dialog/keyboardScanner';
         //var screen = 'dialog/orderNumberView';
-        var screen = 'dialog/ExtractCard';
-        //var screen = 'InOut';
+        //var screen = 'dialog/ExtractCard';
+        //THIS IS A TEST FOR UPDATES
+        var screen = 'InOut';
         //var screen = 'orderMain/orderList';
         var crtSkin = 'fullhd';
 
