@@ -7,7 +7,7 @@
 	<Container name="header" x="0" y="0">	
 		<Container containerType="" name="mcVotreCommande" x="0" y="0">
 			<Image fileName="orderlist_icon.png" x="100" y="0" width="65" height="65" alpha="1" />
-			<Text content="" messageID="8" textFormat="OrderListTitle" autoSize="true" isUppercase="true" width="269" height="30" name="txtLblVotreCommande" x="0" y="80"/>
+			<Text content="Your Order" messageID="8" textFormat="OrderListTitle" autoSize="true" isUppercase="true" width="269" height="30" name="txtLblVotreCommande" x="0" y="80"/>
 		</Container>
 		<!--  -->
 	</Container>
@@ -28,33 +28,33 @@
 			<Shape style="BackBackground" width="77" height="35" name="" x="0" y="0" />
 			<Shape name="arrow" style="ScrollArrow" x="30" y="9" width="17" height="17" orientation="up" />
 		</Container>
-		<Text content="" messageID="" textFormat="OrderListTotal" isUppercase="true" autoSize="true" width="260" height="50" name="txtPrice" x="4" y="40" />
+		<Text content="59.99 $" messageID="" textFormat="OrderListTotal" isUppercase="true" autoSize="true" width="260" height="50" name="txtPrice" x="4" y="40" />
 
 		<State hasCustomerPromo="1">
 		
 			<Container containerType="button" name="customerPromo" x="0" y="135">
 				<Shape style="OrderListCustomerPromo" width="269" height="68" name="" x="0" y="0" />
-				<Text content="" messageID="2017041201" textFormat="OrderListCustPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
+				<Text content="Fidelity" messageID="2017041201" textFormat="OrderListCustPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
 			</Container>			
 		
 			<Container containerType="button" name="promotion" x="0" y="225">
 				<Image fileName="btn_carte_KFC.png" width="269" height="68" name="" x="0" y="0" />
-				<Text content="" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
+				<Text content="Promotions" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
 			</Container>
 			<Container containerType="button" name="mcOrder" x="0" y="311" >
 				<Container name="active">
 					<Image fileName="btn_valider_commande2.png" width="269" height="68" name="" x="0" y="0" />
-					<Text content="" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
+					<Text content="Validate Order" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
 				</Container>
 				<Container name="inactive">
 					<Image fileName="btn_valider_commande.png" width="269" height="68" name="" x="0" y="0" />
-					<Text content="" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
+					<Text content="Validate Order" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
 				</Container>
 			</Container>
 			<Container containerType="button" name="mcCancel" x="0" y="394" >
 				<Shape style="OrderListAnnulerButtonBackground" width="269" height="45" name="" x="0" y="0" />
 				 <Image fileName="btn_annuler_commande.png" x="10" y="4" width="36" height="36"  alpha="1" />
-				<Text content="" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="215" height="45" name="txtLblCancel" x="42" y="0" />
+				<Text content="Cancel order" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="215" height="45" name="txtLblCancel" x="42" y="0" />
 			</Container>			
 		</State>
 
@@ -62,22 +62,22 @@
 		<State hasCustomerPromo="0">
 			<Container containerType="button" name="promotion" x="0" y="135">
 				<Image fileName="btn_carte_KFC.png" width="269" height="68" name="" x="0" y="0" />
-				<Text content="" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
+				<Text content="Promotion" messageID="2013110801" textFormat="OrderListPromo" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblCancel" x="5" y="4" />
 			</Container>
 			<Container containerType="button" name="mcOrder" x="0" y="221" >
 				<Container name="active">
 					<Image fileName="btn_valider_commande2.png" width="269" height="68" name="" x="0" y="0" />
-					<Text content="" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
+					<Text content="Validate Order" messageID="13051302" textFormat="OrderListValiderS" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
 				</Container>
 				<Container name="inactive">
 					<Image fileName="btn_valider_commande.png" width="269" height="68" name="" x="0" y="0" />
-					<Text content="" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
+					<Text content="Validate Order" messageID="13051302" textFormat="OrderListValider" autoSize="true" isUppercase="true" width="259" height="60" name="txtLblValidate" x="5" y="4" />
 				</Container>
 			</Container>
 			<Container containerType="button" name="mcCancel" x="0" y="304" >
 				<Shape style="OrderListAnnulerButtonBackground" width="269" height="45" name="" x="0" y="0" />
 				 <Image fileName="btn_annuler_commande.png" x="10" y="4" width="36" height="36"  alpha="1" />
-				<Text content="" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="215" height="45" name="txtLblCancel" x="42" y="0" />
+				<Text content="Cancel order" messageID="3000000008" textFormat="OrderListCancel" autoSize="true" isUppercase="true" width="215" height="45" name="txtLblCancel" x="42" y="0" />
 			</Container>			
 		</State>
 

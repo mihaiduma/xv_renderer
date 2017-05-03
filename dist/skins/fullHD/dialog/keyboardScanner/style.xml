@@ -83,14 +83,13 @@
 		</Container>
 	</Container>
 	
-	<Container name="scannerScreen">
+	<!-- Container name="scannerScreen">
 		<Shape style="GeneralBackground" name="background" width="1080" height="1920" x="0" y="0" alpha="1"/>	
 		<Image fileName="logo.png" width="697" height="250" name="" x="206" y="109" />
 		<Image fileName="phone.png" width="520" height="1013" name="" x="295" y="516" />
 		<Text content="SCAN COUPON" messageID="" name="scannerTitle" textFormat="ViewKeyboardScannerNumberButton" autoSize="true" width="1000" height="150" x="40" y="1648"/>
 		
 		<Container containerType="button" name="btnKeyboard" x="690" y="1800" alpha="1">
-			<!--<Image fileName="btn_valider.png" width="398" height="107" name="" x="0" y="0" alpha="1"/>-->
 			<Shape style="CurrentModifierPriceBackground"  width="240" height="68" name="" x="0" y="0" alpha="1"/> 
 			<Text content="" messageID="3000000017" textFormat="KeyboardScannerCodTabButtonSelected" width="240" height="55" name="txtLabel" x="0" y="9" alpha="1"/>
 		</Container>
@@ -104,6 +103,6 @@
 			<Shape style="ActualKeyboardScannerBackBtn"  width="240" height="68" name="" x="0" y="0" alpha="1"/> 
 			<Text content="" messageID="1304" textFormat="CurrentKeyboardScannerCodTabButtonSelected" autoSize="true" width="240" height="55" name="txtLabel" x="0" y="9" alpha="1"/>
 		</Container>
-	</Container>
+	</Container -->
 	
 </Style>

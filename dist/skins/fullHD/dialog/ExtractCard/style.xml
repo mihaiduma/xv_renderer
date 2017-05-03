@@ -7,7 +7,7 @@
 	<Image fileName="kiosk.png" width="918" height="1231" name="testbg" x="92" y="406" alpha="1"/>	
 	<Image fileName="[common]logo.png" width="300" height="300" name="" x="390" y="68" alpha="1"/>
 	<Image fileName="remove_card_hand.png" width="516" height="931" name="extractCardHand" x="430.5" y="801" alpha="1"/>
-	<Shape width="540" height="792" name="extractCardHandMask" x="465" y="798" alpha="1"/>
+	<Shape width="540" height="792" name="extractCardHandMask" x="465" y="798" alpha="0"/>
 	
 	
 	 <Text content="Kredi kartinizi cekin" messageID="" textFormat="PopupTitle" width="860" height="250" name="txtMessage" x="110" y="1680" alpha="1"/> 

@@ -44,6 +44,12 @@ class SkinableScreen{
     }
 
     addElementToContainer( objState ){
+
+        for (var i = 0; i < objState.Children.length; i++){
+            objState.Children[i].screen = objState.screen;
+            objState.Children[i].crtSkin = objState.crtSkin;
+        }
+
         this.scp.children = objState.Children;
     }
 
