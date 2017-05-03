@@ -15,6 +15,30 @@ class AppService{
 	}
 
 
+	isPercentValue(strValue){
+			if(strValue != null){
+				var arrValues = strValue.split("%");
+				if(arrValues.length > 1){
+					return true;
+				}else{
+					return false;
+				}			
+			}else{
+				return false;
+			}
+		}
+		
+	convertPercentToNumeric(strPercent, fullValue){
+			var returnValue = 0;
+			var intPercent =  Number( strPercent.replace("%", "")) ;
+			
+			returnValue = Math.round( (fullValue * intPercent ) / 100 );
+			
+			return returnValue;
+		}
+
+
+
 	// Changes XML to JSON
 	xmlToJson (xml) {
 		

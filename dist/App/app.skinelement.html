@@ -2,8 +2,12 @@
     <img src="{{url}}" style="{{stl}}" />
 </div>
 
-<div ng-show="generalProps.type == 'Text'">
-    <span style="{{stl}}" >{{generalProps.content}}</span>
+<div ng-show="generalProps.type == 'Text'" style="{{stl_parent}}">
+    <div style="{{stl}}" >{{generalProps.content}}</div>
+</div>
+
+<div ng-show="generalProps.type == 'Shape'">
+    <div style="{{stl}}" ></div>
 </div>
 
 <div ng-show="generalProps.type == 'Container'">

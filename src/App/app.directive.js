@@ -4,10 +4,11 @@ import AppController from './app.controller';
 import SkinableScreen from './app.skinablescreen';
 
 class AppDirective{
-    constructor(utils, $http, skinData){
+    constructor(utils, $http, skinData, $timeout){
 		'ngInject';
         this.utils = utils;
         this.skinData = skinData;
+        this.$timeout = $timeout;
         this.restrict = 'E';
         this.controller = AppController;
         this.controllerAs = '$ctrl';
@@ -21,10 +22,10 @@ class AppDirective{
         
     }
     
-    static factory(utils, $http, skinData){
+    static factory(utils, $http, skinData, $timeout){
         'ngInject';
         
-        return new AppDirective(utils, $http, skinData);
+        return new AppDirective(utils, $http, skinData, $timeout);
     }
     
     linkFunc(scope){
@@ -33,7 +34,14 @@ class AppDirective{
         scope.blabla = "ceva"; 
         scope.screens = [];
 
-        var fileList = ['skins/fullhd/settings.xml', 'skins/fullhd/InOut/style.xml'];
+        var fileList = [];
+        fileList.push('skins/fullhd/settings.xml');
+        fileList.push('skins/fullhd/InOut/style.xml');
+        fileList.push('skins/Accesibility/InOut/style.xml');
+        fileList.push('skins/fullhd/dialog/ExtractCard/style.xml');
+        fileList.push('skins/fullhd/dialog/orderNumberView/style.xml');
+        fileList.push('skins/fullhd/dialog/keyboardScanner/style.xml');
+        fileList.push('skins/fullhd/orderMain/orderList/style.xml');
 
         for(var i = 0; i< fileList.length; i++){
             this.loadFile(fileList[i]);
@@ -66,14 +74,27 @@ class AppDirective{
     checkcompleteFileLoad(){
         if( this.totalNumber == this.loadedFiles){
             this.startRendering();
+
+            //this.$timeout(timed)
         }
     }
 
     startRendering(){
 
-        var screenContent = this.skinData.getFileByPath('skins/fullhd/InOut/style.xml');
+        //var screen = 'dialog/keyboardScanner';
+        //var screen = 'dialog/orderNumberView';
+        var screen = 'dialog/ExtractCard';
+        //var screen = 'InOut';
+        //var screen = 'orderMain/orderList';
+        var crtSkin = 'fullhd';
+
+        var screenContent = this.skinData.getFileByPath('skins/'+crtSkin+'/'+screen+'/style.xml');
 
         var all = this.skinData.getAll();
+
+        screenContent.screen = screen;
+        screenContent.crtSkin = crtSkin;
+
 
         this.scpp.screens = [JSON.stringify(screenContent)];
 

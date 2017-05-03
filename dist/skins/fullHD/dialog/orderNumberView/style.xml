@@ -10,9 +10,9 @@
 	
 	
 	
-	<Text content="" messageID="" textFormat="ConfirmationSubTitle" autoSize="true" width="800" height="185" name="txtMessage3" x="140" y="306" alpha="1"/>
-	<Text content="" messageID="" textFormat="ConfirmationTitle" autoSize="true" width="800" height="50" name="txtMessage1" x="140" y="620" alpha="1"/>
-	<Text content="" messageID="" textFormat="ConfirmationNumber" autoSize="true" width="800" height="130" name="txtMessage2" x="140" y="755" alpha="1"/>
-	<Text content="" messageID="" textFormat="ConfirmationLastTitle" autoSize="true" width="800" height="300" name="txtMessage4" x="140" y="1573" alpha="1"/>
+	<Text content="test1" messageID="" textFormat="ConfirmationSubTitle" autoSize="true" width="800" height="185" name="txtMessage3" x="140" y="306" alpha="1"/>
+	<Text content="test2" messageID="" textFormat="ConfirmationTitle" autoSize="true" width="800" height="50" name="txtMessage1" x="140" y="620" alpha="1"/>
+	<Text content="test3" messageID="" textFormat="ConfirmationNumber" autoSize="true" width="800" height="130" name="txtMessage2" x="140" y="755" alpha="1"/>
+	<Text content="test4" messageID="" textFormat="ConfirmationLastTitle" autoSize="true" width="800" height="300" name="txtMessage4" x="140" y="1573" alpha="1"/>
 	
 </style>
