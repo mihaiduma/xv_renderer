@@ -85,8 +85,9 @@ class AppDirective{
         //var screen = 'dialog/orderNumberView';
         //var screen = 'dialog/ExtractCard';
         //THIS IS A TEST FOR UPDATES
-        var screen = 'InOut';
-        //var screen = 'orderMain/orderList';
+		//THIS IS COMMIT TEST , UPDATE
+        //var screen = 'InOut';
+        var screen = 'orderMain/orderList';
         var crtSkin = 'fullhd';
 
         var screenContent = this.skinData.getFileByPath('skins/'+crtSkin+'/'+screen+'/style.xml');
